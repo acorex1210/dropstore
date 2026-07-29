@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1350" width="1080" height="1350">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#111A2E"/>
+      <stop offset="100%" style="stop-color:#0B1220"/>
+    </linearGradient>
+  </defs>
+  <rect fill="url(#bgGrad)" width="1080" height="1350"/>
+  <rect x="60" y="60" width="960" height="1230" rx="24" fill="#1E2D4A" stroke="#2A3F5E" stroke-width="2"/>
+  <rect x="100" y="100" width="880" height="600" rx="16" fill="#111A2E" stroke="#2A3F5E" stroke-width="1"/>
+  <g fill="#3A4D6E">
+    <rect x="140" y="740" width="280" height="120" rx="12"/>
+    <rect x="460" y="740" width="280" height="120" rx="12"/>
+    <rect x="780" y="740" width="280" height="120" rx="12"/>
+  </g>
+  <rect x="100" y="900" width="880" height="240" rx="16" fill="#111A2E" stroke="#2A3F5E" stroke-width="1"/>
+  <g fill="#3A4D6E">
+    <rect x="140" y="940" width="380" height="60" rx="8"/>
+    <rect x="560" y="940" width="380" height="60" rx="8"/>
+    <rect x="140" y="1030" width="380" height="60" rx="8"/>
+    <rect x="560" y="1030" width="380" height="60" rx="8"/>
+  </g>
+  <rect x="100" y="1180" width="280" height="60" rx="30" fill="#C5A572"/>
+  <text x="540" y="1225" text-anchor="middle" font-family="Inter, sans-serif" font-size="18" font-weight="600" fill="#0B1220">CTA PRINCIPAL</text>
+  <g text-anchor="middle" font-family="Inter, sans-serif" fill="#A8B3C8" transform="translate(540, 1280)">
+    <text font-size="14" font-weight="500" fill="#C5A572">FLYER PROMO</text>
+    <text y="20" font-size="11" fill="#5A7294">Fondo Navy + Pattern · Click para editar</text>
+    <text y="38" font-size="10" fill="#3A4D6E">1080 × 1080 px</text>
+  </g>
+</svg>

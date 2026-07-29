@@ -1,0 +1,82 @@
+2026-07-27 12:33:27,995 INFO === WhatsApp Leads Automático ===
+2026-07-27 12:33:27,995 INFO Abriendo WhatsApp Web en Chrome...
+2026-07-27 12:33:38,569 INFO Esperando WhatsApp Web...
+2026-07-27 12:33:38,731 INFO WhatsApp Web cargado.
+2026-07-27 12:33:38,864 ERROR No se encontraron chats con teléfono
+2026-07-27 12:33:38,865 INFO Leads detectados: 0
+2026-07-27 12:33:38,865 INFO Sin leads nuevos.
+2026-07-27 12:38:43,108 INFO === WhatsApp Leads Automático ===
+2026-07-27 12:38:43,108 INFO Abriendo WhatsApp Web en Chrome...
+2026-07-27 12:38:53,735 INFO Esperando WhatsApp Web...
+2026-07-27 12:38:53,926 INFO WhatsApp Web cargado.
+2026-07-27 12:38:54,053 ERROR No se encontraron chats con teléfono
+2026-07-27 12:38:54,053 INFO Leads detectados: 0
+2026-07-27 12:38:54,053 INFO Sin leads nuevos.
+2026-07-27 12:39:44,864 WARNING JS error: 250:251: syntax error: Se esperaba “"” pero se encontró identificador desconocido. (-2741)
+2026-07-27 12:39:51,755 INFO === WhatsApp Leads Automático ===
+2026-07-27 12:39:51,756 INFO Abriendo WhatsApp Web en Chrome...
+2026-07-27 12:40:02,226 INFO Esperando WhatsApp Web...
+2026-07-27 12:40:02,401 INFO WhatsApp Web cargado.
+2026-07-27 12:40:02,439 WARNING JS error: 250:251: syntax error: Se esperaba “"” pero se encontró identificador desconocido. (-2741)
+2026-07-27 12:40:02,441 ERROR No se encontraron chats con teléfono
+2026-07-27 12:40:02,441 INFO Leads detectados: 0
+2026-07-27 12:40:02,441 INFO Sin leads nuevos.
+2026-07-27 12:43:47,455 INFO === WhatsApp Leads Automático ===
+2026-07-27 12:43:47,456 INFO Abriendo WhatsApp Web en Chrome...
+2026-07-27 12:43:57,928 INFO Esperando WhatsApp Web...
+2026-07-27 12:43:58,098 INFO WhatsApp Web cargado.
+2026-07-27 12:43:58,231 INFO Chats con teléfono: 2
+2026-07-27 12:43:58,232 INFO   Chat: +51 993 500 733
+10/7
+2026-07-27 12:44:14,259 INFO   Chat: +51 956 188 811
+sába
+2026-07-27 12:44:30,261 INFO Leads detectados: 0
+2026-07-27 12:44:30,263 INFO Sin leads nuevos.
+2026-07-27 12:45:55,963 INFO === WhatsApp Leads Automático ===
+2026-07-27 12:45:55,964 INFO Abriendo WhatsApp Web en Chrome...
+2026-07-27 12:46:06,456 INFO Esperando WhatsApp Web...
+2026-07-27 12:46:06,618 INFO WhatsApp Web cargado.
+2026-07-27 12:46:06,745 INFO Chats con teléfono: 2
+2026-07-27 12:46:06,745 INFO   Chat: +51 993
+2026-07-27 12:46:23,339 INFO   Chat: +51 956
+2026-07-27 12:46:40,036 INFO Leads detectados: 0
+2026-07-27 12:46:40,038 INFO Sin leads nuevos.
+2026-07-27 12:47:11,532 INFO === WhatsApp Leads Automático ===
+2026-07-27 12:47:11,533 INFO Abriendo WhatsApp Web en Chrome...
+2026-07-27 12:47:21,968 INFO Esperando WhatsApp Web...
+2026-07-27 12:47:22,147 INFO WhatsApp Web cargado.
+2026-07-27 12:47:22,276 INFO Chats con teléfono: 2
+2026-07-27 12:47:22,277 INFO   Chat: +51 993 500 733
+2026-07-27 12:47:28,834 INFO     -> LEAD: +51 993 500 733 [Botox]
+2026-07-27 12:47:30,083 INFO   Chat: +51 956 188 811
+2026-07-27 12:47:36,991 INFO Leads detectados: 1
+2026-07-27 12:47:36,993 INFO   +51 993 500 733 -> Botox
+2026-07-27 12:47:36,993 INFO Escribiendo en Google Sheets...
+2026-07-27 12:47:46,356 INFO 1 lead(s) escritos en hoja "CONTROL"
+2026-07-27 12:47:46,364 INFO Resultado: 1 nuevos, 0 duplicados
+2026-07-27 12:47:46,365 INFO Finalizado.
+2026-07-27 12:49:12,465 INFO === WhatsApp Leads Automático ===
+2026-07-27 12:49:12,465 INFO Abriendo WhatsApp Web en Chrome...
+2026-07-27 12:49:23,273 INFO Esperando WhatsApp Web...
+2026-07-27 12:49:23,444 INFO WhatsApp Web cargado.
+2026-07-27 12:49:23,570 INFO Chats con teléfono: 2
+2026-07-27 12:49:23,571 INFO   Chat: +51 993 500 733
+2026-07-27 12:49:28,802 INFO     -> LEAD: +51 993 500 733 [Botox]
+2026-07-27 12:49:29,997 INFO   Chat: +51 956 188 811
+2026-07-27 12:49:36,592 INFO Leads detectados: 1
+2026-07-27 12:49:36,592 INFO   +51 993 500 733 -> Botox
+2026-07-27 12:49:36,592 INFO Escribiendo en Google Sheets...
+2026-07-27 12:49:39,848 INFO 1 lead(s) escritos en hoja "CONTROL" (fila 28)
+2026-07-27 12:49:39,860 INFO Resultado: 1 nuevos, 0 duplicados
+2026-07-27 12:49:39,861 INFO Finalizado.
+2026-07-27 12:51:12,762 INFO === WhatsApp Leads Automático ===
+2026-07-27 12:51:12,763 INFO Abriendo WhatsApp Web en Chrome...
+2026-07-27 12:51:23,230 INFO Esperando WhatsApp Web...
+2026-07-27 12:51:23,402 INFO WhatsApp Web cargado.
+2026-07-27 12:51:23,534 INFO Chats con teléfono: 2
+2026-07-27 12:51:23,535 INFO   Chat: +51 993 500 733
+2026-07-27 12:51:30,021 INFO     -> LEAD: +51 993 500 733 [Botox]
+2026-07-27 12:51:31,204 INFO   Chat: +51 956 188 811
+2026-07-27 12:51:37,462 INFO Leads detectados: 1
+2026-07-27 12:51:37,464 INFO   +51 993 500 733 -> Botox
+2026-07-27 12:51:37,464 INFO Escribiendo en Google Sheets...

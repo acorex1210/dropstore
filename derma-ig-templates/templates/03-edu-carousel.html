@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=1080, height=1080">
+  <title>Derma Essenza — Carrusel Educativo</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../tokens.css">
+  <link rel="stylesheet" href="../base.css">
+  <link rel="stylesheet" href="../components.css">
+  <style>
+    .edu-frame { background: var(--white); }
+    .edu-frame .safe-zone { background: var(--white); }
+    .edu-slide { padding: var(--space-8); }
+    .edu-slide .headline { color: var(--navy-900); }
+    .edu-slide .subhead { color: var(--navy-600); }
+    .edu-slide .body { color: var(--navy-800); }
+    .edu-slide .caption { color: var(--navy-400); }
+    .edu-slide .badge-gold { background: var(--gold-50); color: var(--gold-600); border: 1px solid var(--gold-200); }
+    .edu-slide .accent-line { background: linear-gradient(90deg, var(--gold-500), var(--gold-300)); }
+    .edu-slide .benefit-item { background: var(--gray-50); border-color: var(--gray-200); }
+    .edu-slide .benefit-item:hover { border-color: var(--gold-300); box-shadow: var(--shadow-md); }
+    .edu-slide .btn-cta-primary { background: var(--navy-900); color: var(--white); box-shadow: var(--shadow-md); }
+    .edu-slide .btn-cta-primary:hover { background: var(--navy-800); box-shadow: var(--shadow-lg); }
+    .edu-slide .watermark { color: var(--navy-900); opacity: 0.06; }
+    .edu-slide .carousel-dots { background: rgba(11,18,32,0.7); }
+  </style>
+</head>
+<body>
+  <div class="ig-frame edu-frame">
+    <div class="carousel">
+      <div class="carousel-track" id="carouselTrack">
+        <!-- SLIDE 1: PORTADA -->
+        <div class="carousel-slide edu-slide flex flex-col items-center justify-center text-center">
+          <div class="mb-4" data-editable="slide1-badge">
+            <span class="badge badge-gold">Guía Derma Essenza</span>
+          </div>
+          <h1 class="headline text-3xl mb-3 leading-tight max-w-[700px]" data-editable="slide1-title">
+            Todo sobre <span class="headline-gold">Ellansé</span>
+          </h1>
+          <p class="subhead text-lg mb-6 opacity-80 max-w-[600px]" data-editable="slide1-desc">
+            El bioestimulador que regenera tu colágeno natural de forma progresiva
+          </p>
+          <div class="accent-line mx-auto mb-8"></div>
+          <div class="caption text-gold font-medium" data-editable="slide1-hint">
+            Desliza para descubrir →
+          </div>
+          <div class="watermark">Derma Essenza</div>
+        </div>
+
+        <!-- SLIDE 2: QUÉ ES -->
+        <div class="carousel-slide edu-slide flex flex-col">
+          <div class="mb-4" data-editable="slide2-badge">
+            <span class="badge badge-gold">1/4 · Qué es</span>
+          </div>
+          <h2 class="headline text-2xl mb-3" data-editable="slide2-title">¿Qué es Ellansé?</h2>
+          <div class="accent-line mb-6"></div>
+
+          <div class="flex-1 grid grid-cols-1 md:grid-cols-2 gap-6" data-editable="slide2-content">
+            <div class="benefit-item p-6">
+              <div class="benefit-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                </svg>
+              </div>
+              <div class="benefit-title text-base" data-editable="slide2-1-title">Policaprolactona (PCL)</div>
+              <div class="benefit-desc text-sm" data-editable="slide2-1-desc">Micropartículas biocompatibles que estimulan fibroblastos</div>
+            </div>
+            <div class="benefit-item p-6">
+              <div class="benefit-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+                </svg>
+              </div>
+              <div class="benefit-title text-base" data-editable="slide2-2-title">No es relleno</div>
+              <div class="benefit-desc text-sm" data-editable="slide2-2-desc">No añade volumen inmediato, regenera tejido propio</div>
+            </div>
+            <div class="benefit-item p-6">
+              <div class="benefit-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+                </svg>
+              </div>
+              <div class="benefit-title text-base" data-editable="slide2-3-title">4 variantes</div>
+              <div class="benefit-desc text-sm" data-editable="slide2-3-desc">S, M, L, E según duración (1-4 años)</div>
+            </div>
+            <div class="benefit-item p-6">
+              <div class="benefit-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="12" cy="12" r="3"/>
+                  <path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/>
+                </svg>
+              </div>
+              <div class="benefit-title text-base" data-editable="slide2-4-title">Zonas tratables</div>
+              <div class="benefit-desc text-sm" data-editable="slide2-4-desc">Rostro, cuello, escote, manos, brazos</div>
+            </div>
+          </div>
+          <div class="watermark">Derma Essenza</div>
+        </div>
+
+        <!-- SLIDE 3: BENEFICIOS -->
+        <div class="carousel-slide edu-slide flex flex-col">
+          <div class="mb-4" data-editable="slide3-badge">
+            <span class="badge badge-gold">2/4 · Beneficios</span>
+          </div>
+          <h2 class="headline text-2xl mb-3" data-editable="slide3-title">¿Por qué elegirlo?</h2>
+          <div class="accent-line mb-6"></div>
+
+          <div class="flex-1 grid grid-cols-2 gap-4" data-editable="slide3-grid">
+            <div class="benefit-item p-5">
+              <div class="benefit-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/>
+                  <circle cx="12" cy="13" r="4"/>
+                </svg>
+              </div>
+              <div class="benefit-title" data-editable="slide3-1-title">Resultados naturales</div>
+              <div class="benefit-desc" data-editable="slide3-1-desc">Mejora progresiva mes a mes</div>
+            </div>
+            <div class="benefit-item p-5">
+              <div class="benefit-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                </svg>
+              </div>
+              <div class="benefit-title" data-editable="slide3-2-title">Sin efecto "hecho"</div>
+              <div class="benefit-desc" data-editable="slide3-2-desc">Tu piel, solo mejor versión</div>
+            </div>
+            <div class="benefit-item p-5">
+              <div class="benefit-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <rect x="2" y="3" width="20" height="14" rx="2"/>
+                  <path d="M8 21h8M12 17v4"/>
+                </svg>
+              </div>
+              <div class="benefit-title" data-editable="slide3-3-title">Mejora calidad piel</div>
+              <div class="benefit-desc" data-editable="slide3-3-desc">Textura, firmeza, elasticidad, hidratación</div>
+            </div>
+            <div class="benefit-item p-5">
+              <div class="benefit-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+                  <polyline points="14 2 14 8 20 8"/>
+                  <line x1="16" y1="13" x2="8" y2="13"/>
+                  <line x1="16" y1="17" x2="8" y2="17"/>
+                  <polyline points="10 9 9 9 8 9"/>
+                </svg>
+              </div>
+              <div class="benefit-title" data-editable="slide3-4-title">Compatible</div>
+              <div class="benefit-desc" data-editable="slide3-4-desc">Combina con HIFU, toxina, ácido hialurónico</div>
+            </div>
+          </div>
+          <div class="watermark">Derma Essenza</div>
+        </div>
+
+        <!-- SLIDE 4: CUIDADOS / FAQ -->
+        <div class="carousel-slide edu-slide flex flex-col">
+          <div class="mb-4" data-editable="slide4-badge">
+            <span class="badge badge-gold">3/4 · Cuidados & FAQ</span>
+          </div>
+          <h2 class="headline text-2xl mb-3" data-editable="slide4-title">Post-tratamiento</h2>
+          <div class="accent-line mb-6"></div>
+
+          <div class="flex-1 grid grid-cols-2 gap-4" data-editable="slide4-grid">
+            <!-- Cuidados -->
+            <div class="bg-navy-50 p-5 rounded-lg border border-navy-100">
+              <h3 class="font-display font-medium text-gold mb-3" data-editable="slide4-care-title">Cuidados 48h</h3>
+              <ul class="space-y-2 text-sm text-navy-700" data-editable="slide4-care-list">
+                <li>· No masajear ni presionar la zona</li>
+                <li>· Evitar calor extremo (sauna, sol, gimnasio)</li>
+                <li>· No maquillar 24h (mineral OK)</li>
+                <li>· Dormir boca arriba 1 noche</li>
+                <li>· Aplicar crema post-procedimiento 2x/día</li>
+              </ul>
+            </div>
+
+            <!-- FAQ -->
+            <div class="bg-navy-50 p-5 rounded-lg border border-navy-100">
+              <h3 class="font-display font-medium text-gold mb-3" data-editable="slide4-faq-title">Preguntas frecuentes</h3>
+              <dl class="space-y-3 text-sm" data-editable="slide4-faq">
+                <div>
+                  <dt class="font-medium text-navy-900">¿Duele?</dt>
+                  <dd class="text-navy-600 mt-1">Anestesia tópica 30 min antes. Molestia mínima.</dd>
+                </div>
+                <div>
+                  <dt class="font-medium text-navy-900">¿Cuándo veo resultados?</dt>
+                  <dd class="text-navy-600 mt-1">Desde 4-8 semanas, óptimo a 3 meses.</dd>
+                </div>
+                <div>
+                  <dt class="font-medium text-navy-900">¿Cuánto dura?</dt>
+                  <dd class="text-navy-600 mt-1">S: 1a · M: 2a · L: 3a · E: 4 años</dd>
+                </div>
+                <div>
+                  <dt class="font-medium text-navy-900">¿Reversible?</dt>
+                  <dd class="text-navy-600 mt-1">No, pero se reabsorbe naturalmente.</dd>
+                </div>
+              </dl>
+            </div>
+          </div>
+          <div class="watermark">Derma Essenza</div>
+        </div>
+
+        <!-- SLIDE 5: CTA FINAL -->
+        <div class="carousel-slide edu-slide flex flex-col items-center justify-center text-center px-10">
+          <div class="mb-4" data-editable="slide5-badge">
+            <span class="badge badge-gold-filled">Tu turno</span>
+          </div>
+          <h2 class="headline headline-gold text-3xl mb-3" data-editable="slide5-title">
+            ¿Lista para tu mejor piel?
+          </h2>
+          <p class="subhead text-lg mb-6 opacity-80 max-w-[600px]" data-editable="slide5-desc">
+            Agenda tu valoración personalizada sin compromiso. Te asesoramos el protocolo ideal para ti.
+          </p>
+          <div class="accent-line mx-auto mb-8"></div>
+
+          <button class="btn-cta btn-cta-primary btn-cta-lg w-full max-w-[400px] mb-6" data-editable="slide5-cta">
+            Agendar valoración gratuita
+          </button>
+
+          <div class="flex items-center justify-center gap-3 text-sm text-navy-400" data-editable="slide5-contact">
+            <span>📱 WhatsApp</span>
+            <span class="text-navy-300">|</span>
+            <span>📞 +51 968 797 977</span>
+            <span class="text-navy-300">|</span>
+            <span>@dermaessenza</span>
+          </div>
+
+          <div class="watermark mt-10">Derma Essenza</div>
+        </div>
+      </div>
+
+      <!-- Carousel Dots -->
+      <div class="carousel-dots" id="carouselDots">
+        <button class="carousel-dot active" data-slide="0" aria-label="Slide 1"></button>
+        <button class="carousel-dot" data-slide="1" aria-label="Slide 2"></button>
+        <button class="carousel-dot" data-slide="2" aria-label="Slide 3"></button>
+        <button class="carousel-dot" data-slide="3" aria-label="Slide 4"></button>
+        <button class="carousel-dot" data-slide="4" aria-label="Slide 5"></button>
+      </div>
+
+      <!-- Nav Arrows -->
+      <button class="carousel-nav prev" aria-label="Anterior">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"/></svg>
+      </button>
+      <button class="carousel-nav next" aria-label="Siguiente">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
+      </button>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js"></script>
+  <script src="../js/editor.js"></script>
+  <script src="../js/export.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      DermaEditor.init('edu-carousel');
+      DermaExport.createExportButton({ templateName: 'carousel_edu_ellanse' });
+
+      // Carousel logic
+      const track = document.getElementById('carouselTrack');
+      const dots = document.querySelectorAll('.carousel-dot');
+      const slides = document.querySelectorAll('.carousel-slide');
+      let currentSlide = 0;
+      const totalSlides = slides.length;
+
+      function goToSlide(index) {
+        if (index < 0) index = totalSlides - 1;
+        if (index >= totalSlides) index = 0;
+        currentSlide = index;
+        track.style.transform = `translateX(-${index * 100}%)`;
+        dots.forEach((dot, i) => dot.classList.toggle('active', i === index));
+      }
+
+      dots.forEach(dot => dot.addEventListener('click', () => goToSlide(+dot.dataset.slide)));
+      document.querySelector('.carousel-nav.prev').addEventListener('click', () => goToSlide(currentSlide - 1));
+      document.querySelector('.carousel-nav.next').addEventListener('click', () => goToSlide(currentSlide + 1));
+
+      // Keyboard
+      document.addEventListener('keydown', e => {
+        if (e.key === 'ArrowLeft') goToSlide(currentSlide - 1);
+        if (e.key === 'ArrowRight') goToSlide(currentSlide + 1);
+      });
+
+      // Touch swipe
+      let startX = 0;
+      track.addEventListener('touchstart', e => startX = e.touches[0].clientX, { passive: true });
+      track.addEventListener('touchend', e => {
+        const diff = startX - e.changedTouches[0].clientX;
+        if (Math.abs(diff) > 50) goToSlide(currentSlide + (diff > 0 ? 1 : -1));
+      }, { passive: true });
+    });
+  </script>
+</body>
+</html>

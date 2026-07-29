@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080" width="1080" height="1080">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#111A2E"/>
+      <stop offset="100%" style="stop-color:#0B1220"/>
+    </linearGradient>
+    <pattern id="noise" patternUnits="userSpaceOnUse" width="64" height="64">
+      <image href="data:image/svg+xml,%3Csvg viewBox='0 0 64 64' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.7' numOctaves='3'/%3E%3C/filter%3E%3Crect width='64' height='64' filter='url(%23n)' opacity='0.02'/%3E%3C/svg%3E" width="64" height="64"/>
+    </pattern>
+    <clipPath id="circleClip"><circle cx="540" cy="540" r="420"/></clipPath>
+  </defs>
+  <rect fill="url(#bgGrad)" width="1080" height="1080"/>
+  <rect fill="url(#noise)" width="1080" height="1080"/>
+  <g clip-path="url(#circleClip)">
+    <ellipse cx="540" cy="480" rx="300" ry="350" fill="#1E2D4A"/>
+    <ellipse cx="540" cy="720" rx="380" ry="180" fill="#2A3F5E"/>
+    <ellipse cx="440" cy="400" rx="60" ry="40" fill="#3A4D6E"/>
+    <ellipse cx="640" cy="400" rx="60" ry="40" fill="#3A4D6E"/>
+    <path d="M380 600 Q540 680 700 600" stroke="#3A4D6E" stroke-width="8" fill="none" stroke-linecap="round"/>
+  </g>
+  <circle cx="540" cy="540" r="425" stroke="#2A3F5E" stroke-width="2" fill="none"/>
+  <g text-anchor="middle" font-family="Inter, sans-serif" fill="#A8B3C8" transform="translate(540, 920)">
+    <text font-size="14" font-weight="500" fill="#C5A572">PACIENTE</text>
+    <text y="20" font-size="11" fill="#5A7294">Placeholder 1:1 · Click para subir</text>
+    <text y="38" font-size="10" fill="#3A4D6E">1080 × 1080 px</text>
+  </g>
+</svg>

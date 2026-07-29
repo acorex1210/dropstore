@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=1080, height=1080">
+  <title>Derma Essenza — Toxina Botulínica 3 Zonas</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../tokens.css">
+  <link rel="stylesheet" href="../base.css">
+  <link rel="stylesheet" href="../components.css">
+  <style>
+    .toxina-frame { background: var(--white); }
+    .toxina-frame .safe-zone { background: var(--white); }
+    .toxina-frame .headline { color: var(--navy-900); }
+    .toxina-frame .subhead { color: var(--navy-600); }
+    .toxina-frame .body { color: var(--navy-800); }
+    .toxina-frame .badge-gold { background: var(--gold-50); color: var(--gold-600); border: 1px solid var(--gold-200); }
+    .toxina-frame .badge-gold-filled { background: var(--gold-500); color: var(--navy-900); }
+    .toxina-frame .accent-line { background: linear-gradient(90deg, var(--gold-500), var(--gold-300)); }
+    .toxina-frame .benefit-item { background: var(--white); border: 1px solid var(--gray-200); }
+    .toxina-frame .benefit-item:hover { border-color: var(--gold-300); box-shadow: var(--shadow-md); }
+    .toxina-frame .benefit-icon { background: var(--gold-50); color: var(--gold-500); }
+    .toxina-frame .key-info { border-color: var(--gray-200); }
+    .toxina-frame .key-info-value { color: var(--navy-900); }
+    .toxina-frame .key-info-value.gold { color: var(--gold-500); }
+    .toxina-frame .btn-cta-primary { background: var(--navy-900); color: var(--white); box-shadow: var(--shadow-md); }
+    .toxina-frame .btn-cta-primary:hover { background: var(--navy-800); box-shadow: var(--shadow-lg); }
+    .toxina-frame .watermark { color: var(--navy-900); opacity: 0.06; }
+  </style>
+</head>
+<body>
+  <div class="ig-frame toxina-frame">
+    <div class="pattern-overlay" data-pattern="dots"></div>
+    <div class="safe-zone flex flex-col h-full">
+      <!-- HERO 60/40 -->
+      <div class="hero-60-40 flex-1">
+        <div class="hero-img relative">
+          <div class="img-upload-zone h-full">
+            <img src="../assets/placeholders/ph-woman-35-aging.jpg" alt="Toxina botulínica" data-editable="hero-img" data-image="hero-img">
+            <div class="img-upload-hint">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="17 8 12 3 7 8"/><line x1="12" y1="3" x2="12" y2="15"/></svg>
+              <span>Click para subir foto</span>
+            </div>
+          </div>
+          <div class="absolute top-4 right-4 z-10" data-editable="hero-badge">
+            <span class="badge badge-gold-filled">TOP VENTAS</span>
+          </div>
+        </div>
+        <div class="hero-content">
+          <div class="mb-4" data-editable="hero-category">
+            <span class="badge badge-gold">Neuromodulador</span>
+          </div>
+          <h1 class="headline text-3xl mb-3 tracking-tight" data-editable="hero-headline">
+            Toxina Botulínica <span class="headline-gold">3 Zonas</span>
+          </h1>
+          <div class="accent-line mb-5"></div>
+          <p class="subhead text-lg mb-6" data-editable="hero-subhead">
+            Frente · Entrecejo · Patas de gallo. 15 min. Resultado natural en 5-7 días.
+          </p>
+          <!-- 3 Beneficios -->
+          <div class="benefits-grid mb-6">
+            <div class="benefit-item" data-editable="benefit-1">
+              <div class="benefit-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div>
+              <div class="benefit-title" data-editable="benefit-1-title">Natural</div>
+              <div class="benefit-desc" data-editable="benefit-1-desc">Sin efecto "congelado", movimiento preservado</div>
+            </div>
+            <div class="benefit-item" data-editable="benefit-2">
+              <div class="benefit-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg></div>
+              <div class="benefit-title" data-editable="benefit-2-title">Rápido</div>
+              <div class="benefit-desc" data-editable="benefit-2-desc">15 min · Sin baja · Volvés a tu rutina</div>
+            </div>
+            <div class="benefit-item" data-editable="benefit-3">
+              <div class="benefit-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg></div>
+              <div class="benefit-title" data-editable="benefit-3-title">Duradero</div>
+              <div class="benefit-desc" data-editable="benefit-3-desc">4-6 meses · Retoque día 15 incluido</div>
+            </div>
+          </div>
+
+          <hr class="divider mb-5 mx-auto">
+          <!-- Key Info -->
+          <div class="key-info" data-editable="key-info">
+            <div class="key-info-item">
+              <div class="key-info-label">Duración</div>
+              <div class="key-info-value gold" data-editable="key-duracion">15 min</div>
+            </div>
+            <div class="key-info-item">
+              <div class="key-info-label">Zonas</div>
+              <div class="key-info-value" data-editable="key-zonas">Frente · Entrecejo · Patas gallo</div>
+            </div>
+            <div class="key-info-item">
+              <div class="key-info-label">Inicio</div>
+              <div class="key-info-value" data-editable="key-inicio">5-7 días</div>
+            </div>
+          </div>
+
+          <!-- CTA -->
+          <button class="btn-cta btn-cta-primary btn-cta-full btn-cta-lg mt-6" data-editable="cta-btn">
+            Agendar mi toxina 3 zonas
+          </button>
+        </div>
+      </div>
+
+      <!-- Watermark -->
+      <div class="watermark watermark-de on-white mt-auto">@derma.essenza</div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js"></script>
+  <script src="../js/editor.js"></script>
+  <script src="../js/export.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      DermaEditor.init('toxina-3zonas');
+      DermaExport.createExportButton({ templateName: 'flyer_toxina_3zonas' });
+    });
+  </script>
+</body>
+</html>

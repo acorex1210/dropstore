@@ -1,0 +1,9 @@
+2026-07-15 15:29:34,680 ERROR Error inesperado: Message: 
+
+2026-07-15 15:34:39,625 ERROR Error inesperado: Message: 
+
+2026-07-15 15:37:18,300 ERROR Error al enviar: sendwhatmsg() missing 2 required positional arguments: 'time_hour' and 'time_min'
+2026-07-15 15:39:20,255 ERROR Error al enviar: Country Code Missing in Phone Number!
+2026-07-15 15:40:34,664 ERROR Error al enviar: Call Time must be Greater than Wait Time as WhatsApp Web takes some Time to Load!
+2026-07-24 15:42:11,912 ERROR Error obteniendo datos: [Errno 2] No such file or directory: '/Users/dermaessenza/TRABAJO/derma-essenza-73300c21ffe8.json'
+2026-07-24 15:43:27,605 ERROR Error obteniendo datos: [Errno 2] No such file or directory: '/Users/dermaessenza/TRABAJO/derma-essenza-73300c21ffe8.json'

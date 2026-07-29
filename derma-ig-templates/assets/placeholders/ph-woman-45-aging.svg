@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080" width="1080" height="1080">
+  <defs>
+    <linearGradient id="bgGradA" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFFFFF"/>
+      <stop offset="100%" style="stop-color:#F8F9FA"/>
+    </linearGradient>
+    <clipPath id="halfFaceClipR"><rect x="540" y="0" width="540" height="1080"/></clipPath>
+  </defs>
+  <rect fill="url(#bgGradA)" width="1080" height="1080"/>
+  <!-- Lado izquierdo: mujer joven (placeholder) -->
+  <g clip-path="url(#halfFaceClipR)">
+    <ellipse cx="810" cy="540" rx="300" ry="400" fill="#E8D5C4"/>
+    <ellipse cx="810" cy="540" rx="300" ry="400" fill="transparent" stroke="#D4C4B0" stroke-width="2" opacity="0.3"/>
+    <ellipse cx="720" cy="460" rx="50" ry="28" fill="#2D2D2D"/>
+    <ellipse cx="725" cy="460" rx="16" ry="16" fill="#1A1A1A"/>
+    <path d="M650 410 Q720 390 790 410" stroke="#4A4A4A" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <ellipse cx="810" cy="580" rx="25" ry="35" fill="#D4C4B0" opacity="0.3"/>
+    <ellipse cx="810" cy="720" rx="80" ry="28" fill="#D4A59A"/>
+    <ellipse cx="810" cy="715" rx="65" ry="18" fill="#E0B8AC"/>
+  </g>
+  <!-- Divisor central -->
+  <line x1="540" y1="0" x2="540" y2="1080" stroke="#E9ECEF" stroke-width="1"/>
+  <!-- Lado derecho: mujer 45-50 con signos de edad -->
+  <g clip-path="url(#halfFaceClipR)">
+    <ellipse cx="810" cy="540" rx="300" ry="400" fill="#D4B896"/>
+    <defs>
+      <radialGradient id="faceShadeR" cx="50%" cy="40%" r="60%">
+        <stop offset="0%" stop-color="transparent"/>
+        <stop offset="100%" stop-color="#0B1220" stop-opacity="0.15"/>
+      </radialGradient>
+    </defs>
+    <ellipse clip-path="url(#halfFaceClipR)" cx="810" cy="540" rx="300" ry="400" fill="url(#faceShadeR)"/>
+    <!-- Frente: líneas -->
+    <g stroke="#9A7B5E" stroke-width="1.5" fill="none" stroke-linecap="round" opacity="0.6" transform="translate(540,0)">
+      <path d="M320 340 Q420 320 540 330 Q660 340 760 350"/>
+      <path d="M300 370 Q450 350 540 360 Q630 370 780 380"/>
+    </g>
+    <!-- Patas de gallo -->
+    <g stroke="#9A7B5E" stroke-width="1.2" fill="none" stroke-linecap="round" opacity="0.5" transform="translate(540,0)">
+      <path d="M520 480 Q500 460 480 450 M530 490 Q505 470 480 460 M540 500 Q510 480 485 470"/>
+      <path d="M580 480 Q600 460 620 450 M590 490 Q615 470 640 460 M600 500 Q630 480 665 470"/>
+    </g>
+    <!-- Surco nasogeniano -->
+    <g stroke="#9A7B5E" stroke-width="2" fill="none" stroke-linecap="round" opacity="0.4" transform="translate(540,0)">
+      <path d="M340 520 Q360 580 350 650"/>
+      <path d="M740 520 Q720 580 730 650"/>
+    </g>
+    <!-- Labios más finos -->
+    <ellipse cx="810" cy="780" rx="90" ry="30" fill="#B88A6A"/>
+    <ellipse cx="810" cy="775" rx="75" ry="18" fill="#C89A7A"/>
+    <!-- Ojos -->
+    <ellipse cx="650" cy="500" rx="55" ry="30" fill="#2D2D2D"/>
+    <ellipse cx="970" cy="500" rx="55" ry="30" fill="#2D2D2D"/>
+    <ellipse cx="655" cy="500" rx="18" ry="18" fill="#1A1A1A"/>
+    <ellipse cx="975" cy="500" rx="18" ry="18" fill="#1A1A1A"/>
+    <!-- Cejas -->
+    <path d="M600 445 Q650 430 700 445" stroke="#3D3D3D" stroke-width="4" fill="none" stroke-linecap="round" transform="translate(540,0)"/>
+    <path d="M920 445 Q970 430 1020 445" stroke="#3D3D3D" stroke-width="4" fill="none" stroke-linecap="round" transform="translate(540,0)"/>
+  </g>
+  <!-- Textos -->
+  <text x="270" y="980" text-anchor="middle" font-family="Inter, sans-serif" font-size="16" font-weight="500" fill="#C5A572">PLACEHOLDER</text>
+  <text x="270" y="1010" text-anchor="middle" font-family="Inter, sans-serif" font-size="12" fill="#5A7294">Mujer 20-28 · Piel joven · 1:1</text>
+  <text x="270" y="1035" text-anchor="middle" font-family="Inter, sans-serif" font-size="11" fill="#3A4D6E">Click para subir foto</text>
+  <text x="810" y="980" text-anchor="middle" font-family="Inter, sans-serif" font-size="16" font-weight="500" fill="#C5A572">PLACEHOLDER</text>
+  <text x="810" y="1010" text-anchor="middle" font-family="Inter, sans-serif" font-size="12" fill="#5A7294">Mujer 40-50 · Con arrugas · 1:1</text>
+  <text x="810" y="1035" text-anchor="middle" font-family="Inter, sans-serif" font-size="11" fill="#3A4D6E">Click para subir foto</text>
+</svg>

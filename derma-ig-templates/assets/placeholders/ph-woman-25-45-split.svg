@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080" width="1080" height="1080">
+  <defs>
+    <linearGradient id="bgSplit" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFFFFF"/>
+      <stop offset="100%" style="stop-color:#F8F9FA"/>
+    </linearGradient>
+  </defs>
+  <rect fill="url(#bgSplit)" width="1080" height="1080"/>
+  <line x1="540" y1="0" x2="540" y2="1080" stroke="#E9ECEF" stroke-width="1"/>
+
+  <!-- LADO IZQUIERDO: Mujer 25 años - Piel joven -->
+  <g clip-path="url(#halfFaceClipL)">
+    <defs>
+      <clipPath id="halfFaceClipL"><rect x="0" y="0" width="540" height="1080"/></clipPath>
+    </defs>
+    <ellipse cx="270" cy="540" rx="300" ry="400" fill="#E8D5C4"/>
+    <ellipse cx="270" cy="540" rx="300" ry="400" fill="transparent" stroke="#D4C4B0" stroke-width="2" opacity="0.3"/>
+    <ellipse cx="180" cy="460" rx="50" ry="28" fill="#2D2D2D"/>
+    <ellipse cx="185" cy="460" rx="16" ry="16" fill="#1A1A1A"/>
+    <path d="M110 410 Q180 390 250 410" stroke="#4A4A4A" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <ellipse cx="270" cy="580" rx="25" ry="35" fill="#D4C4B0" opacity="0.3"/>
+    <ellipse cx="270" cy="720" rx="80" ry="28" fill="#D4A59A"/>
+    <ellipse cx="270" cy="715" rx="65" ry="18" fill="#E0B8AC"/>
+    <ellipse cx="270" cy="540" rx="250" ry="350" fill="#F5ECE0" opacity="0.2"/>
+  </g>
+
+  <!-- Divisor central -->
+  <line x1="540" y1="0" x2="540" y2="1080" stroke="#E9ECEF" stroke-width="1"/>
+
+  <!-- LADO DERECHO: Mujer 45 años - Con signos edad -->
+  <g clip-path="url(#halfFaceClipR)">
+    <defs>
+      <clipPath id="halfFaceClipR"><rect x="540" y="0" width="540" height="1080"/></clipPath>
+      <radialGradient id="faceShadeR" cx="50%" cy="40%" r="60%">
+        <stop offset="0%" stop-color="transparent"/>
+        <stop offset="100%" stop-color="#0B1220" stop-opacity="0.15"/>
+      </radialGradient>
+    </defs>
+    <ellipse cx="810" cy="540" rx="300" ry="400" fill="#D4B896"/>
+    <ellipse cx="810" cy="540" rx="300" ry="400" fill="url(#faceShadeR)"/>
+    <g stroke="#3A4D6E" stroke-width="1.5" fill="none" stroke-linecap="round" opacity="0.6" transform="translate(540,0)">
+      <path d="M-180 -200 Q0 -210 180 -200"/>
+      <path d="M-150 -160 Q0 -170 150 -160"/>
+      <path d="M-120 -120 Q0 -130 120 -120"/>
+    </g>
+    <path d="M-30 -90 Q0 -70 30 -90" stroke="#3A4D6E" stroke-width="2" fill="none" stroke-linecap="round" opacity="0.5" transform="translate(540,0)"/>
+    <g stroke="#3A4D6E" stroke-width="1.2" fill="none" opacity="0.35" stroke-linecap="round" transform="translate(540,0)">
+      <path d="M-200 -40 Q-160 -70 -120 -40"/>
+      <path d="M-190 -10 Q-150 -40 -110 -10"/>
+      <path d="M120 -40 Q160 -70 200 -40"/>
+      <path d="M110 -10 Q150 -40 190 -10"/>
+    </g>
+    <path d="M-130 20 Q-80 80 -40 120" stroke="#3A4D6E" stroke-width="2" fill="none" stroke-linecap="round" opacity="0.35" transform="translate(540,0)"/>
+    <path d="M40 20 Q80 80 130 120" stroke="#3A4D6E" stroke-width="2" fill="none" stroke-linecap="round" opacity="0.35" transform="translate(540,0)"/>
+    <path d="M-260 200 Q-180 320 0 300 Q180 320 260 200" stroke="#3A4D6E" stroke-width="1.5" fill="none" stroke-linecap="round" opacity="0.25" transform="translate(540,0)"/>
+    <ellipse cx="720" cy="460" rx="55" ry="28" fill="#2D2D2D"/>
+    <ellipse cx="970" cy="460" rx="55" ry="28" fill="#2D2D2D"/>
+    <ellipse cx="725" cy="460" rx="16" ry="16" fill="#1A1A1A"/>
+    <ellipse cx="975" cy="460" rx="16" ry="16" fill="#1A1A1A"/>
+    <path d="M650 410 Q720 390 790 410" stroke="#4A4A4A" stroke-width="4" fill="none" stroke-linecap="round" transform="translate(540,0)"/>
+    <path d="M80 410 Q130 390 180 410" stroke="#4A4A4A" stroke-width="4" fill="none" stroke-linecap="round" transform="translate(540,0)"/>
+    <ellipse cx="810" cy="580" rx="25" ry="35" fill="#C4A07A"/>
+    <ellipse cx="810" cy="720" rx="80" ry="28" fill="#D4A59A"/>
+    <ellipse cx="810" cy="715" rx="65" ry="18" fill="#E0B8AC"/>
+    <ellipse cx="810" cy="540" rx="280" ry="350" fill="#C8A07A" opacity="0.2"/>
+  </g>
+
+  <!-- Textos -->
+  <text x="270" y="980" text-anchor="middle" font-family="Inter, sans-serif" font-size="16" font-weight="500" fill="#C5A572">PLACEHOLDER - JOVEN 25-28</text>
+  <text x="270" y="1010" text-anchor="middle" font-family="Inter, sans-serif" font-size="12" fill="#5A7294">Piel lisa · Sin arrugas · 1:1</text>
+  <text x="270" y="1035" text-anchor="middle" font-family="Inter, sans-serif" font-size="11" fill="#3A4D6E">Click para subir foto</text>
+  <text x="810" y="980" text-anchor="middle" font-family="Inter, sans-serif" font-size="16" font-weight="500" fill="#C5A572">PLACEHOLDER - MAYOR 40-50</text>
+  <text x="810" y="1010" text-anchor="middle" font-family="Inter, sans-serif" font-size="12" fill="#5A7294">Arrugas · Flacidez · Patas gallo · 1:1</text>
+  <text x="810" y="1035" text-anchor="middle" font-family="Inter, sans-serif" font-size="11" fill="#3A4D6E">Click para subir foto</text>
+</svg>

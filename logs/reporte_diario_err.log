@@ -1,0 +1,54 @@
+2026-07-14 14:00:39,721 WARNING Esperando mas...
+2026-07-15 14:01:57,759 WARNING Esperando mas...
+2026-07-15 14:02:44,768 WARNING Esperando mas...
+2026-07-15 14:41:23,242 WARNING Esperando mas...
+2026-07-15 14:46:50,336 WARNING Esperando mas...
+2026-07-15 14:51:48,876 WARNING Esperando mas...
+2026-07-15 15:05:44,680 WARNING WhatsApp tardo en cargar, esperando un poco mas...
+2026-07-15 15:20:24,856 ERROR Timeout esperando WhatsApp Web. Verifica la sesion/QR.
+2026-07-16 14:01:16,760 ERROR Error inesperado: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=150.0.7871.115)
+Stacktrace:
+0   chromedriver                        0x0000000104e47454 chromedriver + 5944404
+1   chromedriver                        0x00000001048e84f0 chromedriver + 312560
+2   chromedriver                        0x00000001048c1b74 chromedriver + 154484
+3   chromedriver                        0x0000000104959d44 chromedriver + 777540
+4   chromedriver                        0x00000001049707e0 chromedriver + 870368
+5   chromedriver                        0x0000000104927348 chromedriver + 570184
+6   chromedriver                        0x0000000104e0c6a4 chromedriver + 5703332
+7   chromedriver                        0x0000000104e0ff24 chromedriver + 5717796
+8   chromedriver                        0x0000000104df2338 chromedriver + 5595960
+9   chromedriver                        0x0000000104e107b8 chromedriver + 5719992
+10  chromedriver                        0x0000000104de35e0 chromedriver + 5535200
+11  chromedriver                        0x0000000104e35124 chromedriver + 5869860
+12  chromedriver                        0x0000000104e35284 chromedriver + 5870212
+13  chromedriver                        0x0000000104e470ac chromedriver + 5943468
+14  libsystem_pthread.dylib             0x000000018c565c54 _pthread_start + 132
+15  libsystem_pthread.dylib             0x000000018c560c18 thread_start + 4
+
+2026-07-17 14:02:26,246 ERROR Error al enviar imagen: Message: 
+Stacktrace:
+0   chromedriver                        0x00000001054bb454 chromedriver + 5944404
+1   chromedriver                        0x0000000104f5c4f0 chromedriver + 312560
+2   chromedriver                        0x0000000104fa5978 chromedriver + 612728
+3   chromedriver                        0x0000000104fe4cb0 chromedriver + 871600
+4   chromedriver                        0x0000000104f9b348 chromedriver + 570184
+5   chromedriver                        0x00000001054806a4 chromedriver + 5703332
+6   chromedriver                        0x0000000105483f24 chromedriver + 5717796
+7   chromedriver                        0x0000000105466338 chromedriver + 5595960
+8   chromedriver                        0x00000001054847b8 chromedriver + 5719992
+9   chromedriver                        0x00000001054575e0 chromedriver + 5535200
+10  chromedriver                        0x00000001054a9124 chromedriver + 5869860
+11  chromedriver                        0x00000001054a9284 chromedriver + 5870212
+12  chromedriver                        0x00000001054bb0ac chromedriver + 5943468
+13  libsystem_pthread.dylib             0x000000018c565c54 _pthread_start + 132
+14  libsystem_pthread.dylib             0x000000018c560c18 thread_start + 4
+. Intentando solo texto...
+2026-07-18 21:25:04,450 ERROR Error obteniendo datos: The read operation timed out
+2026-07-19 14:46:44,589 ERROR Timeout esperando WhatsApp Web. Verifica la sesion/QR.
+2026-07-20 14:03:41,330 ERROR Timeout esperando WhatsApp Web. Verifica la sesion/QR.
+2026-07-21 14:04:06,387 ERROR Timeout esperando WhatsApp Web. Verifica la sesion/QR.
+2026-07-22 14:03:34,799 ERROR Timeout esperando WhatsApp Web. Verifica la sesion/QR.
+2026-07-23 14:00:08,178 ERROR Error obteniendo datos: [Errno 2] No such file or directory: '/Users/dermaessenza/TRABAJO/derma-essenza-73300c21ffe8.json'
+2026-07-24 14:02:51,699 ERROR Error obteniendo datos: [Errno 2] No such file or directory: '/Users/dermaessenza/TRABAJO/derma-essenza-73300c21ffe8.json'

@@ -1,0 +1,222 @@
+/Users/dermaessenza/TRABAJO/enviar_agendados.sh: line 7: MAÑANA=10/07/2026: No such file or directory
+/Users/dermaessenza/Library/Python/3.9/lib/python/site-packages/google/auth/__init__.py:54: FutureWarning: You are using a Python version 3.9 past its end of life. Google will update google-auth with critical bug fixes on a best-effort basis, but not with any other fixes or features. Please upgrade your Python version, and then update google-auth.
+  warnings.warn(eol_message.format("3.9"), FutureWarning)
+/Users/dermaessenza/Library/Python/3.9/lib/python/site-packages/google/oauth2/__init__.py:40: FutureWarning: You are using a Python version 3.9 past its end of life. Google will update google-auth with critical bug fixes on a best-effort basis, but not with any other fixes or features. Please upgrade your Python version, and then update google-auth.
+  warnings.warn(eol_message.format("3.9"), FutureWarning)
+/Users/dermaessenza/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Traceback (most recent call last):
+  File "/Users/dermaessenza/TRABAJO/capturar_enviar.py", line 20, in <module>
+    MAÑANA = datetime.strptime(sys.argv[2], '%d/%m/%Y')
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/_strptime.py", line 568, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/_strptime.py", line 349, in _strptime
+    raise ValueError("time data %r does not match format %r" %
+ValueError: time data 'ÑANA' does not match format '%d/%m/%Y'
+/Users/dermaessenza/Library/Python/3.9/lib/python/site-packages/google/auth/__init__.py:54: FutureWarning: You are using a Python version 3.9 past its end of life. Google will update google-auth with critical bug fixes on a best-effort basis, but not with any other fixes or features. Please upgrade your Python version, and then update google-auth.
+  warnings.warn(eol_message.format("3.9"), FutureWarning)
+/Users/dermaessenza/Library/Python/3.9/lib/python/site-packages/google/oauth2/__init__.py:40: FutureWarning: You are using a Python version 3.9 past its end of life. Google will update google-auth with critical bug fixes on a best-effort basis, but not with any other fixes or features. Please upgrade your Python version, and then update google-auth.
+  warnings.warn(eol_message.format("3.9"), FutureWarning)
+/Users/dermaessenza/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Conectando a Google Sheets...
+
+CONFIRMADOS CJ — HOY (10/07/2026)
+  Filas: 13
+  Mensaje: CONFIRMADOS CJ — HOY (10/07/2026)
+Para hoy tenemos 10 agendados y 3 retoques
+  Enviando WhatsApp...
+  Enviado
+
+CONFIRMADOS CJ — MAÑANA (11/07/2026)
+  Filas: 20
+  Mensaje: CONFIRMADOS CJ — MAÑANA (11/07/2026)
+Para mañana tenemos 16 agendados y 4 retoques
+  Enviando WhatsApp...
+  Enviado
+
+CONFIRMADOS BM — HOY (10/07/2026)
+  Filas: 7
+  Mensaje: CONFIRMADOS BM — HOY (10/07/2026)
+Para hoy tenemos 5 agendados y 2 evaluaciones
+  Enviando WhatsApp...
+  Enviado
+
+CONFIRMADOS BM — MAÑANA (11/07/2026)
+  Filas: 13
+  Mensaje: CONFIRMADOS BM — MAÑANA (11/07/2026)
+Para mañana tenemos 9 agendados y 4 evaluaciones
+  Enviando WhatsApp...
+  Enviado
+
+✅ Finalizado.
+/Users/dermaessenza/Library/Python/3.9/lib/python/site-packages/google/auth/__init__.py:54: FutureWarning: You are using a Python version 3.9 past its end of life. Google will update google-auth with critical bug fixes on a best-effort basis, but not with any other fixes or features. Please upgrade your Python version, and then update google-auth.
+  warnings.warn(eol_message.format("3.9"), FutureWarning)
+/Users/dermaessenza/Library/Python/3.9/lib/python/site-packages/google/oauth2/__init__.py:40: FutureWarning: You are using a Python version 3.9 past its end of life. Google will update google-auth with critical bug fixes on a best-effort basis, but not with any other fixes or features. Please upgrade your Python version, and then update google-auth.
+  warnings.warn(eol_message.format("3.9"), FutureWarning)
+/Users/dermaessenza/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Conectando a Google Sheets...
+
+CONFIRMADOS CJ — HOY (11/07/2026)
+  Filas: 20
+  Mensaje: CONFIRMADOS CJ — HOY (11/07/2026)
+Para hoy tenemos 16 agendados y 4 retoques
+  Enviando WhatsApp...
+  ERROR WhatsApp: [Errno 30] Read-only file system: 'PyWhatKit_DB.txt'
+  Imagen guardada en: /Users/dermaessenza/TRABAJO/capturas/CONFIRMADOS_CJ_HOY.jpg
+
+CONFIRMADOS CJ — MAÑANA (13/07/2026)
+  Filas: 9
+  Mensaje: CONFIRMADOS CJ — MAÑANA (13/07/2026)
+Para mañana tenemos 5 agendados, 1 evaluación y 3 retoques
+  Enviando WhatsApp...
+  ERROR WhatsApp: [Errno 30] Read-only file system: 'PyWhatKit_DB.txt'
+  Imagen guardada en: /Users/dermaessenza/TRABAJO/capturas/CONFIRMADOS_CJ_MAÑANA.jpg
+
+CONFIRMADOS BM — HOY (11/07/2026)
+  Filas: 15
+  Mensaje: CONFIRMADOS BM — HOY (11/07/2026)
+Para hoy tenemos 10 agendados y 5 evaluaciones
+  Enviando WhatsApp...
+  ERROR WhatsApp: [Errno 30] Read-only file system: 'PyWhatKit_DB.txt'
+  Imagen guardada en: /Users/dermaessenza/TRABAJO/capturas/CONFIRMADOS_BM_HOY.jpg
+
+CONFIRMADOS BM — MAÑANA (13/07/2026)
+  Filas: 4
+  Mensaje: CONFIRMADOS BM — MAÑANA (13/07/2026)
+Para mañana tenemos 4 agendados
+  Enviando WhatsApp...
+  ERROR WhatsApp: [Errno 30] Read-only file system: 'PyWhatKit_DB.txt'
+  Imagen guardada en: /Users/dermaessenza/TRABAJO/capturas/CONFIRMADOS_BM_MAÑANA.jpg
+
+✅ Finalizado.
+/Users/dermaessenza/Library/Python/3.9/lib/python/site-packages/google/auth/__init__.py:54: FutureWarning: You are using a Python version 3.9 past its end of life. Google will update google-auth with critical bug fixes on a best-effort basis, but not with any other fixes or features. Please upgrade your Python version, and then update google-auth.
+  warnings.warn(eol_message.format("3.9"), FutureWarning)
+/Users/dermaessenza/Library/Python/3.9/lib/python/site-packages/google/oauth2/__init__.py:40: FutureWarning: You are using a Python version 3.9 past its end of life. Google will update google-auth with critical bug fixes on a best-effort basis, but not with any other fixes or features. Please upgrade your Python version, and then update google-auth.
+  warnings.warn(eol_message.format("3.9"), FutureWarning)
+/Users/dermaessenza/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Conectando a Google Sheets...
+
+CONFIRMADOS CJ — HOY (13/07/2026)
+  Filas: 19
+  Mensaje: CONFIRMADOS CJ — HOY (13/07/2026)
+Para hoy tenemos 11 agendados, 4 evaluaciones y 4 retoques
+  Enviando WhatsApp...
+    ERROR WhatsApp: [Errno 30] Read-only file system: 'PyWhatKit_DB.txt'
+    Imagen guardada en: /Users/dermaessenza/TRABAJO/capturas/CONFIRMADOS_CJ_HOY.jpg
+
+CONFIRMADOS CJ — MAÑANA (14/07/2026)
+  Filas: 12
+  Mensaje: CONFIRMADOS CJ — MAÑANA (14/07/2026)
+Para mañana tenemos 11 agendados y 1 evaluación
+  Enviando WhatsApp...
+    ERROR WhatsApp: [Errno 30] Read-only file system: 'PyWhatKit_DB.txt'
+    Imagen guardada en: /Users/dermaessenza/TRABAJO/capturas/CONFIRMADOS_CJ_MAÑANA.jpg
+
+CONFIRMADOS BM — HOY (13/07/2026)
+  Filas: 6
+  Mensaje: CONFIRMADOS BM — HOY (13/07/2026)
+Para hoy tenemos 6 agendados
+  Enviando WhatsApp...
+    ERROR WhatsApp: [Errno 30] Read-only file system: 'PyWhatKit_DB.txt'
+    Imagen guardada en: /Users/dermaessenza/TRABAJO/capturas/CONFIRMADOS_BM_HOY.jpg
+
+CONFIRMADOS BM — MAÑANA (14/07/2026)
+  Filas: 10
+  Mensaje: CONFIRMADOS BM — MAÑANA (14/07/2026)
+Para mañana tenemos 9 agendados y 1 evaluación
+  Enviando WhatsApp...
+    ERROR WhatsApp: [Errno 30] Read-only file system: 'PyWhatKit_DB.txt'
+    Imagen guardada en: /Users/dermaessenza/TRABAJO/capturas/CONFIRMADOS_BM_MAÑANA.jpg
+
+✅ Finalizado.
+/Users/dermaessenza/Library/Python/3.9/lib/python/site-packages/google/auth/__init__.py:54: FutureWarning: You are using a Python version 3.9 past its end of life. Google will update google-auth with critical bug fixes on a best-effort basis, but not with any other fixes or features. Please upgrade your Python version, and then update google-auth.
+  warnings.warn(eol_message.format("3.9"), FutureWarning)
+/Users/dermaessenza/Library/Python/3.9/lib/python/site-packages/google/oauth2/__init__.py:40: FutureWarning: You are using a Python version 3.9 past its end of life. Google will update google-auth with critical bug fixes on a best-effort basis, but not with any other fixes or features. Please upgrade your Python version, and then update google-auth.
+  warnings.warn(eol_message.format("3.9"), FutureWarning)
+/Users/dermaessenza/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/dermaessenza/Library/Python/3.9/lib/python/site-packages/google/api_core/_python_version_support.py:242: FutureWarning: You are using a non-supported Python version (3.9.6). Google will not post any further updates to google.api_core supporting this Python version. Please upgrade to the latest Python version, or at least Python 3.10, and then update google.api_core.
+  warnings.warn(message, FutureWarning)
+2026-07-14 06:45:04,707 INFO Conectando a Google Sheets...
+2026-07-14 06:45:06,259 INFO CONFIRMADOS CJ -- HOY (14/07/2026)
+2026-07-14 06:45:08,112 INFO Filas: 20
+2026-07-14 06:45:08,522 INFO Mensaje: CONFIRMADOS CJ -- HOY (14/07/2026)
+Para hoy tenemos 13 agendados, 3 evaluaciones y 4 retoques
+2026-07-14 06:45:08,522 INFO Enviando WhatsApp...
+2026-07-14 06:47:53,125 ERROR ERROR WhatsApp: [Errno 30] Read-only file system: 'PyWhatKit_DB.txt'
+2026-07-14 06:47:53,128 INFO Imagen guardada en: /Users/dermaessenza/TRABAJO/capturas/CONFIRMADOS_CJ_HOY.jpg
+2026-07-14 06:47:53,129 INFO CONFIRMADOS CJ -- MANANA (15/07/2026)
+2026-07-14 06:47:57,892 INFO Filas: 12
+2026-07-14 06:48:00,443 INFO Mensaje: CONFIRMADOS CJ -- MANANA (15/07/2026)
+Para manana tenemos 10 agendados, 1 sesion y 1 retoque
+2026-07-14 06:48:00,464 INFO Enviando WhatsApp...
+2026-07-14 06:49:47,253 ERROR ERROR WhatsApp: [Errno 30] Read-only file system: 'PyWhatKit_DB.txt'
+2026-07-14 06:49:47,259 INFO Imagen guardada en: /Users/dermaessenza/TRABAJO/capturas/CONFIRMADOS_CJ_MANANA.jpg
+2026-07-14 06:49:47,263 INFO CONFIRMADOS BM -- HOY (14/07/2026)
+2026-07-14 06:49:48,417 INFO Filas: 14
+2026-07-14 06:49:48,833 INFO Mensaje: CONFIRMADOS BM -- HOY (14/07/2026)
+Para hoy tenemos 13 agendados y 1 evaluacion
+2026-07-14 06:49:48,833 INFO Enviando WhatsApp...
+2026-07-14 06:51:31,781 ERROR ERROR WhatsApp: [Errno 30] Read-only file system: 'PyWhatKit_DB.txt'
+2026-07-14 06:51:31,792 INFO Imagen guardada en: /Users/dermaessenza/TRABAJO/capturas/CONFIRMADOS_BM_HOY.jpg
+2026-07-14 06:51:31,794 INFO CONFIRMADOS BM -- MANANA (15/07/2026)
+2026-07-14 06:51:32,812 INFO Filas: 4
+2026-07-14 06:51:32,983 INFO Mensaje: CONFIRMADOS BM -- MANANA (15/07/2026)
+Para manana tenemos 4 agendados
+2026-07-14 06:51:32,983 INFO Enviando WhatsApp...
+2026-07-14 06:53:15,735 ERROR ERROR WhatsApp: [Errno 30] Read-only file system: 'PyWhatKit_DB.txt'
+2026-07-14 06:53:15,742 INFO Imagen guardada en: /Users/dermaessenza/TRABAJO/capturas/CONFIRMADOS_BM_MANANA.jpg
+2026-07-14 06:53:15,743 INFO Finalizado.
+/Users/dermaessenza/Library/Python/3.9/lib/python/site-packages/google/auth/__init__.py:54: FutureWarning: You are using a Python version 3.9 past its end of life. Google will update google-auth with critical bug fixes on a best-effort basis, but not with any other fixes or features. Please upgrade your Python version, and then update google-auth.
+  warnings.warn(eol_message.format("3.9"), FutureWarning)
+/Users/dermaessenza/Library/Python/3.9/lib/python/site-packages/google/oauth2/__init__.py:40: FutureWarning: You are using a Python version 3.9 past its end of life. Google will update google-auth with critical bug fixes on a best-effort basis, but not with any other fixes or features. Please upgrade your Python version, and then update google-auth.
+  warnings.warn(eol_message.format("3.9"), FutureWarning)
+/Users/dermaessenza/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/dermaessenza/Library/Python/3.9/lib/python/site-packages/google/api_core/_python_version_support.py:242: FutureWarning: You are using a non-supported Python version (3.9.6). Google will not post any further updates to google.api_core supporting this Python version. Please upgrade to the latest Python version, or at least Python 3.10, and then update google.api_core.
+  warnings.warn(message, FutureWarning)
+2026-07-15 07:00:06,505 INFO Conectando a Google Sheets...
+2026-07-15 07:00:10,553 INFO CONFIRMADOS CJ -- HOY (15/07/2026)
+2026-07-15 07:00:13,360 INFO Filas: 19
+2026-07-15 07:00:13,726 INFO Mensaje: CONFIRMADOS CJ -- HOY (15/07/2026)
+Para hoy tenemos 15 agendados, 1 sesion y 3 retoques
+2026-07-15 07:00:13,726 INFO Enviando WhatsApp...
+2026-07-15 07:02:59,098 ERROR ERROR WhatsApp: [Errno 30] Read-only file system: 'PyWhatKit_DB.txt'
+2026-07-15 07:02:59,103 INFO Imagen guardada en: /Users/dermaessenza/TRABAJO/capturas/CONFIRMADOS_CJ_HOY.jpg
+2026-07-15 07:02:59,106 INFO CONFIRMADOS CJ -- MANANA (16/07/2026)
+2026-07-15 07:03:01,703 INFO Filas: 8
+2026-07-15 07:03:01,901 INFO Mensaje: CONFIRMADOS CJ -- MANANA (16/07/2026)
+Para manana tenemos 8 agendados
+2026-07-15 07:03:01,901 INFO Enviando WhatsApp...
+2026-07-15 07:04:44,593 ERROR ERROR WhatsApp: [Errno 30] Read-only file system: 'PyWhatKit_DB.txt'
+2026-07-15 07:04:44,596 INFO Imagen guardada en: /Users/dermaessenza/TRABAJO/capturas/CONFIRMADOS_CJ_MANANA.jpg
+2026-07-15 07:04:44,596 INFO CONFIRMADOS BM -- HOY (15/07/2026)
+2026-07-15 07:04:45,378 INFO Filas: 5
+2026-07-15 07:04:45,500 INFO Mensaje: CONFIRMADOS BM -- HOY (15/07/2026)
+Para hoy tenemos 5 agendados
+2026-07-15 07:04:45,501 INFO Enviando WhatsApp...
+2026-07-15 07:06:32,853 ERROR ERROR WhatsApp: [Errno 30] Read-only file system: 'PyWhatKit_DB.txt'
+2026-07-15 07:06:32,860 INFO Imagen guardada en: /Users/dermaessenza/TRABAJO/capturas/CONFIRMADOS_BM_HOY.jpg
+2026-07-15 07:06:32,863 INFO CONFIRMADOS BM -- MANANA (16/07/2026)
+2026-07-15 07:06:33,776 INFO Filas: 3
+2026-07-15 07:06:33,928 INFO Mensaje: CONFIRMADOS BM -- MANANA (16/07/2026)
+Para manana tenemos 2 agendados y 1 retoque
+2026-07-15 07:06:33,928 INFO Enviando WhatsApp...
+2026-07-15 07:08:18,011 ERROR ERROR WhatsApp: [Errno 30] Read-only file system: 'PyWhatKit_DB.txt'
+2026-07-15 07:08:18,014 INFO Imagen guardada en: /Users/dermaessenza/TRABAJO/capturas/CONFIRMADOS_BM_MANANA.jpg
+2026-07-15 07:08:18,014 INFO Finalizado.
+45:104: execution error: Terminal detectó un error: Tiempo límite agotado para un evento Apple. (-1712)
+tab 1 of window id 23127
+tab 1 of window id 24662
+tab 1 of window id 26384
+tab 1 of window id 27179
+tab 1 of window id 28096
+tab 1 of window id 29170
+tab 1 of window id 30025
+tab 1 of window id 30358
+tab 1 of window id 31774
+tab 1 of window id 34280
+tab 1 of window id 36341

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WhatsApp Leads</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>WhatsApp Leads</h1>
+      <p class="subtitle">Exportar leads a Google Sheets</p>
+    </header>
+
+    <section id="config-section">
+      <h2>Configuración de Google Sheets</h2>
+      <div class="form-group">
+        <label for="spreadsheet-url">URL de la hoja de cálculo:</label>
+        <input type="text" id="spreadsheet-url" placeholder="https://docs.google.com/spreadsheets/d/...">
+      </div>
+      <div class="form-row">
+        <div class="form-group">
+          <label for="sheet-name">Nombre de la hoja:</label>
+          <input type="text" id="sheet-name" placeholder="Hoja1" value="Hoja1">
+        </div>
+        <div class="form-group">
+          <label for="column-start">Columna destino:</label>
+          <select id="column-start">
+            <option value="A">A</option>
+            <option value="B">B</option>
+            <option value="C">C</option>
+            <option value="D">D</option>
+            <option value="E">E</option>
+            <option value="F">F</option>
+            <option value="G">G</option>
+            <option value="H">H</option>
+          </select>
+        </div>
+      </div>
+      <button id="btn-save-config" class="btn btn-primary">Guardar configuración</button>
+    </section>
+
+    <section id="keywords-section">
+      <h2>Palabras clave y campañas</h2>
+      <div class="form-row">
+        <div class="form-group flex-grow">
+          <label for="new-keyword">Palabra clave:</label>
+          <input type="text" id="new-keyword" placeholder="Ej: Botox">
+        </div>
+        <div class="form-group flex-grow">
+          <label for="new-campaign">Campaña:</label>
+          <input type="text" id="new-campaign" placeholder="Ej: Campaña Botox">
+        </div>
+        <button id="btn-add-keyword" class="btn btn-small">+</button>
+      </div>
+      <ul id="keywords-list"></ul>
+    </section>
+
+    <section id="actions-section">
+      <button id="btn-scan" class="btn btn-scan">
+        <span class="btn-icon">🔍</span> Escanear WhatsApp
+      </button>
+      <button id="btn-auth" class="btn btn-secondary">Autenticar con Google</button>
+    </section>
+
+    <div id="status" class="status-bar hidden"></div>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=1080, height=1080">
+  <title>Derma Essenza — Ácido Hialurónico</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../tokens.css">
+  <link rel="stylesheet" href="../base.css">
+  <link rel="stylesheet" href="../components.css">
+  <style>
+    .ah-frame { background: var(--navy-900); color: var(--white); }
+    .ah-frame .pattern-overlay { opacity: 0.03; }
+    .ah-frame .headline { color: var(--gold-500); }
+    .ah-frame .subhead { color: rgba(255,255,255,0.7); }
+    .ah-frame .accent-line { background: linear-gradient(90deg, var(--gold-500), var(--gold-300)); }
+    .ah-frame .promo-card { background: var(--navy-800); border: 1px solid var(--navy-600); }
+    .ah-frame .promo-card:hover { border-color: var(--gold-300); box-shadow: var(--shadow-md); }
+    .ah-frame .promo-card-icon { background: var(--gold-50); color: var(--gold-500); }
+    .ah-frame .promo-card-title { color: var(--gold-400); }
+    .ah-frame .promo-card-desc { color: var(--navy-300); }
+    .ah-frame .btn-cta-white { background: var(--white); color: var(--navy-900); }
+    .ah-frame .btn-cta-white:hover { background: var(--off-white); }
+    .ah-frame .watermark { color: var(--gold-500); opacity: 0.1; }
+    .ah-frame .body-secondary { color: var(--navy-300); }
+  </style>
+</head>
+<body>
+  <div class="ig-frame ah-frame">
+    <div class="pattern-overlay" data-pattern="linen"></div>
+    <div class="safe-zone flex flex-col items-center justify-center h-full text-center px-10">
+      <!-- Badge -->
+      <div class="mb-5" data-editable="badge">
+        <span class="badge badge-gold-filled">TRATAMIENTO ESTRELLA</span>
+      </div>
+
+      <!-- Headline -->
+      <h1 class="headline text-4xl mb-3 leading-tight max-w-[800px]" data-editable="headline">
+        Ácido Hialurónico <span class="font-display">Premium</span>
+      </h1>
+
+      <!-- Subhead -->
+      <p class="subhead text-xl mb-5 opacity-80 max-w-[700px]" data-editable="subhead">
+        Neuramis · Juvéderm · Teosyal. Volumen, hidratación, contorno. Resultado inmediato y natural.
+      </p>
+
+      <!-- Accent Line -->
+      <div class="accent-line mx-auto mb-8"></div>
+
+      <!-- Promo Grid 2x2 -->
+      <div class="promo-cards-grid w-full max-w-[800px] mb-8" data-editable="promo-grid">
+        <div class="promo-card">
+          <div class="promo-card-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2.69l5.66 5.66a8.22 8.22 0 0 1 0 11.31L12 21.31l-5.66-5.66a8.22 8.22 0 0 1 0-11.31z"/><line x1="12" y1="15" x2="12" y2="15"/></svg>
+          </div>
+          <h3 class="promo-card-title" data-editable="card1-title">Labios</h3>
+          <p class="promo-card-desc" data-editable="card1-desc">Definición, hidratación, borde vermellón, proyección natural</p>
+        </div>
+        <div class="promo-card">
+          <div class="promo-card-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+          </div>
+          <h3 class="promo-card-title" data-editable="card2-title">Surcos nasogenianos</h3>
+          <p class="promo-card-desc" data-editable="card2-desc">Relleno líneas de marioneta, suaviza expresión, aspecto descansado</p>
+        </div>
+        <div class="promo-card">
+          <div class="promo-card-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+          </div>
+          <h3 class="promo-card-title" data-editable="card3-title">Pómulos</h3>
+          <p class="promo-card-desc" data-editable="card3-desc">Proyección 3D, lifting no quirúrgico, armonía facial, contorno definido</p>
+        </div>
+        <div class="promo-card">
+          <div class="promo-card-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+          </div>
+          <h3 class="promo-card-title" data-editable="card4-title">Ojeras</h3>
+          <p class="promo-card-desc" data-editable="card4-desc">Corrección hundimiento, luminosidad, mirada fresca, efecto buena cara</p>
+        </div>
+      </div>
+
+      <!-- CTA -->
+      <button class="btn-cta btn-cta-white btn-cta-lg w-full max-w-[400px] mb-4" data-editable="cta">
+        Agendar valoración facial
+      </button>
+
+      <!-- Handle -->
+      <div class="flex items-center justify-center gap-4 text-sm text-navy-300 mb-6" data-editable="handle">
+        <span>@derma.essenza</span>
+      </div>
+
+      <!-- Watermark -->
+      <div class="watermark watermark-de on-navy">@derma.essenza</div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js"></script>
+  <script src="../js/editor.js"></script>
+  <script src="../js/export.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      DermaEditor.init('acido-hialuronico');
+      DermaExport.createExportButton({ templateName: 'flyer_acido_hialuronico' });
+    });
+  </script>
+</body>
+</html>

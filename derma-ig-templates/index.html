@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Derma Essenza — Plantillas Instagram</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="tokens.css">
+  <link rel="stylesheet" href="base.css">
+  <link rel="stylesheet" href="components.css">
+  <style>
+    :root {
+      --hub-bg: var(--off-white);
+      --card-bg: var(--white);
+      --card-hover: var(--gray-50);
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      font-family: var(--font-ui);
+      background: var(--hub-bg);
+      color: var(--navy-900);
+      min-height: 100vh;
+      padding: var(--space-12) var(--space-6);
+    }
+
+    .hub-container {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .hub-header {
+      text-align: center;
+      margin-bottom: var(--space-16);
+      padding: var(--space-8) 0;
+    }
+
+    .hub-logo {
+      font-family: var(--font-display);
+      font-size: var(--text-4xl);
+      font-weight: 500;
+      color: var(--navy-900);
+      letter-spacing: var(--tracking-tight);
+      margin-bottom: var(--space-3);
+    }
+
+    .hub-logo span { color: var(--gold-500); }
+
+    .hub-tagline {
+      font-size: var(--text-lg);
+      color: var(--navy-500);
+      font-weight: 400;
+    }
+
+    .hub-stats {
+      display: flex;
+      justify-content: center;
+      gap: var(--space-8);
+      margin-top: var(--space-6);
+      padding-top: var(--space-6);
+      border-top: 1px solid var(--gray-200);
+      flex-wrap: wrap;
+    }
+
+    .stat {
+      text-align: center;
+    }
+
+    .stat-value {
+      font-family: var(--font-display);
+      font-size: var(--text-2xl);
+      font-weight: 600;
+      color: var(--gold-500);
+    }
+
+    .stat-label {
+      font-size: var(--text-sm);
+      color: var(--navy-400);
+      text-transform: uppercase;
+      letter-spacing: var(--tracking-wide);
+    }
+
+    .templates-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: var(--space-6);
+    }
+
+    .template-card {
+      background: var(--card-bg);
+      border: 1px solid var(--gray-200);
+      border-radius: var(--radius-xl);
+      overflow: hidden;
+      transition: all var(--transition-base);
+      cursor: pointer;
+      text-decoration: none;
+      color: inherit;
+    }
+
+    .template-card:hover {
+      transform: translateY(-4px);
+      box-shadow: var(--shadow-lg);
+      border-color: var(--gold-300);
+    }
+
+    .template-card:focus-visible {
+      outline: 2px solid var(--gold-500);
+      outline-offset: 2px;
+    }
+
+    .template-preview {
+      aspect-ratio: 1;
+      background: var(--navy-800);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .template-preview::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      opacity: 0.03;
+      background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E");
+      pointer-events: none;
+    }
+
+    .template-badge {
+      position: absolute;
+      top: var(--space-3);
+      left: var(--space-3);
+      z-index: 2;
+    }
+
+    .template-icon {
+      position: absolute;
+      inset: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 1;
+    }
+
+    .template-icon svg {
+      width: 64px;
+      height: 64px;
+      stroke: var(--gold-500);
+      opacity: 0.4;
+    }
+
+    .template-card:hover .template-icon svg {
+      opacity: 1;
+      stroke: var(--gold-400);
+    }
+
+    .template-content {
+      padding: var(--space-6);
+    }
+
+    .template-title {
+      font-family: var(--font-display);
+      font-size: var(--text-xl);
+      font-weight: 500;
+      color: var(--navy-900);
+      margin-bottom: var(--space-2);
+      letter-spacing: var(--tracking-tight);
+    }
+
+    .template-desc {
+      font-size: var(--text-sm);
+      color: var(--navy-500);
+      line-height: var(--leading-relaxed);
+      margin-bottom: var(--space-4);
+    }
+
+    .template-meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: var(--space-2);
+      margin-bottom: var(--space-4);
+    }
+
+    .meta-tag {
+      font-size: var(--text-xs);
+      font-weight: 500;
+      padding: var(--space-1) var(--space-2);
+      border-radius: var(--radius-full);
+      background: var(--gray-100);
+      color: var(--navy-600);
+    }
+
+    .meta-tag.gold {
+      background: var(--gold-50);
+      color: var(--gold-600);
+      border: 1px solid var(--gold-200);
+    }
+
+    .template-cta {
+      display: inline-flex;
+      align-items: center;
+      gap: var(--space-2);
+      font-weight: 600;
+      font-size: var(--text-sm);
+      color: var(--gold-500);
+      transition: color var(--transition-fast);
+    }
+
+    .template-card:hover .template-cta {
+      color: var(--gold-600);
+    }
+
+    .template-cta svg {
+      width: 18px;
+      height: 18px;
+      transition: transform var(--transition-fast);
+    }
+
+    .template-card:hover .template-cta svg {
+      transform: translateX(2px);
+    }
+
+    .footer-note {
+      text-align: center;
+      margin-top: var(--space-16);
+      padding-top: var(--space-8);
+      border-top: 1px solid var(--gray-200);
+      color: var(--navy-400);
+      font-size: var(--text-sm);
+    }
+
+    .footer-note strong { color: var(--navy-700); }
+
+    /* Shortcuts hint */
+    .shortcuts-hint {
+      position: fixed;
+      bottom: var(--space-6);
+      right: var(--space-6);
+      background: var(--navy-900);
+      color: var(--gold-500);
+      padding: var(--space-4) var(--space-6);
+      border-radius: var(--radius-lg);
+      font-size: var(--text-sm);
+      font-family: var(--font-ui);
+      box-shadow: var(--shadow-xl);
+      z-index: 100;
+      opacity: 0.9;
+    }
+
+    .shortcuts-hint kbd {
+      background: var(--navy-700);
+      padding: 2px 6px;
+      border-radius: var(--radius-sm);
+      font-family: monospace;
+      margin: 0 2px;
+    }
+
+    @media (max-width: 768px) {
+      .shortcuts-hint { display: none; }
+      .hub-header { padding: var(--space-6) 0; }
+      .hub-logo { font-size: var(--text-3xl); }
+    }
+  </style>
+</head>
+<body>
+  <div class="hub-container">
+    <!-- Header -->
+    <header class="hub-header">
+      <h1 class="hub-logo">Derma <span>Essenza</span></h1>
+      <p class="hub-tagline">Sistema de plantillas Instagram · Navy + Gold · Minimalista médico</p>
+      <div class="hub-stats">
+        <div class="stat">
+          <div class="stat-value">5</div>
+          <div class="stat-label">Plantillas</div>
+        </div>
+        <div class="stat">
+          <div class="stat-value">1080</div>
+          <div class="stat-label">px cuadrado</div>
+        </div>
+        <div class="stat">
+          <div class="stat-value">2x</div>
+          <div class="stat-label">Export retina</div>
+        </div>
+        <div class="stat">
+          <div class="stat-value">0</div>
+          <label class="stat-label">Dependencias</label>
+        </div>
+      </div>
+    </header>
+
+    <!-- Templates Grid -->
+    <main>
+      <div class="templates-grid">
+        <!-- 01 Treatment Flyer -->
+        <a href="templates/01-treatment-flyer.html" class="template-card" target="_blank" rel="noopener">
+          <div class="template-preview">
+            <span class="template-badge"><span class="badge badge-gold-filled">FLYER</span></span>
+            <div class="template-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M9 9h6M9 13h6M9 17h4"/></svg>
+            </div>
+          </div>
+          <div class="template-content">
+            <h3 class="template-title">Flyer Tratamiento</h3>
+            <p class="template-desc">Hero image 60% + info 40%. Badge, headline, 3 beneficios, key info grid, CTA full width.</p>
+            <div class="template-meta">
+              <span class="meta-tag">Post 1:1</span>
+              <span class="meta-tag gold">Hero + Info</span>
+              <span class="meta-tag">Editable</span>
+            </div>
+            <span class="template-cta">Abrir plantilla
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+            </span>
+          </div>
+        </a>
+
+        <!-- 02 Promo Flyer -->
+        <a href="templates/02-promo-flyer.html" class="template-card" target="_blank" rel="noopener">
+          <div class="template-preview">
+            <span class="template-badge"><span class="badge badge-gold-filled">PROMO</span></span>
+            <div class="template-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/><path d="M8 14s1.5 2 4 2 4-2 4-2"/></svg>
+            </div>
+          </div>
+          <div class="template-content">
+            <h3 class="template-title">Flyer Promo Mes</h3>
+            <p class="template-desc">Fondo navy + pattern sutil. Badge promo, headline dorado, grid 2x2 precios, countdown, CTA blanco.</p>
+            <div class="template-meta">
+              <span class="meta-tag">Post 1:1</span>
+              <span class="meta-tag gold">Navy bg</span>
+              <span class="meta-tag">Editable</span>
+            </div>
+            <span class="template-cta">Abrir plantilla
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+            </span>
+          </div>
+        </a>
+
+        <!-- 03 Edu Carousel -->
+        <a href="templates/03-edu-carousel.html" class="template-card" target="_blank" rel="noopener">
+          <div class="template-preview">
+            <span class="template-badge"><span class="badge badge-gold-filled">CARRUSEL</span></span>
+            <div class="template-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg>
+            </div>
+          </div>
+          <div class="template-content">
+            <h3 class="template-title">Carrusel Educativo</h3>
+            <p class="template-desc">5 slides: Portada → Qué es (4 cards) → Beneficios (4 cards) → Cuidados/FAQ → CTA final. Navegación dots + swipe + teclado.</p>
+            <div class="template-meta">
+              <span class="meta-tag">Carrusel 1:1</span>
+              <span class="meta-tag gold">5 Slides</span>
+              <span class="meta-tag">Swipe/Keys</span>
+            </div>
+            <span class="template-cta">Abrir plantilla
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+            </span>
+          </div>
+        </a>
+
+        <!-- 04 Before/After Carousel -->
+        <a href="templates/04-beforeafter-carousel.html" class="template-card" target="_blank" rel="noopener">
+          <div class="template-preview">
+            <span class="template-badge"><span class="badge badge-gold-filled">CARRUSEL</span></span>
+            <div class="template-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><line x1="5" y1="12" x2="19" y2="12"/><path d="M9 5v14M15 5v14"/></svg>
+            </div>
+          </div>
+          <div class="template-content">
+            <h3 class="template-title">Carrusel Antes/Después</h3>
+            <p class="template-desc">Split estático lado a lado (responsive stacked). 5 slides: portada → comparación → zonas/mejoras → protocolo → CTA + disclaimer médico.</p>
+            <div class="template-meta">
+              <span class="meta-tag">Carrusel 1:1</span>
+              <span class="meta-tag gold">Split estático</span>
+              <span class="meta-tag">Médico-ético</span>
+            </div>
+            <span class="template-cta">Abrir plantilla
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+            </span>
+          </div>
+        </a>
+
+        <!-- 05 Testimonial Carousel -->
+        <a href="templates/05-testimonial-carousel.html" class="template-card" target="_blank" rel="noopener">
+          <div class="template-preview">
+            <span class="template-badge"><span class="badge badge-gold-filled">CARRUSEL</span></span>
+            <div class="template-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/><circle cx="12" cy="12" r="3"/></svg>
+            </div>
+          </div>
+          <div class="template-content">
+            <h3 class="template-title">Carrusel Testimonios</h3>
+            <p class="template-desc">4 slides testimoniales: foto circular + quote + nombre + tratamiento + 5★. Slide final CTA. Fondo pattern linen sutil.</p>
+            <div class="template-meta">
+              <span class="meta-tag">Carrusel 1:1</span>
+              <span class="meta-tag gold">4 Testimonios</span>
+              <span class="meta-tag">Foto + Quote</span>
+            </div>
+            <span class="template-cta">Abrir plantilla
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+            </span>
+          </div>
+        </a>
+
+        <!-- 06 Carrusel Prevención Edad (NUEVO) -->
+        <a href="templates/carousel-01-prevencion-edad.html" class="template-card" target="_blank" rel="noopener">
+          <div class="template-preview">
+            <span class="template-badge"><span class="badge badge-gold-filled">CARRUSEL</span></span>
+            <div class="template-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="M23 22H1"/></svg>
+            </div>
+          </div>
+          <div class="template-content">
+            <h3 class="template-title">Prevención por Edad</h3>
+            <p class="template-desc">3 slides: Close-up 35+ → Split 25 vs 45 años + tabla edades (25/35/45/55) → CTA prevención. Toxina preventiva.</p>
+            <div class="template-meta">
+              <span class="meta-tag">Carrusel 1:1</span>
+              <span class="meta-tag gold">3 Slides</span>
+              <span class="meta-tag">Toxina preventiva</span>
+            </div>
+            <span class="template-cta">Abrir plantilla
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+            </span>
+          </div>
+        </a>
+
+        <!-- 07 Flyer Toxina 3 Zonas (NUEVO) -->
+        <a href="templates/flyer-02-toxina-3zonas.html" class="template-card" target="_blank" rel="noopener">
+          <div class="template-preview">
+            <span class="template-badge"><span class="badge badge-gold-filled">FLYER</span></span>
+            <div class="template-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="M23 12.79A9 9 0 1 1 14.21 3 7 7 0 0 0 23 12.79z"/></svg>
+            </div>
+          </div>
+          <div class="template-content">
+            <h3 class="template-title">Toxina Botulínica 3 Zonas</h3>
+            <p class="template-desc">Hero 60% + info 40%. Badge top-ventas, headline, 3 beneficios, key info (15 min / 3 zonas / 5-7 días), CTA full width.</p>
+            <div class="template-meta">
+              <span class="meta-tag">Post 1:1</span>
+              <span class="meta-tag gold">Toxina 3 zonas</span>
+              <span class="meta-tag">Editable</span>
+            </div>
+            <span class="template-cta">Abrir plantilla
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+            </span>
+          </div>
+        </a>
+
+        <!-- 08 Carrusel Dermapen Resultados (NUEVO) -->
+        <a href="templates/carousel-03-dermapen-resultados.html" class="template-card" target="_blank" rel="noopener">
+          <div class="template-preview">
+            <span class="template-badge"><span class="badge badge-gold-filled">CARRUSEL</span></span>
+            <div class="template-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M23 12.79A9 9 0 1 1 14.21 3 7 7 0 0 0 23 12.79z"/><path d="M15 12v7"/><path d="M15 19l-3-3 3-3"/></svg>
+            </div>
+          </div>
+          <div class="template-content">
+            <h3 class="template-title">Dermapen Resultados</h3>
+            <p class="template-desc">4 slides: Portada → Split A/D + métricas (-60% cicatrices, -45% poros, +85% luminosidad) → Protocolo 3 pasos → CTA + disclaimer médico.</p>
+            <div class="template-meta">
+              <span class="meta-tag">Carrusel 1:1</span>
+              <span class="meta-tag gold">4 Slides</span>
+              <span class="meta-tag">Microneedling</span>
+            </div>
+            <span class="template-cta">Abrir plantilla
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+            </span>
+          </div>
+        </a>
+
+        <!-- 09 Flyer Ácido Hialurónico (NUEVO) -->
+        <a href="templates/flyer-04-acido-hialuronico.html" class="template-card" target="_blank" rel="noopener">
+          <div class="template-preview">
+            <span class="template-badge"><span class="badge badge-gold-filled">FLYER</span></span>
+            <div class="template-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="M21 12.79A9 9 0 1 1 14.21 3 7 7 0 0 0 21 12.79z"/></svg>
+            </div>
+          </div>
+          <div class="template-content">
+            <h3 class="template-title">Ácido Hialurónico Premium</h3>
+            <p class="template-desc">Fondo navy + pattern linen. Headline gold, grid 2x2 zonas (labios/surcos/pómulos/ojeras), CTA blanco, solo @derma.essenza.</p>
+            <div class="template-meta">
+              <span class="meta-tag">Post 1:1</span>
+              <span class="meta-tag gold">Navy promo</span>
+              <span class="meta-tag">Editable</span>
+            </div>
+            <span class="template-cta">Abrir plantilla
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+            </span>
+          </div>
+        </a>
+
+        <!-- 10 Carrusel Prevención Edad (NUEVO - Duplicate del 06 pero el principal) -->
+        <a href="templates/carousel-01-prevencion-edad.html" class="template-card" target="_blank" rel="noopener">
+          <div class="template-preview">
+            <span class="template-badge"><span class="badge badge-gold-filled">CARRUSEL</span></span>
+            <div class="template-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+            </div>
+          </div>
+          <div class="template-content">
+            <h3 class="template-title">Prevención por Edad (Principal)</h3>
+            <p class="template-desc">3 slides: Close-up 35+ → Split 25 vs 45 + tabla 4 edades → CTA "La prevención siempre da mejores resultados". Solo @derma.essenza.</p>
+            <div class="template-meta">
+              <span class="meta-tag">Carrusel 1:1</span>
+              <span class="meta-tag gold">3 Slides</span>
+              <span class="meta-tag">Toxina preventiva</span>
+            </div>
+            <span class="template-cta">Abrir plantilla
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+            </span>
+          </div>
+        </a>
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer-note">
+      <p>Sistema de diseño <strong>Derma Essenza</strong> — Navy <code>#0B1220</code> + Gold <code>#C5A572</code> · Inter + Playfair Display</p>
+      <p style="margin-top: var(--space-2);">Abre cualquier plantilla → Edita textos (click) / Cambia imágenes (click en placeholder) → <kbd>Ctrl+S</kbd> guarda · <strong>Botón "Descargar PNG"</strong> exporta 2160×2160px retina</p>
+      <p style="margin-top: var(--space-2); font-size: var(--text-xs);">Ver <a href="STYLE_GUIDE.md" style="color: var(--gold-500); text-decoration: underline;">STYLE_GUIDE.md</a> para reglas de marca, jerarquía, fotografía y naming.</p>
+    </footer>
+  </div>
+
+  <!-- Shortcuts Hint -->
+  <div class="shortcuts-hint" aria-hidden="true">
+    <kbd>←</kbd> <kbd>→</kbd> Navegar carrusel · <kbd>Ctrl</kbd>+<kbd>S</kbd> Guardar · Click en texto/imagen para editar
+  </div>
+</body>
+</html>

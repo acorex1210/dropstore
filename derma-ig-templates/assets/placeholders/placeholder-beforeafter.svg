@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1350" width="1080" height="1350">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#111A2E"/>
+      <stop offset="100%" style="stop-color:#0B1220"/>
+    </linearGradient>
+    <clipPath id="leftClip"><rect x="0" y="0" width="540" height="1350"/></clipPath>
+    <clipPath id="rightClip"><rect x="540" y="0" width="540" height="1350"/></clipPath>
+  </defs>
+  <rect fill="url(#bgGrad)" width="1080" height="1350"/>
+  <line x1="540" y1="0" x2="540" y2="1350" stroke="#C5A572" stroke-width="2"/>
+  <g clip-path="url(#leftClip)">
+    <text x="270" y="100" text-anchor="middle" font-family="Inter, sans-serif" font-size="14" font-weight="600" fill="#C5A572">ANTES</text>
+    <text x="270" y="130" text-anchor="middle" font-family="Inter, sans-serif" font-size="11" fill="#5A7294">Baseline</text>
+    <ellipse cx="270" cy="550" rx="180" ry="220" fill="#1E2D4A"/>
+    <ellipse cx="200" cy="450" rx="40" ry="30" fill="#2A3F5E"/>
+    <ellipse cx="340" cy="450" rx="40" ry="30" fill="#2A3F5E"/>
+    <path d="M180 700 Q270 780 360 700" stroke="#3A4D6E" stroke-width="6" fill="none" stroke-linecap="round"/>
+  </g>
+  <g clip-path="url(#rightClip)">
+    <text x="810" y="100" text-anchor="middle" font-family="Inter, sans-serif" font-size="14" font-weight="600" fill="#C5A572">DESPUÉS 3M</text>
+    <text x="810" y="130" text-anchor="middle" font-family="Inter, sans-serif" font-size="11" fill="#C5A572">Post-tratamiento</text>
+    <ellipse cx="810" cy="550" rx="180" ry="220" fill="#1E2D4A"/>
+    <ellipse cx="740" cy="450" rx="40" ry="30" fill="#2A3F5E"/>
+    <ellipse cx="880" cy="450" rx="40" ry="30" fill="#2A3F5E"/>
+    <path d="M720 700 Q810 760 900 700" stroke="#C5A572" stroke-width="6" fill="none" stroke-linecap="round" opacity="0.6"/>
+    <ellipse cx="810" cy="550" rx="180" ry="220" fill="none" stroke="#C5A572" stroke-width="1" stroke-dasharray="8,4"/>
+  </g>
+  <text x="540" y="1250" text-anchor="middle" font-family="Inter, sans-serif" font-size="12" fill="#5A7294">SPLIT ESTÁTICO · Click cada lado para subir imágenes</text>
+  <text x="540" y="1270" text-anchor="middle" font-family="Inter, sans-serif" font-size="10" fill="#3A4D6E">1080 × 1350 px (4:5 cada panel)</text>
+</svg>

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1350" width="1080" height="1350">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#111A2E"/>
+      <stop offset="100%" style="stop-color:#0B1220"/>
+    </linearGradient>
+    <pattern id="noise" patternUnits="userSpaceOnUse" width="64" height="64">
+      <image href="data:image/svg+xml,%3Csvg viewBox='0 0 64 64' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.7' numOctaves='3'/%3E%3C/filter%3E%3Crect width='64' height='64' filter='url(%23n)' opacity='0.02'/%3E%3C/svg%3E" width="64" height="64"/>
+    </pattern>
+  </defs>
+  <rect fill="url(#bgGrad)" width="1080" height="1350"/>
+  <rect fill="url(#noise)" width="1080" height="1350"/>
+  <g transform="translate(540, 675)" text-anchor="middle" font-family="Inter, sans-serif" fill="#A8B3C8">
+    <rect x="-200" y="-80" width="400" height="160" rx="16" fill="#1E2D4A" stroke="#2A3F5E" stroke-width="2"/>
+    <text x="0" y="-40" font-size="16" font-weight="500" fill="#C5A572">TRATAMIENTO</text>
+    <text x="0" y="-12" font-size="13" fill="#5A7294">Imagen placeholder 4:5</text>
+    <text x="0" y="12" font-size="11" fill="#3A4D6E">Click para subir tu foto</text>
+    <text x="0" y="36" font-size="11" fill="#3A4D6E">1080 × 1350 px</text>
+  </g>
+  <circle cx="540" cy="540" r="3" fill="#C5A572" opacity="0.3"/>
+</svg>

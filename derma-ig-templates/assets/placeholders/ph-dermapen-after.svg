@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1350" width="1080" height="1350">
+  <defs>
+    <linearGradient id="bgGradDA" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#111A2E"/>
+      <stop offset="100%" style="stop-color:#0B1220"/>
+    </linearGradient>
+    <clipPath id="dermaClipA"><ellipse cx="540" cy="675" rx="380" ry="500"/></clipPath>
+  </defs>
+  <rect fill="url(#bgGradDA)" width="1080" height="1350"/>
+  <!-- Dermapen DESPUÉS: piel lisa, poros cerrados, glow -->
+  <g clip-path="url(#dermaClipA)">
+    <ellipse cx="540" cy="675" rx="380" ry="500" fill="#D4B896"/>
+    <!-- Piel lisa base -->
+    <ellipse cx="540" cy="675" rx="380" ry="500" fill="#E0C8A8" opacity="0.2"/>
+    <!-- Glow / luminosidad -->
+    <defs>
+      <radialGradient id="skinGlow" cx="50%" cy="30%" r="70%">
+        <stop offset="0%" stop-color="#F5ECD8" stop-opacity="0.25"/>
+        <stop offset="100%" stop-color="transparent"/>
+      </radialGradient>
+    </defs>
+    <ellipse cx="540" cy="675" rx="380" ry="500" fill="url(#skinGlow)"/>
+    <!-- Puntos luz sutiles -->
+    <g fill="#F5ECD8" opacity="0.6">
+      <circle cx="460" cy="550" r="3"/><circle cx="500" cy="520" r="2"/>
+      <circle cx="580" cy="540" r="3"/><circle cx="620" cy="560" r="2"/>
+      <circle cx="480" cy="680" r="2"/><circle cx="520" cy="700" r="2"/>
+      <circle cx="600" cy="680" r="3"/><circle cx="560" cy="720" r="2"/>
+    </g>
+    <!-- Poros mínimos (apenas visibles) -->
+    <g fill="#2D2D2D" opacity="0.08">
+      <circle cx="400" cy="620" r="1"/><circle cx="420" cy="610" r="1"/>
+      <circle cx="660" cy="620" r="1"/><circle cx="680" cy="610" r="1"/>
+    </g>
+    <!-- Ojos -->
+    <ellipse cx="380" cy="500" rx="55" ry="30" fill="#2D2D2D"/>
+    <ellipse cx="700" cy="500" rx="55" ry="30" fill="#2D2D2D"/>
+    <ellipse cx="385" cy="500" rx="18" ry="18" fill="#1A1A1A"/>
+    <ellipse cx="705" cy="500" rx="18" ry="18" fill="#1A1A1A"/>
+    <!-- Cejas -->
+    <path d="M330 445 Q380 430 430 445" stroke="#3D3D3D" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <path d="M650 445 Q700 430 750 445" stroke="#3D3D3D" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <!-- Nariz -->
+    <ellipse cx="540" cy="620" rx="35" ry="45" fill="#C4A07A" opacity="0.3"/>
+    <!-- Labios hidratados -->
+    <ellipse cx="540" cy="780" rx="120" ry="40" fill="#C8A59A"/>
+    <ellipse cx="540" cy="775" rx="100" ry="25" fill="#D4B8A8"/>
+    <!-- Reflejo luz labio -->
+    <ellipse cx="500" cy="765" rx="30" ry="8" fill="#F5ECD8" opacity="0.5"/>
+  </g>
+  <!-- Textos -->
+  <text x="540" y="1220" text-anchor="middle" font-family="Inter, sans-serif" font-size="18" font-weight="500" fill="#C5A572">PLACEHOLDER - DERMAPEN DESPUÉS</text>
+  <text x="540" y="1250" text-anchor="middle" font-family="Inter, sans-serif" font-size="13" fill="#5A7294">Piel lisa · Poros cerrados · Luminosidad · 4:5</text>
+  <text x="540" y="1275" text-anchor="middle" font-family="Inter, sans-serif" font-size="11" fill="#3A4D6E">Click para subir foto</text>
+</svg>

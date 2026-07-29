@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1350" width="1080" height="1350">
+  <defs>
+    <linearGradient id="bgGradAHC" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#111A2E"/>
+      <stop offset="100%" style="stop-color:#0B1220"/>
+    </linearGradient>
+  </defs>
+  <rect fill="url(#bgGradAHC)" width="1080" height="1350"/>
+  <!-- Ácido Hialurónico PÓMULOS: proyección 3D, volumen, lifting -->
+  <g transform="translate(540, 600)">
+    <!-- Rostro base -->
+    <ellipse cx="0" cy="0" rx="380" ry="500" fill="#D4B896"/>
+    <!-- Sombra contorno -->
+    <ellipse cx="0" cy="0" rx="380" ry="500" fill="transparent" stroke="#9A7B5E" stroke-width="2" opacity="0.2"/>
+    <!-- Pómulo IZQUIERDO proyectado -->
+    <ellipse cx="-200" cy="0" rx="120" ry="80" fill="#E0C8A8" opacity="0.5"/>
+    <ellipse cx="-200" cy="0" rx="90" ry="60" fill="#E8D8B8" opacity="0.4"/>
+    <ellipse cx="-200" cy="0" rx="60" ry="40" fill="#F0E8D8" opacity="0.3"/>
+    <!-- Pómulo DERECHO proyectado -->
+    <ellipse cx="200" cy="0" rx="120" ry="80" fill="#E0C8A8" opacity="0.5"/>
+    <ellipse cx="200" cy="0" rx="90" ry="60" fill="#E8D8B8" opacity="0.4"/>
+    <ellipse cx="200" cy="0" rx="60" ry="40" fill="#F0E8D8" opacity="0.3"/>
+    <!-- Luz superior pómulos (proyección 3D) -->
+    <ellipse cx="-200" cy="-30" rx="80" ry="30" fill="#F5ECD8" opacity="0.4"/>
+    <ellipse cx="200" cy="-30" rx="80" ry="30" fill="#F5ECD8" opacity="0.4"/>
+    <!-- Mejillas voluminosas -->
+    <ellipse cx="-180" cy="120" rx="100" ry="80" fill="#E8D8B8" opacity="0.3"/>
+    <ellipse cx="180" cy="120" rx="100" ry="80" fill="#E8D8B8" opacity="0.3"/>
+    <!-- Surco nasogeniano suavizado (línea sutil) -->
+    <path d="M-140 80 Q-120 140 -110 210" stroke="#D4A88A" stroke-width="2" fill="none" stroke-linecap="round" opacity="0.3"/>
+    <path d="M140 80 Q120 140 110 210" stroke="#D4A88A" stroke-width="2" fill="none" stroke-linecap="round" opacity="0.3"/>
+    <!-- Ojos -->
+    <ellipse cx="-110" cy="-120" rx="55" ry="30" fill="#2D2D2D"/>
+    <ellipse cx="110" cy="-120" rx="55" ry="30" fill="#2D2D2D"/>
+    <ellipse cx="-105" cy="-120" rx="18" ry="18" fill="#1A1A1A"/>
+    <ellipse cx="105" cy "-120" rx="18" ry="18" fill="#1A1A1A"/>
+    <!-- Cejas -->
+    <path d="M-155 -165 Q-110 -180 -65 -165" stroke="#3D3D3D" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <path d="M65 -165 Q110 -180 155 -165" stroke="#3D3D3D" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <!-- Nariz -->
+    <ellipse cx="0" cy="50" rx="35" ry="45" fill="#C4A07A" opacity="0.3"/>
+    <!-- Labios -->
+    <ellipse cx="0" cy="230" rx="120" ry="40" fill="#B88A6A"/>
+    <ellipse cx="0" cy="225" rx="100" ry="25" fill="#C89A7A"/>
+  </g>
+  <!-- Textos -->
+  <text x="540" y="1220" text-anchor="middle" font-family="Inter, sans-serif" font-size="18" font-weight="500" fill="#C5A572">PLACEHOLDER - AH PÓMULOS</text>
+  <text x="540" y="1250" text-anchor="middle" font-family="Inter, sans-serif" font-size="13" fill="#5A7294">Proyección 3D · Volumen · Lifting · 4:5</text>
+  <text x="540" y="1275" text-anchor="middle" font-family="Inter, sans-serif" font-size="11" fill="#3A4D6E">Click para subir foto</text>
+</svg>

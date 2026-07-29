@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=1080, height=1080">
+  <title>Derma Essenza — Carrusel Antes/Después</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../tokens.css">
+  <link rel="stylesheet" href="../base.css">
+  <link rel="stylesheet" href="../components.css">
+  <style>
+    .ba-frame .pattern-overlay { opacity: 0.02; }
+    .ba-frame .watermark { color: var(--navy-900); opacity: 0.08; }
+    .comparison-static { grid-template-columns: 1fr 1fr; }
+    @media (max-width: 768px) {
+      .comparison-static { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <div class="ig-frame ba-frame">
+    <div class="pattern-overlay" data-pattern="noise"></div>
+
+    <div class="carousel">
+      <div class="carousel-track" id="baTrack">
+        <!-- SLIDE 1: PORTADA -->
+        <div class="carousel-slide ba-slide flex flex-col items-center justify-center text-center px-10">
+          <div class="mb-4" data-editable="slide1-badge">
+            <span class="badge badge-gold">Caso clínico real</span>
+          </div>
+          <h1 class="headline text-3xl mb-3 leading-tight max-w-[700px]" data-editable="slide1-title">
+            Ellansé Mejillas: <span class="headline-gold">Volumen y firmeza</span>
+          </h1>
+          <p class="subhead text-lg mb-6 opacity-70 max-w-[600px]" data-editable="slide1-desc">
+            Bioestimulación de colágeno propio — Paciente 42 años · 3 meses post
+          </p>
+          <div class="accent-line mx-auto mb-6"></div>
+          <p class="caption caption-gold text-base" data-editable="slide1-swipe">
+            Desliza para ver la comparativa →
+          </p>
+          <div class="watermark mt-10">Derma Essenza</div>
+        </div>
+
+        <!-- SLIDE 2: ANTES/DESPUÉS SPLIT ESTÁTICO -->
+        <div class="carousel-slide ba-slide flex flex-col items-center justify-center px-6">
+          <div class="w-full max-w-[920px]">
+            <div class="flex items-center justify-between mb-4">
+              <h2 class="headline text-xl" data-editable="slide2-title">Comparativa lateral 3 meses</h2>
+              <span class="caption caption-gold" data-editable="slide2-meta">M.R. · 42 años · Ellansé M (2 jeringas)</span>
+            </div>
+
+            <div class="comparison-static" data-editable="slide2-comparison">
+              <!-- ANTES -->
+              <div class="comparison-panel">
+                <div class="img-frame ig-portrait">
+                  <img
+                    src="../assets/placeholders/placeholder-before.svg"
+                    alt="Antes tratamiento Ellansé mejillas"
+                    data-editable="slide2-img-before"
+                    data-image="slide2-img-before"
+                  >
+                </div>
+                <div class="comparison-label">
+                  <span class="comparison-tag before" data-editable="slide2-label-before">Antes</span>
+                  <span class="caption caption-gold text-xs" data-editable="slide2-date-before">Baseline</span>
+                </div>
+              </div>
+
+              <!-- DESPUÉS -->
+              <div class="comparison-panel">
+                <div class="img-frame ig-portrait">
+                  <img
+                    src="../assets/placeholders/placeholder-after.svg"
+                    alt="Después tratamiento Ellansé mejillas 3 meses"
+                    data-editable="slide2-img-after"
+                    data-image="slide2-img-after"
+                  >
+                </div>
+                <div class="comparison-label">
+                  <span class="comparison-tag after" data-editable="slide2-label-after">Después 3 meses</span>
+                  <span class="caption caption-gold text-xs" data-editable="slide2-date-after">Post-tratamiento</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Key Improvements -->
+            <div class="grid grid-cols-3 gap-3 mt-6" data-editable="slide2-improvements">
+              <div class="bg-navy-800 p-4 rounded-lg text-center border border-navy-600">
+                <div class="text-2xl font-display font-medium text-gold" data-editable="slide2-improve-1-val">+38%</div>
+                <div class="caption text-navy-300" data-editable="slide2-improve-1-label">Volumen pómulo</div>
+              </div>
+              <div class="bg-navy-800 p-4 rounded-lg text-center border border-navy-600">
+                <div class="text-2xl font-display font-medium text-gold" data-editable="slide2-improve-2-val">+22%</div>
+                <div class="caption text-navy-300" data-editable="slide2-improve-2-label">Elasticidad cutánea</div>
+              </div>
+              <div class="bg-navy-800 p-4 rounded-lg text-center border border-navy-600">
+                <div class="text-2xl font-display font-medium text-gold" data-editable="slide2-improve-3-val">-31%</div>
+                <div class="caption text-navy-300" data-editable="slide2-improve-3-label">Surco nasogeniano</div>
+              </div>
+            </div>
+          </div>
+          <div class="watermark">Derma Essenza</div>
+        </div>
+
+        <!-- SLIDE 3: DETALLE ZONA TRATADA -->
+        <div class="carousel-slide ba-slide flex flex-col px-8">
+          <div class="mb-4 flex items-center justify-between">
+            <span class="badge badge-gold" data-editable="slide3-badge">2/5 · Zona tratada</span>
+            <span class="caption caption-gold" data-editable="slide3-area">Mejillas + pómulos</span>
+          </div>
+          <h2 class="headline text-2xl mb-3" data-editable="slide3-title">Anatomía del tratamiento</h2>
+          <div class="accent-line mb-6"></div>
+
+          <div class="flex-1 grid grid-cols-2 gap-4" data-editable="slide3-grid">
+            <div class="bg-navy-800 p-5 rounded-lg border border-navy-600">
+              <h3 class="font-display font-medium text-gold mb-3" data-editable="slide3-left-title">Puntos de inyección</h3>
+              <ul class="space-y-2 text-sm text-navy-200" data-editable="slide3-left-list">
+                <li>· 2 puntos por lado (técnica bolus)</li>
+                <li>· Plano supraperióstico profundo</li>
+                <li>· Ápice pómulo + zona media</li>
+                <li>· Microcánula 27G 50mm</li>
+              </ul>
+            </div>
+
+            <div class="bg-navy-800 p-5 rounded-lg border border-navy-600">
+              <h3 class="font-display font-medium text-gold mb-3" data-editable="slide3-right-title">Qué mejora</h3>
+              <ul class="space-y-2 text-sm text-navy-200" data-editable="slide3-right-list">
+                <li>· Proyección pómulo (efecto lifting)</li>
+                <li>· Soporte compartimento medial</li>
+                <li>· Descongestión surco nasogeniano</li>
+                <li>· Tensión cutánea progresiva</li>
+              </ul>
+            </div>
+
+            <div class="bg-navy-800 p-5 rounded-lg border border-navy-600 col-span-2">
+              <h3 class="font-display font-medium text-gold mb-3" data-editable="slide3-tech-title">Técnica: Bolus profundo + abanico</h3>
+              <p class="text-sm text-navy-200 leading-relaxed" data-editable="slide3-tech-desc">
+                Depósito de 0.5-0.8ml por punto en plano supraperióstico, seguido de abanico retrogrado para distribución homogénea.
+                Masaje post-inyección para modelado. Protocolo estéril completo, anestesia tópica 30 min previo.
+              </p>
+            </div>
+          </div>
+          <div class="watermark">Derma Essenza</div>
+        </div>
+
+        <!-- SLIDE 4: PROTOCOLO / SESIONES -->
+        <div class="carousel-slide ba-slide flex flex-col px-8">
+          <div class="mb-4 flex items-center justify-between">
+            <span class="badge badge-gold" data-editable="slide4-badge">3/5 · Protocolo</span>
+            <span class="caption caption-gold" data-editable="slide4-product">Ellansé M</span>
+          </div>
+          <h2 class="headline text-2xl mb-3" data-editable="slide4-title">Plan de tratamiento</h2>
+          <div class="accent-line mb-6"></div>
+
+          <div class="flex-1 grid grid-cols-3 gap-4" data-editable="slide4-protocol">
+            <div class="bg-navy-800 p-5 rounded-lg border border-navy-600 text-center">
+              <div class="w-12 h-12 mx-auto mb-3 flex items-center justify-center bg-gold-50 rounded-lg text-gold">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              </div>
+              <h3 class="font-display font-medium mb-2" data-editable="slide4-s1-title">Sesión única</h3>
+              <p class="caption text-navy-300" data-editable="slide4-s1-desc">Aplicación completa<br>30-45 minutos</p>
+            </div>
+
+            <div class="bg-navy-800 p-5 rounded-lg border border-navy-600 text-center">
+              <div class="w-12 h-12 mx-auto mb-3 flex items-center justify-center bg-gold-50 rounded-lg text-gold">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+              </div>
+              <h3 class="font-display font-medium mb-2" data-editable="slide4-s2-title">Control 15 días</h3>
+              <p class="caption text-navy-300" data-editable="slide4-s2-desc">Revisión evolución<br>Masaje si necesario</p>
+            </div>
+
+            <div class="bg-navy-800 p-5 rounded-lg border border-navy-600 text-center">
+              <div class="w-12 h-12 mx-auto mb-3 flex items-center justify-center bg-gold-50 rounded-lg text-gold">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+              </div>
+              <h3 class="font-display font-medium mb-2" data-editable="slide4-s3-title">Control 3 meses</h3>
+              <p class="caption text-navy-300" data-editable="slide4-s3-desc">Evaluación resultado<br>Fotografía estandarizada</p>
+            </div>
+          </div>
+
+          <!-- Cuidados box -->
+          <div class="mt-6 p-4 bg-navy-800 rounded-lg border border-navy-600" data-editable="slide4-care">
+            <h3 class="font-display font-medium text-gold mb-2">Cuidados post-procedimiento</h3>
+            <ul class="space-y-1 text-sm text-navy-200 grid grid-cols-2" data-editable="slide4-care-list">
+              <li>· No masajear 48h</li>
+              <li>· No calor extremo 1 sem</li>
+              <li>· Dormir boca arriba 1 noche</li>
+              <li>· Crema reparadora 2x/día</li>
+              <li>· Protector solar FPS50+</li>
+              <li>· Evitar gimnasio 48h</li>
+            </ul>
+          </div>
+          <div class="watermark">Derma Essenza</div>
+        </div>
+
+        <!-- SLIDE 5: CTA + DISCLAIMER -->
+        <div class="carousel-slide ba-slide flex flex-col items-center justify-center text-center px-10">
+          <div class="mb-4" data-editable="slide5-badge">
+            <span class="badge badge-gold-filled">Tu turno</span>
+          </div>
+          <h2 class="headline headline-gold text-3xl mb-3" data-editable="slide5-title">
+            ¿Quieres tu propio antes/después?
+          </h2>
+          <p class="subhead text-lg mb-6 opacity-80 max-w-[600px]" data-editable="slide5-desc">
+            Agenda tu valoración facial 3D sin compromiso. Analizamos tu anatomía y diseñamos tu plan personalizado.
+          </p>
+          <div class="accent-line mx-auto mb-8"></div>
+
+          <button class="btn-cta btn-cta-primary btn-cta-lg w-full max-w-[400px] mb-4" data-editable="slide5-cta">
+            Agendar valoración gratuita
+          </button>
+
+          <div class="flex items-center justify-center gap-4 text-sm text-navy-400 mb-6" data-editable="slide5-contact">
+            <span>📱 WhatsApp</span>
+            <span class="text-navy-300">|</span>
+            <span>📞 +51 968 797 977</span>
+            <span class="text-navy-300">|</span>
+            <span>@dermaessenza</span>
+          </div>
+
+          <p class="disclaimer disclaimer-gold" data-editable="slide5-disclaimer">
+            Caso real paciente Derma Essenza con consentimiento firmado. Resultados individuales, no garantizan resultados similares. Requiere evaluación médica previa. Ellansé dispositivo médico CE/FDA.
+          </p>
+
+          <div class="watermark mt-6">Derma Essenza</div>
+        </div>
+      </div>
+
+      <!-- Carousel Dots -->
+      <div class="carousel-dots" id="baDots">
+        <button class="carousel-dot active" data-slide="0" aria-label="Portada"></button>
+        <button class="carousel-dot" data-slide="1" aria-label="Antes/Después"></button>
+        <button class="carousel-dot" data-slide="2" aria-label="Zona tratada"></button>
+        <button class="carousel-dot" data-slide="3" aria-label="Protocolo"></button>
+        <button class="carousel-dot" data-slide="4" aria-label="CTA Final"></button>
+      </div>
+
+      <!-- Nav Arrows -->
+      <button class="carousel-nav prev" aria-label="Anterior"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"/></svg></button>
+      <button class="carousel-nav next" aria-label="Siguiente"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg></button>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js"></script>
+  <script src="../js/editor.js"></script>
+  <script src="../js/export.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      DermaEditor.init('beforeafter-carousel');
+      DermaExport.createExportButton({ templateName: 'carousel_antes_despues_ellanse' });
+
+      // Carousel logic
+      const track = document.getElementById('baTrack');
+      const dots = document.querySelectorAll('#baDots .carousel-dot');
+      const slides = document.querySelectorAll('.ba-slide');
+      let currentSlide = 0;
+      const totalSlides = slides.length;
+
+      function goToSlide(index) {
+        if (index < 0) index = totalSlides - 1;
+        if (index >= totalSlides) index = 0;
+        currentSlide = index;
+        track.style.transform = `translateX(-${index * 100}%)`;
+        dots.forEach((dot, i) => dot.classList.toggle('active', i === index));
+      }
+
+      dots.forEach(dot => dot.addEventListener('click', () => goToSlide(+dot.dataset.slide)));
+      document.querySelector('.carousel-nav.prev').addEventListener('click', () => goToSlide(currentSlide - 1));
+      document.querySelector('.carousel-nav.next').addEventListener('click', () => goToSlide(currentSlide + 1));
+
+      document.addEventListener('keydown', e => {
+        if (e.key === 'ArrowLeft') goToSlide(currentSlide - 1);
+        if (e.key === 'ArrowRight') goToSlide(currentSlide + 1);
+      });
+
+      let startX = 0;
+      track.addEventListener('touchstart', e => startX = e.touches[0].clientX, { passive: true });
+      track.addEventListener('touchend', e => {
+        const diff = startX - e.changedTouches[0].clientX;
+        if (Math.abs(diff) > 50) goToSlide(currentSlide + (diff > 0 ? 1 : -1));
+      }, { passive: true });
+    });
+  </script>
+</body>
+</html>

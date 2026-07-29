@@ -1,0 +1,1187 @@
+2026-07-13 18:56:06,301 INFO Conectando a Google Sheets...
+2026-07-13 18:56:10,250 INFO CONFIRMADOS CJ -- HOY (13/07/2026)
+2026-07-13 18:56:12,219 INFO Filas: 19
+2026-07-13 18:56:12,575 INFO Mensaje: CONFIRMADOS CJ -- HOY (13/07/2026)
+Para hoy tenemos 11 agendados, 4 evaluaciones y 4 retoques
+2026-07-13 18:56:12,576 INFO Enviando WhatsApp...
+2026-07-13 18:57:34,788 INFO Conectando a Google Sheets...
+2026-07-13 18:57:35,655 INFO CONFIRMADOS CJ -- HOY (13/07/2026)
+2026-07-13 18:57:37,583 INFO Filas: 19
+2026-07-13 18:57:37,912 INFO Mensaje: CONFIRMADOS CJ -- HOY (13/07/2026)
+Para hoy tenemos 11 agendados, 4 evaluaciones y 4 retoques
+2026-07-13 18:57:37,912 INFO Enviando WhatsApp...
+2026-07-14 00:01:27,159 INFO Conectando a Google Sheets...
+2026-07-14 00:01:29,117 INFO CONFIRMADOS CJ -- HOY (15/07/2026)
+2026-07-14 00:01:30,991 INFO Filas: 9
+2026-07-14 00:01:31,186 INFO Mensaje: CONFIRMADOS CJ -- HOY (15/07/2026)
+Para hoy tenemos 8 agendados y 1 retoque
+2026-07-14 00:01:31,186 INFO Enviando WhatsApp...
+2026-07-14 00:03:39,677 INFO Enviado
+2026-07-14 00:03:39,680 INFO CONFIRMADOS CJ -- MANANA (16/07/2026)
+2026-07-14 00:03:41,346 INFO Filas: 7
+2026-07-14 00:03:41,487 INFO Mensaje: CONFIRMADOS CJ -- MANANA (16/07/2026)
+Para manana tenemos 5 agendados, 1 sesion y 1 retoque
+2026-07-14 00:03:41,487 INFO Enviando WhatsApp...
+2026-07-14 00:07:26,081 INFO Conectando a Google Sheets...
+2026-07-14 00:07:26,850 INFO CONFIRMADOS CJ -- HOY (14/07/2026)
+2026-07-14 00:07:28,608 INFO Filas: 12
+2026-07-14 00:07:28,844 INFO Mensaje: CONFIRMADOS CJ -- HOY (14/07/2026)
+Para hoy tenemos 11 agendados y 1 evaluacion
+2026-07-14 00:07:28,844 INFO Enviando WhatsApp...
+2026-07-14 00:10:25,276 INFO Conectando a Google Sheets...
+2026-07-14 00:10:26,433 INFO CONFIRMADOS CJ -- HOY (14/07/2026)
+2026-07-14 00:10:28,127 INFO Filas: 12
+2026-07-14 00:10:28,355 INFO Mensaje: CONFIRMADOS CJ -- HOY (14/07/2026)
+Para hoy tenemos 11 agendados y 1 evaluacion
+2026-07-14 00:10:28,355 INFO Enviando WhatsApp...
+2026-07-14 00:13:12,220 INFO Enviado
+2026-07-14 00:13:12,227 INFO CONFIRMADOS CJ -- MANANA (15/07/2026)
+2026-07-14 00:13:14,067 INFO Filas: 9
+2026-07-14 00:13:14,254 INFO Mensaje: CONFIRMADOS CJ -- MANANA (15/07/2026)
+Para manana tenemos 8 agendados y 1 retoque
+2026-07-14 00:13:14,254 INFO Enviando WhatsApp...
+2026-07-14 00:14:56,307 INFO Enviado
+2026-07-14 00:14:56,310 INFO CONFIRMADOS BM -- HOY (14/07/2026)
+2026-07-14 00:14:57,096 INFO Filas: 10
+2026-07-14 00:14:57,329 INFO Mensaje: CONFIRMADOS BM -- HOY (14/07/2026)
+Para hoy tenemos 9 agendados y 1 evaluacion
+2026-07-14 00:14:57,329 INFO Enviando WhatsApp...
+2026-07-14 00:16:39,294 INFO Enviado
+2026-07-14 00:16:39,299 INFO CONFIRMADOS BM -- MANANA (15/07/2026)
+2026-07-14 00:16:39,951 INFO Filas: 3
+2026-07-14 00:16:40,056 INFO Mensaje: CONFIRMADOS BM -- MANANA (15/07/2026)
+Para manana tenemos 3 agendados
+2026-07-14 00:16:40,056 INFO Enviando WhatsApp...
+2026-07-14 00:18:22,001 INFO Enviado
+2026-07-14 00:18:22,003 INFO Finalizado.
+2026-07-14 06:45:04,707 INFO Conectando a Google Sheets...
+2026-07-14 06:45:06,259 INFO CONFIRMADOS CJ -- HOY (14/07/2026)
+2026-07-14 06:45:08,112 INFO Filas: 20
+2026-07-14 06:45:08,522 INFO Mensaje: CONFIRMADOS CJ -- HOY (14/07/2026)
+Para hoy tenemos 13 agendados, 3 evaluaciones y 4 retoques
+2026-07-14 06:45:08,522 INFO Enviando WhatsApp...
+2026-07-14 06:47:53,125 ERROR ERROR WhatsApp: [Errno 30] Read-only file system: 'PyWhatKit_DB.txt'
+2026-07-14 06:47:53,128 INFO Imagen guardada en: /Users/dermaessenza/TRABAJO/capturas/CONFIRMADOS_CJ_HOY.jpg
+2026-07-14 06:47:53,129 INFO CONFIRMADOS CJ -- MANANA (15/07/2026)
+2026-07-14 06:47:57,892 INFO Filas: 12
+2026-07-14 06:48:00,443 INFO Mensaje: CONFIRMADOS CJ -- MANANA (15/07/2026)
+Para manana tenemos 10 agendados, 1 sesion y 1 retoque
+2026-07-14 06:48:00,464 INFO Enviando WhatsApp...
+2026-07-14 06:49:47,253 ERROR ERROR WhatsApp: [Errno 30] Read-only file system: 'PyWhatKit_DB.txt'
+2026-07-14 06:49:47,259 INFO Imagen guardada en: /Users/dermaessenza/TRABAJO/capturas/CONFIRMADOS_CJ_MANANA.jpg
+2026-07-14 06:49:47,263 INFO CONFIRMADOS BM -- HOY (14/07/2026)
+2026-07-14 06:49:48,417 INFO Filas: 14
+2026-07-14 06:49:48,833 INFO Mensaje: CONFIRMADOS BM -- HOY (14/07/2026)
+Para hoy tenemos 13 agendados y 1 evaluacion
+2026-07-14 06:49:48,833 INFO Enviando WhatsApp...
+2026-07-14 06:51:31,781 ERROR ERROR WhatsApp: [Errno 30] Read-only file system: 'PyWhatKit_DB.txt'
+2026-07-14 06:51:31,792 INFO Imagen guardada en: /Users/dermaessenza/TRABAJO/capturas/CONFIRMADOS_BM_HOY.jpg
+2026-07-14 06:51:31,794 INFO CONFIRMADOS BM -- MANANA (15/07/2026)
+2026-07-14 06:51:32,812 INFO Filas: 4
+2026-07-14 06:51:32,983 INFO Mensaje: CONFIRMADOS BM -- MANANA (15/07/2026)
+Para manana tenemos 4 agendados
+2026-07-14 06:51:32,983 INFO Enviando WhatsApp...
+2026-07-14 06:53:15,735 ERROR ERROR WhatsApp: [Errno 30] Read-only file system: 'PyWhatKit_DB.txt'
+2026-07-14 06:53:15,742 INFO Imagen guardada en: /Users/dermaessenza/TRABAJO/capturas/CONFIRMADOS_BM_MANANA.jpg
+2026-07-14 06:53:15,743 INFO Finalizado.
+2026-07-14 09:51:03,593 INFO Conectando a Google Sheets...
+2026-07-14 09:51:07,646 INFO CONFIRMADOS CJ -- HOY (15/07/2026)
+2026-07-14 09:51:10,098 INFO Filas: 12
+2026-07-14 09:51:10,318 INFO Mensaje: CONFIRMADOS CJ -- HOY (15/07/2026)
+Para hoy tenemos 10 agendados, 1 sesion y 1 retoque
+2026-07-14 09:51:10,319 INFO Enviando WhatsApp...
+2026-07-14 09:53:53,438 INFO Enviado
+2026-07-14 09:53:53,441 INFO CONFIRMADOS CJ -- MANANA (16/07/2026)
+2026-07-14 09:53:56,047 INFO Filas: 6
+2026-07-14 09:53:56,206 INFO Mensaje: CONFIRMADOS CJ -- MANANA (16/07/2026)
+Para manana tenemos 6 agendados
+2026-07-14 09:53:56,206 INFO Enviando WhatsApp...
+2026-07-14 10:00:56,698 INFO Conectando a Google Sheets...
+2026-07-14 10:00:57,862 INFO CONFIRMADOS CJ -- HOY (14/07/2026)
+2026-07-14 10:01:00,476 INFO Filas: 20
+2026-07-14 10:01:00,792 INFO Mensaje: CONFIRMADOS CJ -- HOY (14/07/2026)
+Para hoy tenemos 13 agendados, 3 evaluaciones y 4 retoques
+2026-07-14 10:01:00,792 INFO Enviando WhatsApp...
+2026-07-14 18:20:44,179 INFO Conectando a Google Sheets...
+2026-07-14 18:20:45,720 INFO CONFIRMADOS CJ -- HOY (15/07/2026)
+2026-07-14 18:20:48,517 INFO Filas: 12
+2026-07-14 18:20:48,720 INFO Mensaje: CONFIRMADOS CJ -- HOY (15/07/2026)
+Para hoy tenemos 10 agendados, 1 sesion y 1 retoque
+2026-07-14 18:20:48,720 INFO Enviando WhatsApp...
+2026-07-14 18:23:32,154 INFO Enviado
+2026-07-14 18:23:32,157 INFO CONFIRMADOS CJ -- MANANA (16/07/2026)
+2026-07-14 18:23:34,820 INFO Filas: 6
+2026-07-14 18:23:34,955 INFO Mensaje: CONFIRMADOS CJ -- MANANA (16/07/2026)
+Para manana tenemos 6 agendados
+2026-07-14 18:23:34,955 INFO Enviando WhatsApp...
+2026-07-14 18:25:16,901 INFO Enviado
+2026-07-14 18:25:16,914 INFO CONFIRMADOS BM -- HOY (15/07/2026)
+2026-07-14 18:25:18,287 INFO Filas: 4
+2026-07-14 18:25:18,393 INFO Mensaje: CONFIRMADOS BM -- HOY (15/07/2026)
+Para hoy tenemos 4 agendados
+2026-07-14 18:25:18,393 INFO Enviando WhatsApp...
+2026-07-14 18:27:00,346 INFO Enviado
+2026-07-14 18:27:00,349 INFO CONFIRMADOS BM -- MANANA (16/07/2026)
+2026-07-14 18:27:01,448 INFO Filas: 2
+2026-07-14 18:27:01,532 INFO Mensaje: CONFIRMADOS BM -- MANANA (16/07/2026)
+Para manana tenemos 2 agendados
+2026-07-14 18:27:01,532 INFO Enviando WhatsApp...
+2026-07-14 18:28:43,430 INFO Enviado
+2026-07-14 18:28:43,432 INFO Finalizado.
+2026-07-15 07:00:06,505 INFO Conectando a Google Sheets...
+2026-07-15 07:00:10,553 INFO CONFIRMADOS CJ -- HOY (15/07/2026)
+2026-07-15 07:00:13,360 INFO Filas: 19
+2026-07-15 07:00:13,726 INFO Mensaje: CONFIRMADOS CJ -- HOY (15/07/2026)
+Para hoy tenemos 15 agendados, 1 sesion y 3 retoques
+2026-07-15 07:00:13,726 INFO Enviando WhatsApp...
+2026-07-15 07:02:59,098 ERROR ERROR WhatsApp: [Errno 30] Read-only file system: 'PyWhatKit_DB.txt'
+2026-07-15 07:02:59,103 INFO Imagen guardada en: /Users/dermaessenza/TRABAJO/capturas/CONFIRMADOS_CJ_HOY.jpg
+2026-07-15 07:02:59,106 INFO CONFIRMADOS CJ -- MANANA (16/07/2026)
+2026-07-15 07:03:01,703 INFO Filas: 8
+2026-07-15 07:03:01,901 INFO Mensaje: CONFIRMADOS CJ -- MANANA (16/07/2026)
+Para manana tenemos 8 agendados
+2026-07-15 07:03:01,901 INFO Enviando WhatsApp...
+2026-07-15 07:04:27,857 INFO Conectando a Google Sheets...
+2026-07-15 07:04:28,736 INFO CONFIRMADOS CJ -- HOY (15/07/2026)
+2026-07-15 07:04:31,108 INFO Filas: 19
+2026-07-15 07:04:31,408 INFO Mensaje: CONFIRMADOS CJ -- HOY (15/07/2026)
+Para hoy tenemos 15 agendados, 1 sesion y 3 retoques
+2026-07-15 07:04:31,408 INFO Enviando WhatsApp...
+2026-07-15 07:04:44,593 ERROR ERROR WhatsApp: [Errno 30] Read-only file system: 'PyWhatKit_DB.txt'
+2026-07-15 07:04:44,596 INFO Imagen guardada en: /Users/dermaessenza/TRABAJO/capturas/CONFIRMADOS_CJ_MANANA.jpg
+2026-07-15 07:04:44,596 INFO CONFIRMADOS BM -- HOY (15/07/2026)
+2026-07-15 07:04:45,378 INFO Filas: 5
+2026-07-15 07:04:45,500 INFO Mensaje: CONFIRMADOS BM -- HOY (15/07/2026)
+Para hoy tenemos 5 agendados
+2026-07-15 07:04:45,501 INFO Enviando WhatsApp...
+2026-07-15 07:06:32,853 ERROR ERROR WhatsApp: [Errno 30] Read-only file system: 'PyWhatKit_DB.txt'
+2026-07-15 07:06:32,860 INFO Imagen guardada en: /Users/dermaessenza/TRABAJO/capturas/CONFIRMADOS_BM_HOY.jpg
+2026-07-15 07:06:32,863 INFO CONFIRMADOS BM -- MANANA (16/07/2026)
+2026-07-15 07:06:33,776 INFO Filas: 3
+2026-07-15 07:06:33,928 INFO Mensaje: CONFIRMADOS BM -- MANANA (16/07/2026)
+Para manana tenemos 2 agendados y 1 retoque
+2026-07-15 07:06:33,928 INFO Enviando WhatsApp...
+2026-07-15 07:08:18,011 ERROR ERROR WhatsApp: [Errno 30] Read-only file system: 'PyWhatKit_DB.txt'
+2026-07-15 07:08:18,014 INFO Imagen guardada en: /Users/dermaessenza/TRABAJO/capturas/CONFIRMADOS_BM_MANANA.jpg
+2026-07-15 07:08:18,014 INFO Finalizado.
+2026-07-15 07:08:30,670 INFO Conectando a Google Sheets...
+2026-07-15 07:08:32,004 INFO CONFIRMADOS CJ -- HOY (15/07/2026)
+2026-07-15 07:08:34,175 INFO Filas: 19
+2026-07-15 07:08:34,519 INFO Mensaje: CONFIRMADOS CJ -- HOY (15/07/2026)
+Para hoy tenemos 15 agendados, 1 sesion y 3 retoques
+2026-07-15 07:08:34,519 INFO Enviando WhatsApp...
+2026-07-15 07:11:17,259 INFO Enviado
+2026-07-15 07:11:17,263 INFO CONFIRMADOS CJ -- MANANA (16/07/2026)
+2026-07-15 07:11:19,956 INFO Filas: 8
+2026-07-15 07:11:20,130 INFO Mensaje: CONFIRMADOS CJ -- MANANA (16/07/2026)
+Para manana tenemos 8 agendados
+2026-07-15 07:11:20,130 INFO Enviando WhatsApp...
+2026-07-15 07:13:02,662 INFO Enviado
+2026-07-15 07:13:02,666 INFO CONFIRMADOS BM -- HOY (15/07/2026)
+2026-07-15 07:13:03,691 INFO Filas: 5
+2026-07-15 07:13:03,851 INFO Mensaje: CONFIRMADOS BM -- HOY (15/07/2026)
+Para hoy tenemos 5 agendados
+2026-07-15 07:13:03,851 INFO Enviando WhatsApp...
+2026-07-15 07:14:45,841 INFO Enviado
+2026-07-15 07:14:45,846 INFO CONFIRMADOS BM -- MANANA (16/07/2026)
+2026-07-15 07:14:46,613 INFO Filas: 3
+2026-07-15 07:14:46,712 INFO Mensaje: CONFIRMADOS BM -- MANANA (16/07/2026)
+Para manana tenemos 2 agendados y 1 retoque
+2026-07-15 07:14:46,712 INFO Enviando WhatsApp...
+2026-07-15 07:16:28,690 INFO Enviado
+2026-07-15 07:16:28,692 INFO Finalizado.
+2026-07-15 10:23:29,625 INFO Conectando a Google Sheets...
+2026-07-15 10:23:32,555 INFO CONFIRMADOS CJ -- HOY (15/07/2026)
+2026-07-15 10:23:36,815 INFO Filas: 19
+2026-07-15 10:23:37,112 INFO Mensaje: CONFIRMADOS CJ -- HOY (15/07/2026)
+Para hoy tenemos 15 agendados, 1 sesion y 3 retoques
+2026-07-15 10:23:37,112 INFO Enviando WhatsApp...
+2026-07-15 10:26:51,267 INFO Enviado
+2026-07-15 10:26:51,275 INFO CONFIRMADOS CJ -- MANANA (16/07/2026)
+2026-07-15 10:26:55,765 INFO Filas: 8
+2026-07-15 10:26:55,931 INFO Mensaje: CONFIRMADOS CJ -- MANANA (16/07/2026)
+Para manana tenemos 8 agendados
+2026-07-15 10:26:55,931 INFO Enviando WhatsApp...
+2026-07-15 10:28:47,917 INFO Enviado
+2026-07-15 10:28:47,926 INFO CONFIRMADOS BM -- HOY (15/07/2026)
+2026-07-15 10:28:49,313 INFO Filas: 5
+2026-07-15 10:28:49,481 INFO Mensaje: CONFIRMADOS BM -- HOY (15/07/2026)
+Para hoy tenemos 5 agendados
+2026-07-15 10:28:49,481 INFO Enviando WhatsApp...
+2026-07-15 10:30:41,606 INFO Enviado
+2026-07-15 10:30:41,615 INFO CONFIRMADOS BM -- MANANA (16/07/2026)
+2026-07-15 10:30:42,660 INFO Filas: 3
+2026-07-15 10:30:42,754 INFO Mensaje: CONFIRMADOS BM -- MANANA (16/07/2026)
+Para manana tenemos 2 agendados y 1 retoque
+2026-07-15 10:30:42,754 INFO Enviando WhatsApp...
+2026-07-15 10:32:34,866 INFO Enviado
+2026-07-15 10:32:34,871 INFO Finalizado.
+2026-07-16 08:01:34,246 INFO Conectando a Google Sheets...
+2026-07-16 08:01:38,288 INFO CONFIRMADOS CJ -- HOY (16/07/2026)
+2026-07-16 08:01:40,552 INFO Filas: 15
+2026-07-16 08:01:40,811 INFO Mensaje: CONFIRMADOS CJ -- HOY (16/07/2026)
+Para hoy tenemos 14 agendados y 1 retoque
+2026-07-16 08:01:40,811 INFO Enviando WhatsApp...
+2026-07-16 08:05:22,130 INFO Conectando a Google Sheets...
+2026-07-16 08:05:23,407 INFO CONFIRMADOS CJ -- HOY (16/07/2026)
+2026-07-16 08:05:26,069 INFO Filas: 15
+2026-07-16 08:05:26,311 INFO Mensaje: CONFIRMADOS CJ -- HOY (16/07/2026)
+Para hoy tenemos 14 agendados y 1 retoque
+2026-07-16 08:05:26,311 INFO Enviando WhatsApp...
+2026-07-16 08:08:39,783 INFO Enviado
+2026-07-16 08:08:39,797 INFO CONFIRMADOS CJ -- MANANA (17/07/2026)
+2026-07-16 08:08:42,536 INFO Filas: 9
+2026-07-16 08:08:42,735 INFO Mensaje: CONFIRMADOS CJ -- MANANA (17/07/2026)
+Para manana tenemos 9 agendados
+2026-07-16 08:08:42,735 INFO Enviando WhatsApp...
+2026-07-16 08:09:21,588 INFO Conectando a Google Sheets...
+2026-07-16 08:09:22,933 INFO CONFIRMADOS CJ -- HOY (16/07/2026)
+2026-07-16 08:09:25,360 INFO Filas: 15
+2026-07-16 08:09:25,598 INFO Mensaje: CONFIRMADOS CJ -- HOY (16/07/2026)
+Para hoy tenemos 14 agendados y 1 retoque
+2026-07-16 08:09:25,598 INFO Enviando WhatsApp...
+2026-07-16 08:12:39,333 INFO Enviado
+2026-07-16 08:12:39,337 INFO CONFIRMADOS CJ -- MANANA (17/07/2026)
+2026-07-16 08:12:41,649 INFO Filas: 9
+2026-07-16 08:12:41,816 INFO Mensaje: CONFIRMADOS CJ -- MANANA (17/07/2026)
+Para manana tenemos 9 agendados
+2026-07-16 08:12:41,816 INFO Enviando WhatsApp...
+2026-07-16 08:24:40,247 INFO Conectando a Google Sheets...
+2026-07-16 08:24:44,101 INFO CONFIRMADOS CJ -- HOY (16/07/2026)
+2026-07-16 08:24:47,658 INFO Filas: 15
+2026-07-16 08:24:47,890 INFO Mensaje: CONFIRMADOS CJ -- HOY (16/07/2026)
+Para hoy tenemos 14 agendados y 1 retoque
+2026-07-16 08:24:47,891 INFO Enviando WhatsApp...
+2026-07-16 08:24:47,979 INFO Imagen copiada al portapapeles
+2026-07-16 08:24:48,070 INFO Esperando 30s para que WhatsApp Web cargue...
+2026-07-16 08:25:22,435 INFO Imagen pegada en WhatsApp
+2026-07-16 08:25:26,633 INFO Enviado
+2026-07-16 08:25:28,639 INFO CONFIRMADOS CJ -- MANANA (17/07/2026)
+2026-07-16 08:25:32,013 INFO Filas: 9
+2026-07-16 08:25:32,368 INFO Mensaje: CONFIRMADOS CJ -- MANANA (17/07/2026)
+Para manana tenemos 9 agendados
+2026-07-16 08:25:32,368 INFO Enviando WhatsApp...
+2026-07-16 08:25:32,491 INFO Imagen copiada al portapapeles
+2026-07-16 08:25:32,558 INFO Esperando 20s para que WhatsApp Web cargue...
+2026-07-16 08:28:26,950 INFO Conectando a Google Sheets...
+2026-07-16 08:28:27,811 INFO CONFIRMADOS CJ -- HOY (16/07/2026)
+2026-07-16 08:28:30,005 INFO Filas: 15
+2026-07-16 08:28:30,239 INFO Mensaje: CONFIRMADOS CJ -- HOY (16/07/2026)
+Para hoy tenemos 14 agendados y 1 retoque
+2026-07-16 08:28:30,239 INFO Enviando WhatsApp...
+2026-07-16 08:28:30,328 INFO Imagen copiada al portapapeles
+2026-07-16 08:28:30,394 INFO Esperando 30s para que WhatsApp Web cargue...
+2026-07-16 08:29:02,215 INFO Imagen pegada en WhatsApp
+2026-07-16 08:29:07,034 INFO Enviado
+2026-07-16 08:29:09,043 INFO CONFIRMADOS CJ -- MANANA (17/07/2026)
+2026-07-16 08:29:11,372 INFO Filas: 9
+2026-07-16 08:29:11,568 INFO Mensaje: CONFIRMADOS CJ -- MANANA (17/07/2026)
+Para manana tenemos 9 agendados
+2026-07-16 08:29:11,568 INFO Enviando WhatsApp...
+2026-07-16 08:29:11,664 INFO Imagen copiada al portapapeles
+2026-07-16 08:29:11,737 INFO Esperando 20s para que WhatsApp Web cargue...
+2026-07-16 08:29:32,958 INFO Imagen pegada en WhatsApp
+2026-07-16 08:29:37,720 INFO Enviado
+2026-07-16 08:29:39,726 INFO CONFIRMADOS BM -- HOY (16/07/2026)
+2026-07-16 08:29:40,970 INFO Filas: 5
+2026-07-16 08:29:41,074 INFO Mensaje: CONFIRMADOS BM -- HOY (16/07/2026)
+Para hoy tenemos 3 agendados, 1 evaluacion y 1 retoque
+2026-07-16 08:29:41,074 INFO Enviando WhatsApp...
+2026-07-16 08:29:41,136 INFO Imagen copiada al portapapeles
+2026-07-16 08:29:41,193 INFO Esperando 20s para que WhatsApp Web cargue...
+2026-07-16 08:30:02,473 INFO Imagen pegada en WhatsApp
+2026-07-16 08:30:07,389 INFO Enviado
+2026-07-16 08:30:09,395 INFO CONFIRMADOS BM -- MANANA (17/07/2026)
+2026-07-16 08:30:10,327 INFO Filas: 9
+2026-07-16 08:30:10,464 INFO Mensaje: CONFIRMADOS BM -- MANANA (17/07/2026)
+Para manana tenemos 9 agendados
+2026-07-16 08:30:10,464 INFO Enviando WhatsApp...
+2026-07-16 08:30:10,538 INFO Imagen copiada al portapapeles
+2026-07-16 08:30:10,622 INFO Esperando 20s para que WhatsApp Web cargue...
+2026-07-16 08:30:31,898 INFO Imagen pegada en WhatsApp
+2026-07-16 08:30:36,722 INFO Enviado
+2026-07-16 08:30:38,727 INFO Finalizado.
+2026-07-16 08:34:56,250 INFO Conectando a Google Sheets...
+2026-07-16 08:34:57,043 INFO CONFIRMADOS CJ -- HOY (16/07/2026)
+2026-07-16 08:34:59,720 INFO Filas: 15
+2026-07-16 08:34:59,962 INFO Mensaje: CONFIRMADOS CJ -- HOY (16/07/2026)
+Para hoy tenemos 14 agendados y 1 retoque
+2026-07-16 08:34:59,962 INFO Enviando WhatsApp...
+2026-07-16 08:35:01,062 INFO Imagen copiada al portapapeles
+2026-07-16 08:35:01,156 INFO Esperando 30s para que el chat cargue...
+2026-07-16 08:35:34,028 INFO Imagen pegada
+2026-07-16 08:35:38,834 INFO Enviado
+2026-07-16 08:35:40,844 INFO CONFIRMADOS CJ -- MANANA (17/07/2026)
+2026-07-16 08:35:43,504 INFO Filas: 9
+2026-07-16 08:35:43,703 INFO Mensaje: CONFIRMADOS CJ -- MANANA (17/07/2026)
+Para manana tenemos 9 agendados
+2026-07-16 08:35:43,703 INFO Enviando WhatsApp...
+2026-07-16 08:35:44,775 INFO Imagen copiada al portapapeles
+2026-07-16 08:35:45,031 INFO Esperando 15s para que el chat cargue...
+2026-07-16 08:36:02,374 INFO Imagen pegada
+2026-07-16 08:36:07,174 INFO Enviado
+2026-07-16 08:36:09,178 INFO CONFIRMADOS BM -- HOY (16/07/2026)
+2026-07-16 08:36:10,007 INFO Filas: 5
+2026-07-16 08:36:10,115 INFO Mensaje: CONFIRMADOS BM -- HOY (16/07/2026)
+Para hoy tenemos 3 agendados, 1 evaluacion y 1 retoque
+2026-07-16 08:36:10,115 INFO Enviando WhatsApp...
+2026-07-16 08:36:11,185 INFO Imagen copiada al portapapeles
+2026-07-16 08:36:11,527 INFO Esperando 15s para que el chat cargue...
+2026-07-16 08:36:28,843 INFO Imagen pegada
+2026-07-16 08:36:33,632 INFO Enviado
+2026-07-16 08:36:35,640 INFO CONFIRMADOS BM -- MANANA (17/07/2026)
+2026-07-16 08:36:36,601 INFO Filas: 9
+2026-07-16 08:36:36,768 INFO Mensaje: CONFIRMADOS BM -- MANANA (17/07/2026)
+Para manana tenemos 9 agendados
+2026-07-16 08:36:36,768 INFO Enviando WhatsApp...
+2026-07-16 08:36:37,842 INFO Imagen copiada al portapapeles
+2026-07-16 08:36:38,168 INFO Esperando 15s para que el chat cargue...
+2026-07-16 08:36:55,487 INFO Imagen pegada
+2026-07-16 08:37:00,245 INFO Enviado
+2026-07-16 08:37:02,251 INFO Finalizado.
+2026-07-17 07:06:09,509 INFO Conectando a Google Sheets...
+2026-07-17 07:06:18,707 INFO CONFIRMADOS CJ -- HOY (17/07/2026)
+2026-07-17 07:06:21,136 INFO Filas: 17
+2026-07-17 07:06:21,433 INFO Mensaje: CONFIRMADOS CJ -- HOY (17/07/2026)
+Para hoy tenemos 15 agendados, 1 evaluacion y 1 retoque
+2026-07-17 07:06:21,433 INFO Enviando WhatsApp...
+2026-07-17 07:06:22,599 INFO Imagen copiada al portapapeles
+2026-07-17 07:06:22,860 INFO Esperando 30s para que el chat cargue...
+2026-07-17 07:06:55,962 INFO Imagen pegada
+2026-07-17 07:07:00,830 INFO Enviado
+2026-07-17 07:07:02,842 INFO CONFIRMADOS CJ -- MANANA (18/07/2026)
+2026-07-17 07:07:05,289 INFO Filas: 29
+2026-07-17 07:07:05,724 INFO Mensaje: CONFIRMADOS CJ -- MANANA (18/07/2026)
+Para manana tenemos 26 agendados y 3 retoques
+2026-07-17 07:07:05,724 INFO Enviando WhatsApp...
+2026-07-17 07:07:06,815 INFO Imagen copiada al portapapeles
+2026-07-17 07:07:07,296 INFO Esperando 15s para que el chat cargue...
+2026-07-17 07:07:24,645 INFO Imagen pegada
+2026-07-17 07:07:29,445 INFO Enviado
+2026-07-17 07:07:31,453 INFO CONFIRMADOS BM -- HOY (17/07/2026)
+2026-07-17 07:07:32,540 INFO Filas: 10
+2026-07-17 07:07:32,700 INFO Mensaje: CONFIRMADOS BM -- HOY (17/07/2026)
+Para hoy tenemos 10 agendados
+2026-07-17 07:07:32,700 INFO Enviando WhatsApp...
+2026-07-17 07:07:33,798 INFO Imagen copiada al portapapeles
+2026-07-17 07:07:34,289 INFO Esperando 15s para que el chat cargue...
+2026-07-17 07:07:51,771 INFO Imagen pegada
+2026-07-17 07:07:56,595 INFO Enviado
+2026-07-17 07:07:58,604 INFO CONFIRMADOS BM -- MANANA (18/07/2026)
+2026-07-17 07:07:59,421 INFO Filas: 5
+2026-07-17 07:07:59,596 INFO Mensaje: CONFIRMADOS BM -- MANANA (18/07/2026)
+Para manana tenemos 3 agendados y 2 evaluaciones
+2026-07-17 07:07:59,596 INFO Enviando WhatsApp...
+2026-07-17 07:08:00,684 INFO Imagen copiada al portapapeles
+2026-07-17 07:08:01,245 INFO Esperando 15s para que el chat cargue...
+2026-07-17 07:08:30,952 INFO Conectando a Google Sheets...
+2026-07-17 07:08:32,399 INFO CONFIRMADOS CJ -- HOY (17/07/2026)
+2026-07-17 07:08:34,726 INFO Filas: 17
+2026-07-17 07:08:35,018 INFO Mensaje: CONFIRMADOS CJ -- HOY (17/07/2026)
+Para hoy tenemos 15 agendados, 1 evaluacion y 1 retoque
+2026-07-17 07:08:35,018 INFO Enviando WhatsApp...
+2026-07-17 07:08:36,138 INFO Imagen copiada al portapapeles
+2026-07-17 07:08:36,274 INFO Esperando 30s para que el chat cargue...
+2026-07-17 07:09:08,830 INFO Imagen pegada
+2026-07-17 07:09:13,677 INFO Enviado
+2026-07-17 07:09:15,686 INFO CONFIRMADOS CJ -- MANANA (18/07/2026)
+2026-07-17 07:09:17,908 INFO Filas: 29
+2026-07-17 07:09:18,318 INFO Mensaje: CONFIRMADOS CJ -- MANANA (18/07/2026)
+Para manana tenemos 26 agendados y 3 retoques
+2026-07-17 07:09:18,318 INFO Enviando WhatsApp...
+2026-07-17 07:09:19,390 INFO Imagen copiada al portapapeles
+2026-07-17 07:09:19,758 INFO Esperando 15s para que el chat cargue...
+2026-07-17 07:09:37,208 INFO Imagen pegada
+2026-07-17 07:09:41,985 INFO Enviado
+2026-07-17 07:09:43,989 INFO CONFIRMADOS BM -- HOY (17/07/2026)
+2026-07-17 07:11:44,181 INFO Conectando a Google Sheets...
+2026-07-17 07:11:45,457 INFO CONFIRMADOS CJ -- HOY (17/07/2026)
+2026-07-17 07:11:47,381 INFO Filas: 17
+2026-07-17 07:11:47,665 INFO Mensaje: CONFIRMADOS CJ -- HOY (17/07/2026)
+Para hoy tenemos 15 agendados, 1 evaluacion y 1 retoque
+2026-07-17 07:11:47,665 INFO Enviando WhatsApp...
+2026-07-17 07:11:48,794 INFO Imagen copiada al portapapeles
+2026-07-17 07:11:49,038 INFO Esperando 30s para que WhatsApp Web cargue...
+2026-07-17 07:12:22,176 INFO Imagen pegada
+2026-07-17 07:12:28,047 INFO Enviado
+2026-07-17 07:15:32,505 INFO Conectando a Google Sheets...
+2026-07-17 07:15:33,438 INFO CONFIRMADOS CJ -- HOY (17/07/2026)
+2026-07-17 07:15:35,504 INFO Filas: 17
+2026-07-17 07:15:35,752 INFO Mensaje: CONFIRMADOS CJ -- HOY (17/07/2026)
+Para hoy tenemos 15 agendados, 1 evaluacion y 1 retoque
+2026-07-17 07:15:35,752 INFO Enviando WhatsApp...
+2026-07-17 07:15:36,851 INFO Imagen copiada al portapapeles
+2026-07-17 07:15:37,030 INFO Esperando 30s para que el chat cargue...
+2026-07-17 07:16:09,614 INFO Imagen pegada
+2026-07-17 07:16:28,521 INFO Caption escrito
+2026-07-17 07:16:30,698 INFO Enviado
+2026-07-17 07:16:33,704 INFO CONFIRMADOS CJ -- MANANA (18/07/2026)
+2026-07-17 07:17:42,274 INFO Conectando a Google Sheets...
+2026-07-17 07:17:43,324 INFO CONFIRMADOS CJ -- HOY (17/07/2026)
+2026-07-17 07:17:45,880 INFO Filas: 17
+2026-07-17 07:17:46,165 INFO Mensaje: CONFIRMADOS CJ -- HOY (17/07/2026)
+Para hoy tenemos 15 agendados, 1 evaluacion y 1 retoque
+2026-07-17 07:17:46,165 INFO Enviando WhatsApp...
+2026-07-17 07:17:47,279 INFO Imagen copiada al portapapeles
+2026-07-17 07:17:47,418 INFO Esperando 30s para que el chat cargue...
+2026-07-17 07:18:20,439 INFO Imagen pegada
+2026-07-17 07:18:28,269 INFO Enviado
+2026-07-17 07:18:31,280 INFO CONFIRMADOS CJ -- MANANA (18/07/2026)
+2026-07-17 07:18:33,620 INFO Filas: 29
+2026-07-17 07:18:34,046 INFO Mensaje: CONFIRMADOS CJ -- MANANA (18/07/2026)
+Para manana tenemos 26 agendados y 3 retoques
+2026-07-17 07:18:34,046 INFO Enviando WhatsApp...
+2026-07-17 07:18:35,126 INFO Imagen copiada al portapapeles
+2026-07-17 07:18:35,268 INFO Esperando 20s para que el chat cargue...
+2026-07-17 07:18:57,725 INFO Imagen pegada
+2026-07-17 07:19:05,584 INFO Enviado
+2026-07-17 07:19:08,594 INFO CONFIRMADOS BM -- HOY (17/07/2026)
+2026-07-17 07:19:09,572 INFO Filas: 10
+2026-07-17 07:19:09,739 INFO Mensaje: CONFIRMADOS BM -- HOY (17/07/2026)
+Para hoy tenemos 10 agendados
+2026-07-17 07:19:09,739 INFO Enviando WhatsApp...
+2026-07-17 07:19:10,862 INFO Imagen copiada al portapapeles
+2026-07-17 07:19:11,000 INFO Esperando 20s para que el chat cargue...
+2026-07-17 07:19:33,467 INFO Imagen pegada
+2026-07-17 07:19:41,341 INFO Enviado
+2026-07-17 07:19:44,353 INFO CONFIRMADOS BM -- MANANA (18/07/2026)
+2026-07-17 07:19:45,201 INFO Filas: 5
+2026-07-17 07:19:45,317 INFO Mensaje: CONFIRMADOS BM -- MANANA (18/07/2026)
+Para manana tenemos 3 agendados y 2 evaluaciones
+2026-07-17 07:19:45,318 INFO Enviando WhatsApp...
+2026-07-17 07:19:46,413 INFO Imagen copiada al portapapeles
+2026-07-17 07:19:46,555 INFO Esperando 20s para que el chat cargue...
+2026-07-17 07:20:08,978 INFO Imagen pegada
+2026-07-17 07:20:16,848 INFO Enviado
+2026-07-17 07:20:19,856 INFO Finalizado.
+2026-07-18 07:00:43,989 INFO Conectando a Google Sheets...
+2026-07-18 07:00:46,790 INFO CONFIRMADOS CJ -- HOY (18/07/2026)
+2026-07-18 07:07:32,467 INFO Conectando a Google Sheets...
+2026-07-18 07:07:33,987 INFO CONFIRMADOS CJ -- HOY (18/07/2026)
+2026-07-18 07:07:35,691 INFO Filas: 31
+2026-07-18 07:07:36,184 INFO Mensaje: CONFIRMADOS CJ -- HOY (18/07/2026)
+Para hoy tenemos 28 agendados y 3 retoques
+2026-07-18 07:07:36,184 INFO Enviando WhatsApp...
+2026-07-18 07:07:37,316 INFO Imagen copiada al portapapeles
+2026-07-18 07:07:37,633 INFO Esperando 30s para que el chat cargue...
+2026-07-18 07:08:10,857 INFO Imagen pegada
+2026-07-18 07:08:18,689 INFO Enviado
+2026-07-18 07:08:21,699 INFO CONFIRMADOS CJ -- MANANA (20/07/2026)
+2026-07-18 07:08:24,316 INFO Filas: 9
+2026-07-18 07:08:24,483 INFO Mensaje: CONFIRMADOS CJ -- MANANA (20/07/2026)
+Para manana tenemos 8 agendados y 1 retoque
+2026-07-18 07:08:24,484 INFO Enviando WhatsApp...
+2026-07-18 07:08:25,612 INFO Imagen copiada al portapapeles
+2026-07-18 07:08:25,713 INFO Esperando 20s para que el chat cargue...
+2026-07-18 07:08:48,170 INFO Imagen pegada
+2026-07-18 07:08:55,965 INFO Enviado
+2026-07-18 07:08:58,975 INFO CONFIRMADOS BM -- HOY (18/07/2026)
+2026-07-18 07:09:00,092 INFO Filas: 9
+2026-07-18 07:09:00,248 INFO Mensaje: CONFIRMADOS BM -- HOY (18/07/2026)
+Para hoy tenemos 6 agendados y 3 evaluaciones
+2026-07-18 07:09:00,248 INFO Enviando WhatsApp...
+2026-07-18 07:09:01,328 INFO Imagen copiada al portapapeles
+2026-07-18 07:09:01,480 INFO Esperando 20s para que el chat cargue...
+2026-07-18 07:09:23,934 INFO Imagen pegada
+2026-07-18 07:09:31,810 INFO Enviado
+2026-07-18 07:09:34,816 INFO CONFIRMADOS BM -- MANANA (20/07/2026)
+2026-07-18 07:09:35,928 INFO Filas: 8
+2026-07-18 07:09:36,075 INFO Mensaje: CONFIRMADOS BM -- MANANA (20/07/2026)
+Para manana tenemos 8 agendados
+2026-07-18 07:09:36,075 INFO Enviando WhatsApp...
+2026-07-18 07:09:37,161 INFO Imagen copiada al portapapeles
+2026-07-18 07:09:37,286 INFO Esperando 20s para que el chat cargue...
+2026-07-18 07:09:59,875 INFO Imagen pegada
+2026-07-18 07:10:07,746 INFO Enviado
+2026-07-18 07:10:10,757 INFO Finalizado.
+2026-07-20 06:54:06,462 INFO Conectando a Google Sheets...
+2026-07-20 06:54:10,293 INFO CONFIRMADOS CJ -- HOY (20/07/2026)
+2026-07-20 06:54:13,317 INFO Filas: 12
+2026-07-20 06:54:13,571 INFO Mensaje: CONFIRMADOS CJ -- HOY (20/07/2026)
+Para hoy tenemos 11 agendados y 1 retoque
+2026-07-20 06:54:13,571 INFO Enviando WhatsApp...
+2026-07-20 06:54:14,713 INFO Imagen copiada al portapapeles
+2026-07-20 06:54:14,919 INFO Esperando 30s para que el chat cargue...
+2026-07-20 06:54:48,191 INFO Imagen pegada
+2026-07-20 06:54:56,055 INFO Enviado
+2026-07-20 06:54:59,064 INFO CONFIRMADOS CJ -- MANANA (21/07/2026)
+2026-07-20 06:55:01,296 INFO Filas: 5
+2026-07-20 06:55:01,417 INFO Mensaje: CONFIRMADOS CJ -- MANANA (21/07/2026)
+Para manana tenemos 3 agendados, 1 sesion y 1 retoque
+2026-07-20 06:55:01,417 INFO Enviando WhatsApp...
+2026-07-20 06:55:02,486 INFO Imagen copiada al portapapeles
+2026-07-20 06:55:02,632 INFO Esperando 20s para que el chat cargue...
+2026-07-20 06:55:25,062 INFO Imagen pegada
+2026-07-20 06:55:32,942 INFO Enviado
+2026-07-20 06:55:35,953 INFO CONFIRMADOS BM -- HOY (20/07/2026)
+2026-07-20 06:55:37,136 INFO Filas: 11
+2026-07-20 06:55:37,296 INFO Mensaje: CONFIRMADOS BM -- HOY (20/07/2026)
+Para hoy tenemos 11 agendados
+2026-07-20 06:55:37,296 INFO Enviando WhatsApp...
+2026-07-20 06:55:38,372 INFO Imagen copiada al portapapeles
+2026-07-20 06:55:38,513 INFO Esperando 20s para que el chat cargue...
+2026-07-20 06:56:00,851 INFO Imagen pegada
+2026-07-20 06:56:08,696 INFO Enviado
+2026-07-20 06:56:11,704 INFO CONFIRMADOS BM -- MANANA (21/07/2026)
+2026-07-20 06:56:12,486 INFO Filas: 5
+2026-07-20 06:56:12,614 INFO Mensaje: CONFIRMADOS BM -- MANANA (21/07/2026)
+Para manana tenemos 3 agendados y 2 evaluaciones
+2026-07-20 06:56:12,614 INFO Enviando WhatsApp...
+2026-07-20 06:56:13,687 INFO Imagen copiada al portapapeles
+2026-07-20 06:56:13,807 INFO Esperando 20s para que el chat cargue...
+2026-07-20 06:56:36,267 INFO Imagen pegada
+2026-07-20 06:56:44,117 INFO Enviado
+2026-07-20 06:56:47,130 INFO Finalizado.
+2026-07-20 07:08:36,446 INFO Conectando a Google Sheets...
+2026-07-20 07:08:40,137 INFO CONFIRMADOS CJ -- HOY (20/07/2026)
+2026-07-20 10:11:39,818 INFO Conectando a Google Sheets...
+2026-07-20 10:11:43,128 INFO CONFIRMADOS CJ -- HOY (20/07/2026)
+2026-07-20 10:11:48,345 INFO Filas: 12
+2026-07-20 10:11:48,554 INFO Mensaje: CONFIRMADOS CJ -- HOY (20/07/2026)
+Para hoy tenemos 11 agendados y 1 retoque
+2026-07-20 10:11:48,554 INFO Enviando WhatsApp...
+2026-07-20 10:11:49,733 INFO Imagen copiada al portapapeles
+2026-07-20 10:11:49,924 INFO Esperando 30s para que el chat cargue...
+2026-07-20 10:12:22,655 INFO Imagen pegada
+2026-07-20 10:12:30,499 INFO Enviado
+2026-07-20 10:12:33,509 INFO CONFIRMADOS CJ -- MANANA (21/07/2026)
+2026-07-20 10:12:37,456 INFO Filas: 5
+2026-07-20 10:12:37,587 INFO Mensaje: CONFIRMADOS CJ -- MANANA (21/07/2026)
+Para manana tenemos 3 agendados, 1 sesion y 1 retoque
+2026-07-20 10:12:37,587 INFO Enviando WhatsApp...
+2026-07-20 10:12:38,682 INFO Imagen copiada al portapapeles
+2026-07-20 10:12:38,814 INFO Esperando 20s para que el chat cargue...
+2026-07-20 10:13:01,312 INFO Imagen pegada
+2026-07-20 10:13:09,210 INFO Enviado
+2026-07-20 10:13:12,220 INFO CONFIRMADOS BM -- HOY (20/07/2026)
+2026-07-20 10:13:13,666 INFO Filas: 11
+2026-07-20 10:13:13,833 INFO Mensaje: CONFIRMADOS BM -- HOY (20/07/2026)
+Para hoy tenemos 11 agendados
+2026-07-20 10:13:13,833 INFO Enviando WhatsApp...
+2026-07-20 10:13:14,923 INFO Imagen copiada al portapapeles
+2026-07-20 10:13:15,075 INFO Esperando 20s para que el chat cargue...
+2026-07-20 10:13:37,646 INFO Imagen pegada
+2026-07-20 10:13:45,590 INFO Enviado
+2026-07-20 10:13:48,601 INFO CONFIRMADOS BM -- MANANA (21/07/2026)
+2026-07-20 10:13:50,353 INFO Filas: 5
+2026-07-20 10:13:50,472 INFO Mensaje: CONFIRMADOS BM -- MANANA (21/07/2026)
+Para manana tenemos 3 agendados y 2 evaluaciones
+2026-07-20 10:13:50,472 INFO Enviando WhatsApp...
+2026-07-20 10:13:51,579 INFO Imagen copiada al portapapeles
+2026-07-20 10:13:51,745 INFO Esperando 20s para que el chat cargue...
+2026-07-20 10:14:14,168 INFO Imagen pegada
+2026-07-20 10:14:21,990 INFO Enviado
+2026-07-20 10:14:25,552 INFO AGENDADOS -- HOY (20/07/2026)
+2026-07-20 10:14:26,526 INFO Filas: 0
+2026-07-20 10:14:26,526 INFO Sin datos, se omite.
+2026-07-20 10:14:26,526 INFO AGENDADOS -- MANANA (21/07/2026)
+2026-07-20 10:14:27,388 INFO Filas: 1
+2026-07-20 10:14:27,485 INFO Mensaje: AGENDADOS -- MANANA (21/07/2026)
+Para manana tenemos 1 agendados
+2026-07-20 10:14:27,485 INFO Enviando WhatsApp...
+2026-07-20 10:14:28,553 INFO Imagen copiada al portapapeles
+2026-07-20 10:14:28,669 INFO Esperando 20s para que el chat cargue...
+2026-07-20 10:14:51,077 INFO Imagen pegada
+2026-07-20 10:14:58,918 INFO Enviado
+2026-07-20 10:15:01,924 INFO Finalizado.
+2026-07-20 10:17:41,687 INFO CONFIRMADOS DERMA ESSENZA -- HOY (20/07/2026)
+2026-07-20 10:17:41,690 INFO Filas: 0
+2026-07-20 10:17:41,690 INFO Sin datos, se omite.
+2026-07-20 10:17:41,690 INFO CONFIRMADOS DERMA ESSENZA -- MANANA (21/07/2026)
+2026-07-20 10:17:41,694 INFO Filas: 1
+2026-07-20 10:17:41,779 INFO Mensaje: CONFIRMADOS DERMA ESSENZA -- MANANA (21/07/2026)
+Para manana tenemos 1 agendados
+2026-07-20 10:17:41,779 INFO Enviando WhatsApp...
+2026-07-20 10:17:43,096 INFO Esperando 30s para que el chat cargue...
+2026-07-20 10:18:15,914 INFO Imagen pegada
+2026-07-20 10:18:23,826 INFO Enviado
+2026-07-20 10:18:26,833 INFO Finalizado.
+2026-07-21 07:05:32,021 INFO Conectando a Google Sheets...
+2026-07-21 07:05:34,806 INFO CONFIRMADOS CJ -- HOY (21/07/2026)
+2026-07-21 07:05:36,584 INFO Filas: 8
+2026-07-21 07:05:36,733 INFO Mensaje: CONFIRMADOS CJ -- HOY (21/07/2026)
+Para hoy tenemos 6 agendados, 1 sesion y 1 retoque
+2026-07-21 07:05:36,733 INFO Enviando WhatsApp...
+2026-07-21 07:05:37,811 INFO Imagen copiada al portapapeles
+2026-07-21 07:05:38,052 INFO Esperando 30s para que el chat cargue...
+2026-07-21 07:11:52,153 INFO Imagen pegada
+2026-07-21 07:12:02,690 INFO Enviado
+2026-07-21 07:12:05,698 INFO CONFIRMADOS CJ -- MANANA (22/07/2026)
+2026-07-21 07:20:56,605 INFO Conectando a Google Sheets...
+2026-07-21 07:20:59,179 INFO CONFIRMADOS CJ -- HOY (21/07/2026)
+2026-07-21 07:21:00,749 INFO Filas: 8
+2026-07-21 07:21:00,916 INFO Mensaje: CONFIRMADOS CJ -- HOY (21/07/2026)
+Para hoy tenemos 6 agendados, 1 sesion y 1 retoque
+2026-07-21 07:21:00,916 INFO Enviando WhatsApp...
+2026-07-21 07:21:02,096 INFO Imagen copiada al portapapeles
+2026-07-21 07:21:02,297 INFO Esperando 30s para que el chat cargue...
+2026-07-21 07:21:35,037 INFO Imagen pegada
+2026-07-21 07:21:42,939 INFO Enviado
+2026-07-21 07:21:45,949 INFO CONFIRMADOS CJ -- MANANA (22/07/2026)
+2026-07-21 07:21:48,074 INFO Filas: 8
+2026-07-21 07:21:48,237 INFO Mensaje: CONFIRMADOS CJ -- MANANA (22/07/2026)
+Para manana tenemos 5 agendados, 1 evaluacion y 2 retoques
+2026-07-21 07:21:48,237 INFO Enviando WhatsApp...
+2026-07-21 07:21:49,315 INFO Imagen copiada al portapapeles
+2026-07-21 07:21:49,516 INFO Esperando 20s para que el chat cargue...
+2026-07-21 07:22:11,876 INFO Imagen pegada
+2026-07-21 07:22:19,801 INFO Enviado
+2026-07-21 07:22:22,813 INFO CONFIRMADOS BM -- HOY (21/07/2026)
+2026-07-21 07:22:23,556 INFO Filas: 10
+2026-07-21 07:22:23,712 INFO Mensaje: CONFIRMADOS BM -- HOY (21/07/2026)
+Para hoy tenemos 8 agendados y 2 evaluaciones
+2026-07-21 07:22:23,712 INFO Enviando WhatsApp...
+2026-07-21 07:22:24,798 INFO Imagen copiada al portapapeles
+2026-07-21 07:22:24,971 INFO Esperando 20s para que el chat cargue...
+2026-07-21 07:22:47,326 INFO Imagen pegada
+2026-07-21 07:22:55,242 INFO Enviado
+2026-07-21 07:22:58,251 INFO CONFIRMADOS BM -- MANANA (22/07/2026)
+2026-07-21 07:22:58,924 INFO Filas: 5
+2026-07-21 07:22:59,034 INFO Mensaje: CONFIRMADOS BM -- MANANA (22/07/2026)
+Para manana tenemos 5 agendados
+2026-07-21 07:22:59,034 INFO Enviando WhatsApp...
+2026-07-21 07:23:00,103 INFO Imagen copiada al portapapeles
+2026-07-21 07:23:00,278 INFO Esperando 20s para que el chat cargue...
+2026-07-21 07:23:23,219 INFO Imagen pegada
+2026-07-21 07:23:31,074 INFO Enviado
+2026-07-21 07:23:34,584 INFO AGENDADOS -- HOY (21/07/2026)
+2026-07-21 07:23:35,156 INFO Filas: 1
+2026-07-21 07:23:35,251 INFO Mensaje: CONFIRMADOS DERMA ESSENZA -- HOY (21/07/2026)
+Para hoy tenemos 1 agendados
+2026-07-21 07:23:35,251 INFO Enviando WhatsApp...
+2026-07-21 07:23:36,329 INFO Imagen copiada al portapapeles
+2026-07-21 07:23:36,506 INFO Esperando 20s para que el chat cargue...
+2026-07-21 07:23:59,170 INFO Imagen pegada
+2026-07-21 07:24:07,218 INFO Enviado
+2026-07-21 07:24:10,229 INFO AGENDADOS -- MANANA (22/07/2026)
+2026-07-21 07:24:10,763 INFO Filas: 0
+2026-07-21 07:24:10,763 INFO Sin datos, se omite.
+2026-07-21 07:24:10,763 INFO Finalizado.
+2026-07-22 07:00:10,762 INFO Conectando a Google Sheets...
+2026-07-22 07:00:15,139 INFO CONFIRMADOS CJ -- HOY (22/07/2026)
+2026-07-22 07:00:18,631 INFO Filas: 17
+2026-07-22 07:00:18,929 INFO Mensaje: CONFIRMADOS CJ -- HOY (22/07/2026)
+Para hoy tenemos 10 agendados, 2 evaluaciones y 5 retoques
+2026-07-22 07:00:18,929 INFO Enviando WhatsApp...
+2026-07-22 07:07:04,090 INFO Imagen copiada al portapapeles
+2026-07-22 07:07:04,721 INFO Esperando 30s para que el chat cargue...
+2026-07-22 07:09:23,603 INFO Conectando a Google Sheets...
+2026-07-22 07:09:27,422 INFO CONFIRMADOS CJ -- HOY (22/07/2026)
+2026-07-22 07:09:29,983 INFO Filas: 17
+2026-07-22 07:09:30,245 INFO Mensaje: CONFIRMADOS CJ -- HOY (22/07/2026)
+Para hoy tenemos 10 agendados, 2 evaluaciones y 5 retoques
+2026-07-22 07:09:30,245 INFO Enviando WhatsApp...
+2026-07-22 07:09:31,372 INFO Imagen copiada al portapapeles
+2026-07-22 07:09:31,528 INFO Esperando 30s para que el chat cargue...
+2026-07-22 07:10:04,603 INFO Imagen pegada
+2026-07-22 07:10:12,472 INFO Enviado
+2026-07-22 07:10:15,482 INFO CONFIRMADOS CJ -- MANANA (23/07/2026)
+2026-07-22 07:10:17,917 INFO Filas: 19
+2026-07-22 07:10:18,214 INFO Mensaje: CONFIRMADOS CJ -- MANANA (23/07/2026)
+Para manana tenemos 15 agendados y 4 retoques
+2026-07-22 07:10:18,214 INFO Enviando WhatsApp...
+2026-07-22 07:10:19,301 INFO Imagen copiada al portapapeles
+2026-07-22 07:10:19,479 INFO Esperando 20s para que el chat cargue...
+2026-07-22 07:10:41,831 INFO Imagen pegada
+2026-07-22 07:10:49,721 INFO Enviado
+2026-07-22 07:10:52,735 INFO CONFIRMADOS BM -- HOY (22/07/2026)
+2026-07-22 07:10:53,864 INFO Filas: 5
+2026-07-22 07:10:53,972 INFO Mensaje: CONFIRMADOS BM -- HOY (22/07/2026)
+Para hoy tenemos 5 agendados
+2026-07-22 07:10:53,972 INFO Enviando WhatsApp...
+2026-07-22 07:10:55,058 INFO Imagen copiada al portapapeles
+2026-07-22 07:10:55,221 INFO Esperando 20s para que el chat cargue...
+2026-07-22 07:11:17,745 INFO Imagen pegada
+2026-07-22 07:11:25,600 INFO Enviado
+2026-07-22 07:11:28,609 INFO CONFIRMADOS BM -- MANANA (23/07/2026)
+2026-07-22 07:11:29,783 INFO Filas: 2
+2026-07-22 07:11:29,864 INFO Mensaje: CONFIRMADOS BM -- MANANA (23/07/2026)
+Para manana tenemos 1 agendados y 1 evaluacion
+2026-07-22 07:11:29,864 INFO Enviando WhatsApp...
+2026-07-22 07:11:30,947 INFO Imagen copiada al portapapeles
+2026-07-22 07:11:31,119 INFO Esperando 20s para que el chat cargue...
+2026-07-22 07:11:53,568 INFO Imagen pegada
+2026-07-22 07:12:01,469 INFO Enviado
+2026-07-22 07:12:04,983 INFO AGENDADOS -- HOY (22/07/2026)
+2026-07-22 07:12:05,549 INFO Filas: 0
+2026-07-22 07:12:05,549 INFO Sin datos, se omite.
+2026-07-22 07:12:05,549 INFO AGENDADOS -- MANANA (23/07/2026)
+2026-07-22 07:12:06,033 INFO Filas: 0
+2026-07-22 07:12:06,033 INFO Sin datos, se omite.
+2026-07-22 07:12:06,033 INFO Finalizado.
+2026-07-23 07:02:55,323 INFO Conectando a Google Sheets...
+2026-07-23 07:07:32,224 INFO Conectando a Google Sheets...
+2026-07-23 07:07:34,907 INFO CONFIRMADOS CJ -- HOY (23/07/2026)
+2026-07-23 07:07:38,545 INFO Filas: 23
+2026-07-23 07:07:38,956 INFO Mensaje: CONFIRMADOS CJ -- HOY (23/07/2026)
+Para hoy tenemos 17 agendados, 1 evaluacion y 5 retoques
+2026-07-23 07:07:38,956 INFO Enviando WhatsApp...
+2026-07-23 07:07:40,182 INFO Imagen copiada al portapapeles
+2026-07-23 07:07:40,561 INFO Esperando 30s para que el chat cargue...
+2026-07-23 07:08:13,779 INFO Imagen pegada
+2026-07-23 07:08:21,644 INFO Enviado
+2026-07-23 07:08:24,671 INFO CONFIRMADOS CJ -- MANANA (24/07/2026)
+2026-07-23 07:08:28,454 INFO Filas: 12
+2026-07-23 07:08:28,695 INFO Mensaje: CONFIRMADOS CJ -- MANANA (24/07/2026)
+Para manana tenemos 6 agendados, 2 evaluaciones y 4 retoques
+2026-07-23 07:08:28,695 INFO Enviando WhatsApp...
+2026-07-23 07:08:29,802 INFO Imagen copiada al portapapeles
+2026-07-23 07:08:30,030 INFO Esperando 20s para que el chat cargue...
+2026-07-23 07:08:52,529 INFO Imagen pegada
+2026-07-23 07:09:00,412 INFO Enviado
+2026-07-23 07:09:03,421 INFO CONFIRMADOS BM -- HOY (23/07/2026)
+2026-07-23 07:09:08,293 INFO Filas: 4
+2026-07-23 07:09:08,393 INFO Mensaje: CONFIRMADOS BM -- HOY (23/07/2026)
+Para hoy tenemos 3 agendados y 1 evaluacion
+2026-07-23 07:09:08,393 INFO Enviando WhatsApp...
+2026-07-23 07:09:09,480 INFO Imagen copiada al portapapeles
+2026-07-23 07:09:09,690 INFO Esperando 20s para que el chat cargue...
+2026-07-23 07:09:32,181 INFO Imagen pegada
+2026-07-23 07:09:40,063 INFO Enviado
+2026-07-23 07:09:43,068 INFO CONFIRMADOS BM -- MANANA (24/07/2026)
+2026-07-23 07:09:43,941 INFO Filas: 4
+2026-07-23 07:09:44,051 INFO Mensaje: CONFIRMADOS BM -- MANANA (24/07/2026)
+Para manana tenemos 4 agendados
+2026-07-23 07:09:44,051 INFO Enviando WhatsApp...
+2026-07-23 07:09:45,149 INFO Imagen copiada al portapapeles
+2026-07-23 07:09:45,262 INFO Esperando 20s para que el chat cargue...
+2026-07-23 07:10:07,701 INFO Imagen pegada
+2026-07-23 07:10:15,552 INFO Enviado
+2026-07-23 07:10:19,188 INFO AGENDADOS -- HOY (23/07/2026)
+2026-07-23 07:10:19,816 INFO Filas: 0
+2026-07-23 07:10:19,817 INFO Sin datos, se omite.
+2026-07-23 07:10:19,817 INFO AGENDADOS -- MANANA (24/07/2026)
+2026-07-23 07:10:20,354 INFO Filas: 1
+2026-07-23 07:10:20,469 INFO Mensaje: CONFIRMADOS DERMA ESSENZA -- MANANA (24/07/2026)
+Para manana tenemos 1 agendados
+2026-07-23 07:10:20,469 INFO Enviando WhatsApp...
+2026-07-23 07:10:21,547 INFO Imagen copiada al portapapeles
+2026-07-23 07:10:21,702 INFO Esperando 20s para que el chat cargue...
+2026-07-23 07:10:44,108 INFO Imagen pegada
+2026-07-23 07:10:51,982 INFO Enviado
+2026-07-23 07:10:54,988 INFO Finalizado.
+2026-07-23 07:13:50,415 INFO Conectando a Google Sheets...
+2026-07-23 07:13:51,424 INFO CONFIRMADOS CJ -- HOY (23/07/2026)
+2026-07-23 07:13:53,786 INFO Filas: 23
+2026-07-23 07:13:54,143 INFO Mensaje: CONFIRMADOS CJ -- HOY (23/07/2026)
+Para hoy tenemos 17 agendados, 1 evaluacion y 5 retoques
+2026-07-23 07:13:54,143 INFO Enviando WhatsApp...
+2026-07-23 07:13:55,277 INFO Imagen copiada al portapapeles
+2026-07-23 07:13:55,467 INFO Esperando 30s para que el chat cargue...
+2026-07-23 07:14:28,463 INFO Imagen pegada
+2026-07-23 07:14:36,332 INFO Enviado
+2026-07-23 07:14:39,341 INFO CONFIRMADOS CJ -- MANANA (24/07/2026)
+2026-07-23 07:14:41,836 INFO Filas: 12
+2026-07-23 07:14:42,048 INFO Mensaje: CONFIRMADOS CJ -- MANANA (24/07/2026)
+Para manana tenemos 6 agendados, 2 evaluaciones y 4 retoques
+2026-07-23 07:14:42,048 INFO Enviando WhatsApp...
+2026-07-23 07:14:43,132 INFO Imagen copiada al portapapeles
+2026-07-23 07:14:43,283 INFO Esperando 20s para que el chat cargue...
+2026-07-23 07:15:05,760 INFO Imagen pegada
+2026-07-23 07:15:13,618 INFO Enviado
+2026-07-23 07:15:16,631 INFO CONFIRMADOS BM -- HOY (23/07/2026)
+2026-07-23 07:15:17,531 INFO Filas: 4
+2026-07-23 07:15:17,630 INFO Mensaje: CONFIRMADOS BM -- HOY (23/07/2026)
+Para hoy tenemos 3 agendados y 1 evaluacion
+2026-07-23 07:15:17,630 INFO Enviando WhatsApp...
+2026-07-23 07:15:18,716 INFO Imagen copiada al portapapeles
+2026-07-23 07:15:18,888 INFO Esperando 20s para que el chat cargue...
+2026-07-23 07:15:41,542 INFO Imagen pegada
+2026-07-23 07:15:49,422 INFO Enviado
+2026-07-23 07:15:52,436 INFO CONFIRMADOS BM -- MANANA (24/07/2026)
+2026-07-23 07:15:53,596 INFO Filas: 4
+2026-07-23 07:15:53,711 INFO Mensaje: CONFIRMADOS BM -- MANANA (24/07/2026)
+Para manana tenemos 4 agendados
+2026-07-23 07:15:53,711 INFO Enviando WhatsApp...
+2026-07-23 07:15:54,800 INFO Imagen copiada al portapapeles
+2026-07-23 07:15:54,981 INFO Esperando 20s para que el chat cargue...
+2026-07-23 07:16:17,528 INFO Imagen pegada
+2026-07-23 07:16:25,450 INFO Enviado
+2026-07-23 07:16:29,333 INFO AGENDADOS -- HOY (23/07/2026)
+2026-07-23 07:16:29,950 INFO Filas: 0
+2026-07-23 07:16:29,951 INFO Sin datos, se omite.
+2026-07-23 07:16:29,951 INFO AGENDADOS -- MANANA (24/07/2026)
+2026-07-23 07:16:30,571 INFO Filas: 1
+2026-07-23 07:16:30,692 INFO Mensaje: CONFIRMADOS DERMA ESSENZA -- MANANA (24/07/2026)
+Para manana tenemos 1 agendados
+2026-07-23 07:16:30,692 INFO Enviando WhatsApp...
+2026-07-23 07:16:31,789 INFO Imagen copiada al portapapeles
+2026-07-23 07:16:31,972 INFO Esperando 20s para que el chat cargue...
+2026-07-23 07:16:54,397 INFO Imagen pegada
+2026-07-23 07:17:02,249 INFO Enviado
+2026-07-23 07:17:05,256 INFO Finalizado.
+2026-07-24 00:46:34,695 INFO Conectando a Google Sheets...
+2026-07-24 00:46:34,695 ERROR Error de conexion: [Errno 2] No such file or directory: '/Users/dermaessenza/credenciales-sheets.json'
+2026-07-24 00:53:19,326 INFO Conectando a Google Sheets...
+2026-07-24 00:53:22,507 INFO CONFIRMADOS CJ -- HOY (24/07/2026)
+2026-07-24 00:53:24,184 INFO Filas: 12
+2026-07-24 00:53:24,429 INFO Mensaje: CONFIRMADOS CJ -- HOY (24/07/2026)
+Para hoy tenemos 6 agendados, 2 evaluaciones y 4 retoques
+2026-07-24 00:53:24,429 INFO Enviando WhatsApp...
+2026-07-24 00:53:25,711 INFO Imagen copiada al portapapeles
+2026-07-24 00:53:25,933 INFO Esperando 30s para que el chat cargue...
+2026-07-24 00:53:58,849 INFO Imagen pegada
+2026-07-24 00:54:06,719 INFO Enviado
+2026-07-24 00:54:09,725 INFO CONFIRMADOS CJ -- MANANA (25/07/2026)
+2026-07-24 00:54:11,697 INFO Filas: 14
+2026-07-24 00:54:11,920 INFO Mensaje: CONFIRMADOS CJ -- MANANA (25/07/2026)
+Para manana tenemos 9 agendados y 5 retoques
+2026-07-24 00:54:11,921 INFO Enviando WhatsApp...
+2026-07-24 00:54:13,004 INFO Imagen copiada al portapapeles
+2026-07-24 00:54:13,188 INFO Esperando 20s para que el chat cargue...
+2026-07-24 00:54:35,605 INFO Imagen pegada
+2026-07-24 00:56:29,335 INFO Conectando a Google Sheets...
+2026-07-24 00:56:30,183 INFO CONFIRMADOS CJ -- HOY (24/07/2026)
+2026-07-24 00:56:31,869 INFO Filas: 12
+2026-07-24 00:56:32,076 INFO Mensaje: CONFIRMADOS CJ -- HOY (24/07/2026)
+Para hoy tenemos 6 agendados, 2 evaluaciones y 4 retoques
+2026-07-24 00:56:32,076 INFO Enviando WhatsApp...
+2026-07-24 00:56:33,280 INFO Imagen copiada al portapapeles
+2026-07-24 00:56:33,480 INFO Esperando 30s para que el chat cargue...
+2026-07-24 00:57:05,898 INFO Imagen pegada
+2026-07-24 00:57:13,731 INFO Enviado
+2026-07-24 00:57:16,738 INFO CONFIRMADOS CJ -- MANANA (25/07/2026)
+2026-07-24 00:57:18,545 INFO Filas: 14
+2026-07-24 00:57:18,797 INFO Mensaje: CONFIRMADOS CJ -- MANANA (25/07/2026)
+Para manana tenemos 9 agendados y 5 retoques
+2026-07-24 00:57:18,798 INFO Enviando WhatsApp...
+2026-07-24 00:57:19,892 INFO Imagen copiada al portapapeles
+2026-07-24 00:57:20,026 INFO Esperando 20s para que el chat cargue...
+2026-07-24 00:57:42,413 INFO Imagen pegada
+2026-07-24 00:57:50,241 INFO Enviado
+2026-07-24 00:57:53,244 INFO CONFIRMADOS BM -- HOY (24/07/2026)
+2026-07-24 00:57:54,019 INFO Filas: 4
+2026-07-24 00:57:54,164 INFO Mensaje: CONFIRMADOS BM -- HOY (24/07/2026)
+Para hoy tenemos 4 agendados
+2026-07-24 00:57:54,164 INFO Enviando WhatsApp...
+2026-07-24 00:57:55,262 INFO Imagen copiada al portapapeles
+2026-07-24 00:57:55,382 INFO Esperando 20s para que el chat cargue...
+2026-07-24 00:58:17,754 INFO Imagen pegada
+2026-07-24 00:58:25,601 INFO Enviado
+2026-07-24 00:58:28,604 INFO CONFIRMADOS BM -- MANANA (25/07/2026)
+2026-07-24 00:58:29,503 INFO Filas: 6
+2026-07-24 00:58:29,619 INFO Mensaje: CONFIRMADOS BM -- MANANA (25/07/2026)
+Para manana tenemos 3 agendados, 1 sesion y 2 evaluaciones
+2026-07-24 00:58:29,619 INFO Enviando WhatsApp...
+2026-07-24 00:58:30,689 INFO Imagen copiada al portapapeles
+2026-07-24 00:58:30,801 INFO Esperando 20s para que el chat cargue...
+2026-07-24 00:58:53,248 INFO Imagen pegada
+2026-07-24 00:59:01,611 INFO Enviado
+2026-07-24 00:59:05,199 INFO AGENDADOS -- HOY (24/07/2026)
+2026-07-24 00:59:05,939 INFO Filas: 1
+2026-07-24 00:59:06,013 INFO Mensaje: CONFIRMADOS DERMA ESSENZA -- HOY (24/07/2026)
+Para hoy tenemos 1 agendados
+2026-07-24 00:59:06,013 INFO Enviando WhatsApp...
+2026-07-24 00:59:07,079 INFO Imagen copiada al portapapeles
+2026-07-24 00:59:07,178 INFO Esperando 20s para que el chat cargue...
+2026-07-24 01:00:44,991 INFO Conectando a Google Sheets...
+2026-07-24 01:00:46,246 INFO CONFIRMADOS CJ -- HOY (24/07/2026)
+2026-07-24 01:00:48,171 INFO Filas: 12
+2026-07-24 01:00:48,374 INFO Mensaje: CONFIRMADOS CJ -- HOY (24/07/2026)
+Para hoy tenemos 6 agendados, 2 evaluaciones y 4 retoques
+2026-07-24 01:00:48,374 INFO Enviando WhatsApp...
+2026-07-24 01:00:49,483 INFO Imagen copiada al portapapeles
+2026-07-24 01:00:49,644 INFO Esperando 30s para que el chat cargue...
+2026-07-24 01:01:22,133 INFO Imagen pegada
+2026-07-24 01:01:29,972 INFO Enviado
+2026-07-24 01:01:32,983 INFO CONFIRMADOS CJ -- MANANA (25/07/2026)
+2026-07-24 01:01:35,099 INFO Filas: 14
+2026-07-24 01:01:35,335 INFO Mensaje: CONFIRMADOS CJ -- MANANA (25/07/2026)
+Para manana tenemos 9 agendados y 5 retoques
+2026-07-24 01:01:35,335 INFO Enviando WhatsApp...
+2026-07-24 01:01:36,421 INFO Imagen copiada al portapapeles
+2026-07-24 01:01:36,557 INFO Esperando 20s para que el chat cargue...
+2026-07-24 01:01:59,001 INFO Imagen pegada
+2026-07-24 01:02:06,898 INFO Enviado
+2026-07-24 01:02:09,909 INFO CONFIRMADOS BM -- HOY (24/07/2026)
+2026-07-24 01:02:10,783 INFO Filas: 4
+2026-07-24 01:02:10,879 INFO Mensaje: CONFIRMADOS BM -- HOY (24/07/2026)
+Para hoy tenemos 4 agendados
+2026-07-24 01:02:10,879 INFO Enviando WhatsApp...
+2026-07-24 01:02:11,955 INFO Imagen copiada al portapapeles
+2026-07-24 01:02:12,085 INFO Esperando 20s para que el chat cargue...
+2026-07-24 01:02:34,592 INFO Imagen pegada
+2026-07-24 01:02:42,520 INFO Enviado
+2026-07-24 01:02:45,532 INFO CONFIRMADOS BM -- MANANA (25/07/2026)
+2026-07-24 01:02:46,857 INFO Filas: 6
+2026-07-24 01:02:46,982 INFO Mensaje: CONFIRMADOS BM -- MANANA (25/07/2026)
+Para manana tenemos 3 agendados, 1 sesion y 2 evaluaciones
+2026-07-24 01:02:46,982 INFO Enviando WhatsApp...
+2026-07-24 01:02:48,060 INFO Imagen copiada al portapapeles
+2026-07-24 01:02:48,194 INFO Esperando 20s para que el chat cargue...
+2026-07-24 01:03:10,604 INFO Imagen pegada
+2026-07-24 01:03:18,466 INFO Enviado
+2026-07-24 01:03:21,803 INFO AGENDADOS -- HOY (24/07/2026)
+2026-07-24 01:03:22,365 INFO Filas: 1
+2026-07-24 01:03:22,467 INFO Mensaje: CONFIRMADOS DERMA ESSENZA -- HOY (24/07/2026)
+Para hoy tenemos 1 agendados
+2026-07-24 01:03:22,467 INFO Enviando WhatsApp...
+2026-07-24 01:03:23,551 INFO Imagen copiada al portapapeles
+2026-07-24 01:03:23,692 INFO Esperando 20s para que el chat cargue...
+2026-07-24 01:03:46,302 INFO Imagen pegada
+2026-07-24 01:03:54,197 INFO Enviado
+2026-07-24 01:03:57,205 INFO AGENDADOS -- MANANA (25/07/2026)
+2026-07-24 01:03:57,997 INFO Filas: 1
+2026-07-24 01:03:58,098 INFO Mensaje: CONFIRMADOS DERMA ESSENZA -- MANANA (25/07/2026)
+Para manana tenemos 1 agendados
+2026-07-24 01:03:58,098 INFO Enviando WhatsApp...
+2026-07-24 01:03:59,166 INFO Imagen copiada al portapapeles
+2026-07-24 01:03:59,297 INFO Esperando 20s para que el chat cargue...
+2026-07-24 01:04:22,646 INFO Imagen pegada
+2026-07-24 01:04:30,503 INFO Enviado
+2026-07-24 01:04:33,513 INFO Finalizado.
+2026-07-24 07:00:41,558 INFO Conectando a Google Sheets...
+2026-07-24 07:00:45,177 INFO CONFIRMADOS CJ -- HOY (24/07/2026)
+2026-07-24 07:00:47,450 INFO Filas: 15
+2026-07-24 07:00:47,698 INFO Mensaje: CONFIRMADOS CJ -- HOY (24/07/2026)
+Para hoy tenemos 9 agendados, 2 evaluaciones y 4 retoques
+2026-07-24 07:00:47,698 INFO Enviando WhatsApp...
+2026-07-24 07:00:48,813 INFO Imagen copiada al portapapeles
+2026-07-24 07:00:49,081 INFO Esperando 30s para que el chat cargue...
+2026-07-24 07:16:24,538 INFO Imagen pegada
+2026-07-24 07:16:32,400 INFO Enviado
+2026-07-24 07:16:35,415 INFO CONFIRMADOS CJ -- MANANA (25/07/2026)
+2026-07-25 07:03:10,177 INFO Conectando a Google Sheets...
+2026-07-25 07:08:02,355 INFO Conectando a Google Sheets...
+2026-07-25 07:08:03,271 INFO CONFIRMADOS CJ -- HOY (25/07/2026)
+2026-07-25 07:08:05,398 INFO Filas: 20
+2026-07-25 07:08:05,709 INFO Mensaje: CONFIRMADOS CJ -- HOY (25/07/2026)
+Para hoy tenemos 13 agendados, 1 evaluacion y 6 retoques
+2026-07-25 07:08:05,709 INFO Enviando WhatsApp...
+2026-07-25 07:08:06,937 INFO Imagen copiada al portapapeles
+2026-07-25 07:08:07,369 INFO Esperando 30s para que el chat cargue...
+2026-07-25 07:08:40,488 INFO Imagen pegada
+2026-07-25 07:08:48,432 INFO Enviado
+2026-07-25 07:08:51,442 INFO CONFIRMADOS CJ -- MANANA (27/07/2026)
+2026-07-25 07:08:53,857 INFO Filas: 11
+2026-07-25 07:08:54,090 INFO Mensaje: CONFIRMADOS CJ -- MANANA (27/07/2026)
+Para manana tenemos 6 agendados, 1 sesion, 1 evaluacion y 3 retoques
+2026-07-25 07:08:54,090 INFO Enviando WhatsApp...
+2026-07-25 07:08:55,192 INFO Imagen copiada al portapapeles
+2026-07-25 07:08:55,349 INFO Esperando 20s para que el chat cargue...
+2026-07-25 07:09:17,784 INFO Imagen pegada
+2026-07-25 07:09:25,669 INFO Enviado
+2026-07-25 07:09:28,676 INFO CONFIRMADOS BM -- HOY (25/07/2026)
+2026-07-25 07:09:29,570 INFO Filas: 10
+2026-07-25 07:09:29,745 INFO Mensaje: CONFIRMADOS BM -- HOY (25/07/2026)
+Para hoy tenemos 7 agendados, 1 sesion y 2 evaluaciones
+2026-07-25 07:09:29,745 INFO Enviando WhatsApp...
+2026-07-25 07:09:30,817 INFO Imagen copiada al portapapeles
+2026-07-25 07:09:30,966 INFO Esperando 20s para que el chat cargue...
+2026-07-25 07:09:53,466 INFO Imagen pegada
+2026-07-25 07:10:01,348 INFO Enviado
+2026-07-25 07:10:04,360 INFO CONFIRMADOS BM -- MANANA (27/07/2026)
+2026-07-25 07:10:05,161 INFO Filas: 10
+2026-07-25 07:10:05,334 INFO Mensaje: CONFIRMADOS BM -- MANANA (27/07/2026)
+Para manana tenemos 10 agendados
+2026-07-25 07:10:05,334 INFO Enviando WhatsApp...
+2026-07-25 07:10:06,418 INFO Imagen copiada al portapapeles
+2026-07-25 07:10:06,548 INFO Esperando 20s para que el chat cargue...
+2026-07-25 07:10:29,379 INFO Imagen pegada
+2026-07-25 07:10:37,289 INFO Enviado
+2026-07-25 07:10:40,984 INFO AGENDADOS -- HOY (25/07/2026)
+2026-07-25 07:10:41,677 INFO Filas: 1
+2026-07-25 07:10:41,772 INFO Mensaje: CONFIRMADOS DERMA ESSENZA -- HOY (25/07/2026)
+Para hoy tenemos 1 agendados
+2026-07-25 07:10:41,773 INFO Enviando WhatsApp...
+2026-07-25 07:10:42,855 INFO Imagen copiada al portapapeles
+2026-07-25 07:10:42,991 INFO Esperando 20s para que el chat cargue...
+2026-07-25 07:11:05,573 INFO Imagen pegada
+2026-07-25 07:11:13,465 INFO Enviado
+2026-07-25 07:11:16,470 INFO AGENDADOS -- MANANA (27/07/2026)
+2026-07-25 07:11:17,157 INFO Filas: 3
+2026-07-25 07:11:17,268 INFO Mensaje: CONFIRMADOS DERMA ESSENZA -- MANANA (27/07/2026)
+Para manana tenemos 3 agendados
+2026-07-25 07:11:17,268 INFO Enviando WhatsApp...
+2026-07-25 07:11:18,475 INFO Imagen copiada al portapapeles
+2026-07-25 07:11:18,608 INFO Esperando 20s para que el chat cargue...
+2026-07-25 07:11:41,192 INFO Imagen pegada
+2026-07-25 07:11:49,027 INFO Enviado
+2026-07-25 07:11:52,039 INFO Finalizado.
+2026-07-27 06:48:22,160 INFO Conectando a Google Sheets...
+2026-07-27 06:48:26,090 INFO CONFIRMADOS CJ -- HOY (27/07/2026)
+2026-07-27 06:48:28,662 INFO Filas: 15
+2026-07-27 06:48:28,916 INFO Mensaje: CONFIRMADOS CJ -- HOY (27/07/2026)
+Para hoy tenemos 8 agendados, 1 sesion, 1 evaluacion y 5 retoques
+2026-07-27 06:48:28,916 INFO Enviando WhatsApp...
+2026-07-27 06:48:30,175 INFO Imagen copiada al portapapeles
+2026-07-27 06:48:30,546 INFO Esperando 30s para que el chat cargue...
+2026-07-27 06:49:03,743 INFO Imagen pegada
+2026-07-27 06:49:11,605 INFO Enviado
+2026-07-27 06:49:14,614 INFO CONFIRMADOS CJ -- MANANA (28/07/2026)
+2026-07-27 06:49:17,336 INFO Filas: 2
+2026-07-27 06:49:17,423 INFO Mensaje: CONFIRMADOS CJ -- MANANA (28/07/2026)
+Para manana tenemos 2 agendados
+2026-07-27 06:49:17,423 INFO Enviando WhatsApp...
+2026-07-27 06:49:18,503 INFO Imagen copiada al portapapeles
+2026-07-27 06:49:18,633 INFO Esperando 20s para que el chat cargue...
+2026-07-27 06:49:41,169 INFO Imagen pegada
+2026-07-27 06:49:49,054 INFO Enviado
+2026-07-27 06:49:52,064 INFO CONFIRMADOS BM -- HOY (27/07/2026)
+2026-07-27 06:49:53,277 INFO Filas: 16
+2026-07-27 06:49:53,480 INFO Mensaje: CONFIRMADOS BM -- HOY (27/07/2026)
+Para hoy tenemos 13 agendados y 2 evaluaciones
+2026-07-27 06:49:53,480 INFO Enviando WhatsApp...
+2026-07-27 06:49:54,562 INFO Imagen copiada al portapapeles
+2026-07-27 06:49:54,731 INFO Esperando 20s para que el chat cargue...
+2026-07-27 06:50:17,107 INFO Imagen pegada
+2026-07-27 06:50:25,000 INFO Enviado
+2026-07-27 06:50:28,008 INFO CONFIRMADOS BM -- MANANA (28/07/2026)
+2026-07-27 06:50:28,904 INFO Filas: 0
+2026-07-27 06:50:28,904 INFO Sin datos, se omite.
+2026-07-27 06:50:29,465 INFO AGENDADOS -- HOY (27/07/2026)
+2026-07-27 06:50:30,078 INFO Filas: 5
+2026-07-27 06:50:30,226 INFO Mensaje: CONFIRMADOS DERMA ESSENZA -- HOY (27/07/2026)
+Para hoy tenemos 5 agendados
+2026-07-27 06:50:30,226 INFO Enviando WhatsApp...
+2026-07-27 06:50:31,311 INFO Imagen copiada al portapapeles
+2026-07-27 06:50:31,482 INFO Esperando 20s para que el chat cargue...
+2026-07-27 06:50:53,897 INFO Imagen pegada
+2026-07-27 06:51:01,794 INFO Enviado
+2026-07-27 06:51:04,803 INFO AGENDADOS -- MANANA (28/07/2026)
+2026-07-27 06:51:05,750 INFO Filas: 0
+2026-07-27 06:51:05,750 INFO Sin datos, se omite.
+2026-07-27 06:51:05,750 INFO Finalizado.
+2026-07-27 07:03:30,300 INFO Conectando a Google Sheets...
+2026-07-28 07:06:16,756 INFO Conectando a Google Sheets...
+2026-07-28 07:06:20,467 INFO CONFIRMADOS CJ -- HOY (28/07/2026)
+2026-07-28 07:06:22,399 INFO Filas: 6
+2026-07-28 07:06:22,560 INFO Mensaje: CONFIRMADOS CJ -- HOY (28/07/2026)
+Para hoy tenemos 6 agendados
+2026-07-28 07:06:22,560 INFO Enviando WhatsApp...
+2026-07-28 07:06:23,672 INFO Imagen copiada al portapapeles
+2026-07-28 07:06:23,877 INFO Esperando 30s para que el chat cargue...
+2026-07-28 07:16:59,422 INFO Imagen pegada
+2026-07-28 07:17:07,200 INFO Enviado
+2026-07-28 07:17:10,203 INFO CONFIRMADOS CJ -- MANANA (29/07/2026)
+2026-07-28 07:31:10,686 INFO Conectando a Google Sheets...
+2026-07-28 07:31:14,177 INFO CONFIRMADOS CJ -- HOY (28/07/2026)
+2026-07-28 07:31:16,150 INFO Filas: 6
+2026-07-28 07:31:16,300 INFO Mensaje: CONFIRMADOS CJ -- HOY (28/07/2026)
+Para hoy tenemos 6 agendados
+2026-07-28 07:31:16,300 INFO Enviando WhatsApp...
+2026-07-28 07:31:17,486 INFO Imagen copiada al portapapeles
+2026-07-28 07:31:17,696 INFO Esperando 30s para que el chat cargue...
+2026-07-28 07:31:50,168 INFO Imagen pegada
+2026-07-28 07:31:57,936 INFO Enviado
+2026-07-28 07:32:00,946 INFO CONFIRMADOS CJ -- MANANA (29/07/2026)
+2026-07-28 07:32:03,049 INFO Filas: 1
+2026-07-28 07:32:03,142 INFO Mensaje: CONFIRMADOS CJ -- MANANA (29/07/2026)
+Para manana tenemos 1 agendados
+2026-07-28 07:32:03,142 INFO Enviando WhatsApp...
+2026-07-28 07:32:04,227 INFO Imagen copiada al portapapeles
+2026-07-28 07:32:04,362 INFO Esperando 20s para que el chat cargue...
+2026-07-28 07:32:26,811 INFO Imagen pegada
+2026-07-28 07:32:34,644 INFO Enviado
+2026-07-28 07:32:37,652 INFO CONFIRMADOS BM -- HOY (28/07/2026)
+2026-07-28 07:32:38,466 INFO Filas: 0
+2026-07-28 07:32:38,467 INFO Sin datos, se omite.
+2026-07-28 07:32:38,467 INFO CONFIRMADOS BM -- MANANA (29/07/2026)
+2026-07-28 07:32:39,191 INFO Filas: 0
+2026-07-28 07:32:39,191 INFO Sin datos, se omite.
+2026-07-28 07:32:39,743 INFO AGENDADOS -- HOY (28/07/2026)
+2026-07-28 07:32:40,327 INFO Filas: 0
+2026-07-28 07:32:40,327 INFO Sin datos, se omite.
+2026-07-28 07:32:40,327 INFO AGENDADOS -- MANANA (29/07/2026)
+2026-07-28 07:32:40,886 INFO Filas: 0
+2026-07-28 07:32:40,887 INFO Sin datos, se omite.
+2026-07-28 07:32:40,887 INFO Finalizado.
+2026-07-29 00:20:23,676 INFO Conectando a Google Sheets...
+2026-07-29 00:20:24,818 INFO CONFIRMADOS CJ -- HOY (29/07/2026)
+2026-07-29 00:20:27,276 INFO Filas: 2
+2026-07-29 00:20:27,372 INFO Mensaje: CONFIRMADOS CJ -- HOY (29/07/2026)
+Para hoy tenemos 2 agendados
+2026-07-29 00:20:27,372 INFO Enviando WhatsApp...
+2026-07-29 00:20:28,487 INFO Imagen copiada al portapapeles
+2026-07-29 00:20:28,613 INFO Esperando 30s para que el chat cargue...
+2026-07-29 00:21:01,564 INFO Imagen pegada
+2026-07-29 00:21:09,420 INFO Enviado
+2026-07-29 00:21:12,431 INFO CONFIRMADOS CJ -- MANANA (30/07/2026)
+2026-07-29 00:21:14,803 INFO Filas: 30
+2026-07-29 00:21:15,226 INFO Mensaje: CONFIRMADOS CJ -- MANANA (30/07/2026)
+Para manana tenemos 21 agendados, 5 evaluaciones y 3 retoques
+2026-07-29 00:21:15,226 INFO Enviando WhatsApp...
+2026-07-29 00:21:16,301 INFO Imagen copiada al portapapeles
+2026-07-29 00:21:16,465 INFO Esperando 20s para que el chat cargue...
+2026-07-29 00:21:38,887 INFO Imagen pegada
+2026-07-29 00:21:46,703 INFO Enviado
+2026-07-29 00:21:49,712 INFO CONFIRMADOS BM -- HOY (29/07/2026)
+2026-07-29 00:21:50,759 INFO Filas: 0
+2026-07-29 00:21:50,759 INFO Sin datos, se omite.
+2026-07-29 00:21:50,759 INFO CONFIRMADOS BM -- MANANA (30/07/2026)
+2026-07-29 00:21:51,645 INFO Filas: 14
+2026-07-29 00:21:51,899 INFO Mensaje: CONFIRMADOS BM -- MANANA (30/07/2026)
+Para manana tenemos 14 agendados
+2026-07-29 00:21:51,899 INFO Enviando WhatsApp...
+2026-07-29 00:21:52,979 INFO Imagen copiada al portapapeles
+2026-07-29 00:21:53,104 INFO Esperando 20s para que el chat cargue...
+2026-07-29 00:22:15,642 INFO Imagen pegada
+2026-07-29 00:22:23,457 INFO Enviado
+2026-07-29 00:22:27,134 INFO AGENDADOS -- HOY (29/07/2026)
+2026-07-29 00:22:27,900 INFO Filas: 0
+2026-07-29 00:22:27,900 INFO Sin datos, se omite.
+2026-07-29 00:22:27,900 INFO AGENDADOS -- MANANA (30/07/2026)
+2026-07-29 00:22:28,509 INFO Filas: 1
+2026-07-29 00:22:28,606 INFO Mensaje: CONFIRMADOS DERMA ESSENZA -- MANANA (30/07/2026)
+Para manana tenemos 1 agendados
+2026-07-29 00:22:28,607 INFO Enviando WhatsApp...
+2026-07-29 00:22:29,717 INFO Imagen copiada al portapapeles
+2026-07-29 00:22:29,849 INFO Esperando 20s para que el chat cargue...
+2026-07-29 00:22:52,253 INFO Imagen pegada
+2026-07-29 00:23:00,146 INFO Enviado
+2026-07-29 00:23:03,153 INFO Finalizado.
+2026-07-29 00:23:50,972 INFO Conectando a Google Sheets...
+2026-07-29 00:23:52,109 INFO CONFIRMADOS CJ -- HOY (29/07/2026)
+2026-07-29 00:23:54,596 INFO Filas: 2
+2026-07-29 00:23:54,679 INFO Mensaje: CONFIRMADOS CJ -- HOY (29/07/2026)
+Para hoy tenemos 2 agendados
+2026-07-29 00:23:54,679 INFO Enviando WhatsApp...
+2026-07-29 00:23:55,759 INFO Imagen copiada al portapapeles
+2026-07-29 00:23:55,883 INFO Esperando 30s para que el chat cargue...
+2026-07-29 00:24:28,281 INFO Imagen pegada
+2026-07-29 00:24:36,110 INFO Enviado
+2026-07-29 00:24:39,116 INFO CONFIRMADOS CJ -- MANANA (30/07/2026)
+2026-07-29 00:24:41,966 INFO Filas: 30
+2026-07-29 00:24:42,358 INFO Mensaje: CONFIRMADOS CJ -- MANANA (30/07/2026)
+Para manana tenemos 21 agendados, 5 evaluaciones y 3 retoques
+2026-07-29 00:24:42,358 INFO Enviando WhatsApp...
+2026-07-29 00:24:43,424 INFO Imagen copiada al portapapeles
+2026-07-29 00:24:43,551 INFO Esperando 20s para que el chat cargue...
+2026-07-29 00:25:05,994 INFO Imagen pegada
+2026-07-29 00:25:13,840 INFO Enviado
+2026-07-29 00:25:16,846 INFO CONFIRMADOS BM -- HOY (29/07/2026)
+2026-07-29 00:25:17,884 INFO Filas: 0
+2026-07-29 00:25:17,884 INFO Sin datos, se omite.
+2026-07-29 00:25:17,884 INFO CONFIRMADOS BM -- MANANA (30/07/2026)
+2026-07-29 00:25:18,855 INFO Filas: 14
+2026-07-29 00:25:19,052 INFO Mensaje: CONFIRMADOS BM -- MANANA (30/07/2026)
+Para manana tenemos 14 agendados
+2026-07-29 00:25:19,053 INFO Enviando WhatsApp...
+2026-07-29 00:25:20,124 INFO Imagen copiada al portapapeles
+2026-07-29 00:25:20,234 INFO Esperando 20s para que el chat cargue...
+2026-07-29 00:25:42,732 INFO Imagen pegada
+2026-07-29 00:25:50,603 INFO Enviado
+2026-07-29 00:25:54,261 INFO AGENDADOS -- HOY (29/07/2026)
+2026-07-29 00:25:55,241 INFO Filas: 0
+2026-07-29 00:25:55,241 INFO Sin datos, se omite.
+2026-07-29 00:25:55,241 INFO AGENDADOS -- MANANA (30/07/2026)
+2026-07-29 00:25:55,956 INFO Filas: 1
+2026-07-29 00:25:56,055 INFO Mensaje: CONFIRMADOS DERMA ESSENZA -- MANANA (30/07/2026)
+Para manana tenemos 1 agendados
+2026-07-29 00:25:56,055 INFO Enviando WhatsApp...
+2026-07-29 00:25:57,131 INFO Imagen copiada al portapapeles
+2026-07-29 00:25:57,288 INFO Esperando 20s para que el chat cargue...
+2026-07-29 00:26:20,209 INFO Imagen pegada
+2026-07-29 00:26:28,092 INFO Enviado
+2026-07-29 00:26:31,099 INFO Finalizado.
+2026-07-29 07:00:33,766 INFO Conectando a Google Sheets...
+2026-07-29 07:00:36,284 INFO CONFIRMADOS CJ -- HOY (29/07/2026)
+2026-07-29 07:00:37,993 INFO Filas: 2
+2026-07-29 07:00:38,075 INFO Mensaje: CONFIRMADOS CJ -- HOY (29/07/2026)
+Para hoy tenemos 2 agendados
+2026-07-29 07:00:38,075 INFO Enviando WhatsApp...
+2026-07-29 07:00:39,145 INFO Imagen copiada al portapapeles
+2026-07-29 07:00:39,244 INFO Esperando 30s para que el chat cargue...
+2026-07-29 07:26:13,780 INFO Imagen pegada
+2026-07-29 07:31:21,593 INFO Enviado
+2026-07-29 07:31:24,604 INFO CONFIRMADOS CJ -- MANANA (30/07/2026)

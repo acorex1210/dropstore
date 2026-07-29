@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1350" width="1080" height="1350">
+  <defs>
+    <linearGradient id="bgGradW35" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#111A2E"/>
+      <stop offset="100%" style="stop-color:#0B1220"/>
+    </linearGradient>
+  </defs>
+  <rect fill="url(#bgGradW35)" width="1080" height="1350"/>
+  <!-- Mujer 35-40 close-up: signos tempranos edad, arrugas finas, flacidez leve -->
+  <g transform="translate(540, 675)">
+    <!-- Rostro ovalado -->
+    <ellipse cx="0" cy="0" rx="360" ry="450" fill="#D4B896"/>
+    <!-- Piel con textura -->
+    <ellipse cx="0" cy="0" rx="360" ry="450" fill="#C8A07A" opacity="0.1"/>
+    <!-- Arrugas finas frente -->
+    <g stroke="#3A4D6E" stroke-width="1.5" fill="none" opacity="0.4" stroke-linecap="round">
+      <path d="M-180 -200 Q0 -210 180 -200"/>
+      <path d="M-150 -160 Q0 -170 150 -160"/>
+      <path d="M-120 -120 Q0 -130 120 -120"/>
+    </g>
+    <!-- Arrugas entrecejo (glabela) -->
+    <path d="M-30 -90 Q0 -70 30 -90" stroke="#3A4D6E" stroke-width="2" fill="none" stroke-linecap="round" opacity="0.5"/>
+    <path d="M-20 -60 Q0 -40 20 -60" stroke="#3A4D6E" stroke-width="1.5" fill="none" stroke-linecap="round" opacity="0.4"/>
+    <!-- Patas de gallo incipientes -->
+    <g stroke="#3A4D6E" stroke-width="1.2" fill="none" opacity="0.35" stroke-linecap="round">
+      <path d="M-200 -40 Q-160 -70 -120 -40"/>
+      <path d="M-190 -10 Q-150 -40 -110 -10"/>
+      <path d="M120 -40 Q160 -70 200 -40"/>
+      <path d="M110 -10 Q150 -40 190 -10"/>
+    </g>
+    <!-- Surco nasogeniano leve -->
+    <path d="M-130 20 Q-80 80 -40 120" stroke="#3A4D6E" stroke-width="2" fill="none" stroke-linecap="round" opacity="0.35"/>
+    <path d="M40 20 Q80 80 130 120" stroke="#3A4D6E" stroke-width="2" fill="none" stroke-linecap="round" opacity="0.35"/>
+    <!-- Flacidez mandibular sutil -->
+    <path d="M-260 200 Q-180 320 0 300 Q180 320 260 200" stroke="#3A4D6E" stroke-width="1.5" fill="none" stroke-linecap="round" opacity="0.25"/>
+    <!-- Ojos -->
+    <ellipse cx="-130" cy="-50" rx="55" ry="30" fill="#2D2D2D"/>
+    <ellipse cx="130" cy="-50" rx="55" ry="30" fill="#2D2D2D"/>
+    <ellipse cx="-130" cy="-50" rx="18" ry="18" fill="#1A1A1A"/>
+    <ellipse cx="130" cy "-50" rx="18" ry="18" fill="#1A1A1A"/>
+    <!-- Cejas -->
+    <path d="M-180 -95 Q-130 -115 -80 -95" stroke="#3D3D3D" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <path d="M80 -95 Q130 -115 180 -95" stroke="#3D3D3D" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <!-- Nariz -->
+    <ellipse cx="0" cy="40" rx="30" ry="40" fill="#C4A07A"/>
+    <!-- Labios -->
+    <ellipse cx="0" cy="180" rx="90" ry="30" fill="#B88A6A"/>
+    <ellipse cx="0" cy="175" rx="75" ry="18" fill="#C89A7A"/>
+  </g>
+  <!-- Textos -->
+  <text x="540" y="1220" text-anchor="middle" font-family="Inter, sans-serif" font-size="18" font-weight="500" fill="#C5A572">PLACEHOLDER - MUJER 35-40</text>
+  <text x="540" y="1250" text-anchor="middle" font-family="Inter, sans-serif" font-size="13" fill="#5A7294">Signos tempranos edad · Arrugas finas · Flacidez · 4:5</text>
+  <text x="540" y="1275" text-anchor="middle" font-family="Inter, sans-serif" font-size="11" fill="#3A4D6E">Click para subir foto</text>
+</svg>
