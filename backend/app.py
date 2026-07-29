@@ -519,11 +519,13 @@ async def create_product(data: ProductCreate, session: AsyncSession = Depends(ge
     p = Product(name=data.name, description=data.description, category=data.category, images=data.images,
                 base_price=data.base_price, margin_percentage=data.margin_percentage or 30.0,
                 selling_price=sp, stock=data.stock, provider_name=data.provider_name, provider_id=data.provider_id)
-    session.add(p); await session.commit(); await session.refresh(p); return p
+    session.add(p); await session.commit()
+    r = await session.execute(select(Product).where(Product.id==p.id).options(selectinload(Product.variants)))
+    return r.scalar_one()
 
 @router_prod.patch("/{product_id}", response_model=ProductOut)
 async def update_product(product_id: uuid.UUID, data: ProductUpdate, session: AsyncSession = Depends(get_session)):
-    r = await session.execute(select(Product).where(Product.id==product_id))
+    r = await session.execute(select(Product).where(Product.id==product_id).options(selectinload(Product.variants)))
     p = r.scalar_one_or_none()
     if not p: raise HTTPException(404, detail="Producto no encontrado")
     upd = data.model_dump(exclude_unset=True)
