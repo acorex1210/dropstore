@@ -74,8 +74,12 @@ export interface Order {
   currency: string;
   payment_id: string | null;
   payment_status: string | null;
+  provider_order_id: string | null;
   tracking_number: string | null;
   tracking_url: string | null;
+  shipping_address: string;
+  shipping_city: string;
+  shipping_department: string | null;
   items: OrderItem[];
   created_at: string;
 }

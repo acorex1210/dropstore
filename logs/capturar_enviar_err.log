@@ -7,3 +7,5 @@
 2026-07-15 07:06:32,853 ERROR ERROR WhatsApp: [Errno 30] Read-only file system: 'PyWhatKit_DB.txt'
 2026-07-15 07:08:18,011 ERROR ERROR WhatsApp: [Errno 30] Read-only file system: 'PyWhatKit_DB.txt'
 2026-07-24 00:46:34,695 ERROR Error de conexion: [Errno 2] No such file or directory: '/Users/dermaessenza/credenciales-sheets.json'
+2026-07-30 06:06:53,221 ERROR Error de conexion: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-07-30 07:42:41,193 ERROR Error de conexion: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 8] nodename nor servname provided, or not known)"))

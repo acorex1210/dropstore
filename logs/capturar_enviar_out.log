@@ -1185,3 +1185,224 @@ Para hoy tenemos 2 agendados
 2026-07-29 07:26:13,780 INFO Imagen pegada
 2026-07-29 07:31:21,593 INFO Enviado
 2026-07-29 07:31:24,604 INFO CONFIRMADOS CJ -- MANANA (30/07/2026)
+2026-07-29 14:44:27,069 INFO Conectando a Google Sheets...
+2026-07-29 14:44:30,145 INFO CONFIRMADOS CJ -- HOY (29/07/2026)
+2026-07-29 14:44:31,966 INFO Filas: 2
+2026-07-29 14:44:32,056 INFO Mensaje: CONFIRMADOS CJ -- HOY (29/07/2026)
+Para hoy tenemos 2 agendados
+2026-07-29 14:44:32,056 INFO Enviando WhatsApp...
+2026-07-29 14:44:33,220 INFO Imagen copiada al portapapeles
+2026-07-29 14:44:33,365 INFO Esperando 30s para que el chat cargue...
+2026-07-29 14:45:06,583 INFO Imagen pegada
+2026-07-29 14:45:14,426 INFO Enviado
+2026-07-29 14:45:17,437 INFO CONFIRMADOS CJ -- MANANA (30/07/2026)
+2026-07-29 14:45:19,022 INFO Filas: 30
+2026-07-29 14:45:19,444 INFO Mensaje: CONFIRMADOS CJ -- MANANA (30/07/2026)
+Para manana tenemos 21 agendados, 5 evaluaciones y 3 retoques
+2026-07-29 14:45:19,444 INFO Enviando WhatsApp...
+2026-07-29 14:45:20,531 INFO Imagen copiada al portapapeles
+2026-07-29 14:45:20,687 INFO Esperando 20s para que el chat cargue...
+2026-07-29 14:45:43,169 INFO Imagen pegada
+2026-07-29 14:45:51,014 INFO Enviado
+2026-07-29 14:45:54,023 INFO CONFIRMADOS BM -- HOY (29/07/2026)
+2026-07-29 14:45:54,853 INFO Filas: 0
+2026-07-29 14:45:54,853 INFO Sin datos, se omite.
+2026-07-29 14:45:54,853 INFO CONFIRMADOS BM -- MANANA (30/07/2026)
+2026-07-29 14:45:55,620 INFO Filas: 14
+2026-07-29 14:45:55,838 INFO Mensaje: CONFIRMADOS BM -- MANANA (30/07/2026)
+Para manana tenemos 14 agendados
+2026-07-29 14:45:55,838 INFO Enviando WhatsApp...
+2026-07-29 14:45:56,909 INFO Imagen copiada al portapapeles
+2026-07-29 14:45:57,099 INFO Esperando 20s para que el chat cargue...
+2026-07-29 14:46:19,730 INFO Imagen pegada
+2026-07-29 14:46:27,573 INFO Enviado
+2026-07-29 14:46:31,172 INFO AGENDADOS -- HOY (29/07/2026)
+2026-07-29 14:46:31,854 INFO Filas: 0
+2026-07-29 14:46:31,854 INFO Sin datos, se omite.
+2026-07-29 14:46:31,854 INFO AGENDADOS -- MANANA (30/07/2026)
+2026-07-29 14:46:32,467 INFO Filas: 1
+2026-07-29 14:46:32,575 INFO Mensaje: CONFIRMADOS DERMA ESSENZA -- MANANA (30/07/2026)
+Para manana tenemos 1 agendados
+2026-07-29 14:46:32,575 INFO Enviando WhatsApp...
+2026-07-29 14:46:33,651 INFO Imagen copiada al portapapeles
+2026-07-29 14:46:33,824 INFO Esperando 20s para que el chat cargue...
+2026-07-29 14:46:56,300 INFO Imagen pegada
+2026-07-29 14:47:04,167 INFO Enviado
+2026-07-29 14:47:07,173 INFO Finalizado.
+2026-07-29 15:18:00,506 INFO Conectando a Google Sheets...
+2026-07-29 15:18:03,726 INFO CONFIRMADOS CJ -- HOY (29/07/2026)
+2026-07-29 15:18:05,636 INFO Filas: 2
+2026-07-29 15:18:05,732 INFO Mensaje: 🤖 SYSTEM CONFIRMADOS CJ -- HOY (29/07/2026)
+Para hoy tenemos 2 agendados
+2026-07-29 15:18:05,732 INFO Enviando WhatsApp...
+2026-07-29 15:18:07,107 INFO Imagen copiada al portapapeles
+2026-07-29 15:18:07,275 INFO Esperando 30s para que el chat cargue...
+2026-07-29 15:18:40,484 INFO Imagen pegada
+2026-07-29 15:18:48,341 INFO Enviado
+2026-07-29 15:18:51,349 INFO CONFIRMADOS CJ -- MANANA (30/07/2026)
+2026-07-29 15:18:53,321 INFO Filas: 30
+2026-07-29 15:18:53,773 INFO Mensaje: 🤖 SYSTEM CONFIRMADOS CJ -- MANANA (30/07/2026)
+Para manana tenemos 21 agendados, 5 evaluaciones y 3 retoques
+2026-07-29 15:18:53,773 INFO Enviando WhatsApp...
+2026-07-29 15:18:54,861 INFO Imagen copiada al portapapeles
+2026-07-29 15:18:54,980 INFO Esperando 20s para que el chat cargue...
+2026-07-29 15:21:56,646 INFO Conectando a Google Sheets...
+2026-07-29 15:21:57,896 INFO CONFIRMADOS CJ -- HOY (29/07/2026)
+2026-07-29 15:21:59,899 INFO Filas: 2
+2026-07-29 15:21:59,987 INFO Mensaje: 🤖 SYSTEM CRM CONFIRMADOS -- HOY (29/07/2026)
+Para hoy tenemos 2 agendados
+2026-07-29 15:21:59,987 INFO Enviando WhatsApp...
+2026-07-29 15:22:01,297 INFO Imagen copiada al portapapeles
+2026-07-29 15:22:01,492 INFO Esperando 30s para que el chat cargue...
+2026-07-29 15:22:34,133 INFO Imagen pegada
+2026-07-29 15:22:42,006 INFO Enviado
+2026-07-29 15:22:45,017 INFO CONFIRMADOS CJ -- MANANA (30/07/2026)
+2026-07-29 15:22:46,993 INFO Filas: 30
+2026-07-29 15:22:47,460 INFO Mensaje: 🤖 SYSTEM CRM CONFIRMADOS -- MANANA (30/07/2026)
+Para manana tenemos 21 agendados, 5 evaluaciones y 3 retoques
+2026-07-29 15:22:47,460 INFO Enviando WhatsApp...
+2026-07-29 15:22:48,563 INFO Imagen copiada al portapapeles
+2026-07-29 15:22:48,746 INFO Esperando 20s para que el chat cargue...
+2026-07-29 15:23:11,206 INFO Imagen pegada
+2026-07-29 15:23:19,046 INFO Enviado
+2026-07-29 15:23:22,057 INFO CONFIRMADOS BM -- HOY (29/07/2026)
+2026-07-29 15:23:23,162 INFO Filas: 0
+2026-07-29 15:23:23,162 INFO Sin datos, se omite.
+2026-07-29 15:23:23,162 INFO CONFIRMADOS BM -- MANANA (30/07/2026)
+2026-07-29 15:23:23,924 INFO Filas: 14
+2026-07-29 15:23:24,149 INFO Mensaje: CONFIRMADOS BM -- MANANA (30/07/2026)
+Para manana tenemos 14 agendados
+2026-07-29 15:23:24,149 INFO Enviando WhatsApp...
+2026-07-29 15:23:25,247 INFO Imagen copiada al portapapeles
+2026-07-29 15:23:25,401 INFO Esperando 20s para que el chat cargue...
+2026-07-29 15:23:48,800 INFO Imagen pegada
+2026-07-29 15:23:56,662 INFO Enviado
+2026-07-29 15:24:00,454 INFO AGENDADOS -- HOY (29/07/2026)
+2026-07-29 15:24:01,142 INFO Filas: 0
+2026-07-29 15:24:01,142 INFO Sin datos, se omite.
+2026-07-29 15:24:01,142 INFO AGENDADOS -- MANANA (30/07/2026)
+2026-07-29 15:24:01,714 INFO Filas: 1
+2026-07-29 15:24:01,850 INFO Mensaje: CONFIRMADOS DERMA ESSENZA -- MANANA (30/07/2026)
+Para manana tenemos 1 agendados
+2026-07-29 15:24:01,850 INFO Enviando WhatsApp...
+2026-07-29 15:24:02,940 INFO Imagen copiada al portapapeles
+2026-07-29 15:24:03,131 INFO Esperando 20s para que el chat cargue...
+2026-07-29 15:24:25,618 INFO Imagen pegada
+2026-07-29 15:24:33,500 INFO Enviado
+2026-07-29 15:24:36,509 INFO Finalizado.
+2026-07-30 06:06:53,154 INFO Conectando a Google Sheets...
+2026-07-30 06:06:53,221 ERROR Error de conexion: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-07-30 06:09:16,922 INFO Conectando a Google Sheets...
+2026-07-30 06:09:20,046 INFO CONFIRMADOS CJ -- HOY (30/07/2026)
+2026-07-30 06:09:22,196 INFO Filas: 30
+2026-07-30 06:09:22,641 INFO Mensaje: 🤖 SYSTEM CRM CONFIRMADOS -- HOY (30/07/2026)
+Para hoy tenemos 21 agendados, 5 evaluaciones y 3 retoques
+2026-07-30 06:09:22,641 INFO Enviando WhatsApp...
+2026-07-30 06:09:23,930 INFO Imagen copiada al portapapeles
+2026-07-30 06:09:24,362 INFO Esperando 30s para que el chat cargue...
+2026-07-30 06:09:57,654 INFO Imagen pegada
+2026-07-30 06:10:05,516 INFO Enviado
+2026-07-30 06:10:08,526 INFO CONFIRMADOS CJ -- MANANA (31/07/2026)
+2026-07-30 06:10:10,450 INFO Filas: 17
+2026-07-30 06:10:10,768 INFO Mensaje: 🤖 SYSTEM CRM CONFIRMADOS -- MANANA (31/07/2026)
+Para manana tenemos 15 agendados y 2 retoques
+2026-07-30 06:10:10,768 INFO Enviando WhatsApp...
+2026-07-30 06:10:11,859 INFO Imagen copiada al portapapeles
+2026-07-30 06:10:12,029 INFO Esperando 20s para que el chat cargue...
+2026-07-30 06:10:34,743 INFO Imagen pegada
+2026-07-30 06:10:42,633 INFO Enviado
+2026-07-30 06:10:45,641 INFO CONFIRMADOS BM -- HOY (30/07/2026)
+2026-07-30 06:10:46,363 INFO Filas: 14
+2026-07-30 06:10:46,558 INFO Mensaje: CONFIRMADOS BM -- HOY (30/07/2026)
+Para hoy tenemos 14 agendados
+2026-07-30 06:10:46,558 INFO Enviando WhatsApp...
+2026-07-30 06:10:47,651 INFO Imagen copiada al portapapeles
+2026-07-30 06:10:47,825 INFO Esperando 20s para que el chat cargue...
+2026-07-30 06:11:10,538 INFO Imagen pegada
+2026-07-30 06:11:18,404 INFO Enviado
+2026-07-30 06:11:21,412 INFO CONFIRMADOS BM -- MANANA (31/07/2026)
+2026-07-30 06:11:22,086 INFO Filas: 4
+2026-07-30 06:11:22,192 INFO Mensaje: CONFIRMADOS BM -- MANANA (31/07/2026)
+Para manana tenemos 4 agendados
+2026-07-30 06:11:22,192 INFO Enviando WhatsApp...
+2026-07-30 06:11:23,276 INFO Imagen copiada al portapapeles
+2026-07-30 06:11:23,435 INFO Esperando 20s para que el chat cargue...
+2026-07-30 06:11:45,901 INFO Imagen pegada
+2026-07-30 06:11:53,794 INFO Enviado
+2026-07-30 06:11:57,287 INFO AGENDADOS -- HOY (30/07/2026)
+2026-07-30 06:11:57,951 INFO Filas: 1
+2026-07-30 06:11:58,049 INFO Mensaje: CONFIRMADOS DERMA ESSENZA -- HOY (30/07/2026)
+Para hoy tenemos 1 agendados
+2026-07-30 06:11:58,049 INFO Enviando WhatsApp...
+2026-07-30 06:11:59,131 INFO Imagen copiada al portapapeles
+2026-07-30 06:11:59,274 INFO Esperando 20s para que el chat cargue...
+2026-07-30 06:12:22,250 INFO Imagen pegada
+2026-07-30 06:12:30,129 INFO Enviado
+2026-07-30 06:12:33,140 INFO AGENDADOS -- MANANA (31/07/2026)
+2026-07-30 06:12:33,825 INFO Filas: 1
+2026-07-30 06:12:33,912 INFO Mensaje: CONFIRMADOS DERMA ESSENZA -- MANANA (31/07/2026)
+Para manana tenemos 1 agendados
+2026-07-30 06:12:33,912 INFO Enviando WhatsApp...
+2026-07-30 06:12:34,994 INFO Imagen copiada al portapapeles
+2026-07-30 06:12:35,174 INFO Esperando 20s para que el chat cargue...
+2026-07-30 06:12:57,663 INFO Imagen pegada
+2026-07-30 06:13:05,532 INFO Enviado
+2026-07-30 06:13:08,540 INFO Finalizado.
+2026-07-30 06:16:40,025 INFO Conectando a Google Sheets...
+2026-07-30 06:16:41,550 INFO CONFIRMADOS CJ -- HOY (30/07/2026)
+2026-07-30 06:16:42,140 INFO Filas: 36
+2026-07-30 06:16:42,679 INFO Mensaje: 🤖 SYSTEM CRM CONFIRMADOS -- HOY (30/07/2026)
+Para hoy tenemos 25 agendados, 6 evaluaciones y 4 retoques
+2026-07-30 06:16:42,680 INFO Enviando WhatsApp...
+2026-07-30 06:16:43,877 INFO Imagen copiada al portapapeles
+2026-07-30 06:16:44,104 INFO Esperando 30s para que el chat cargue...
+2026-07-30 06:17:17,221 INFO Imagen pegada
+2026-07-30 06:17:25,064 INFO Enviado
+2026-07-30 06:17:28,070 INFO CONFIRMADOS CJ -- MANANA (31/07/2026)
+2026-07-30 06:17:28,832 INFO Filas: 14
+2026-07-30 06:17:29,129 INFO Mensaje: 🤖 SYSTEM CRM CONFIRMADOS -- MANANA (31/07/2026)
+Para manana tenemos 12 agendados y 2 retoques
+2026-07-30 06:17:29,129 INFO Enviando WhatsApp...
+2026-07-30 06:17:30,218 INFO Imagen copiada al portapapeles
+2026-07-30 06:17:30,385 INFO Esperando 20s para que el chat cargue...
+2026-07-30 06:17:53,059 INFO Imagen pegada
+2026-07-30 06:18:00,986 INFO Enviado
+2026-07-30 06:18:03,997 INFO CONFIRMADOS BM -- HOY (30/07/2026)
+2026-07-30 06:18:04,860 INFO Filas: 14
+2026-07-30 06:18:05,070 INFO Mensaje: CONFIRMADOS BM -- HOY (30/07/2026)
+Para hoy tenemos 14 agendados
+2026-07-30 06:18:05,070 INFO Enviando WhatsApp...
+2026-07-30 06:18:06,157 INFO Imagen copiada al portapapeles
+2026-07-30 06:18:06,336 INFO Esperando 20s para que el chat cargue...
+2026-07-30 06:18:28,801 INFO Imagen pegada
+2026-07-30 06:18:36,642 INFO Enviado
+2026-07-30 06:18:39,655 INFO CONFIRMADOS BM -- MANANA (31/07/2026)
+2026-07-30 06:18:40,440 INFO Filas: 5
+2026-07-30 06:18:40,575 INFO Mensaje: CONFIRMADOS BM -- MANANA (31/07/2026)
+Para manana tenemos 5 agendados
+2026-07-30 06:18:40,575 INFO Enviando WhatsApp...
+2026-07-30 06:18:41,673 INFO Imagen copiada al portapapeles
+2026-07-30 06:18:41,862 INFO Esperando 20s para que el chat cargue...
+2026-07-30 06:19:04,589 INFO Imagen pegada
+2026-07-30 06:19:12,468 INFO Enviado
+2026-07-30 06:19:15,843 INFO AGENDADOS -- HOY (30/07/2026)
+2026-07-30 06:19:16,390 INFO Filas: 1
+2026-07-30 06:19:16,484 INFO Mensaje: CONFIRMADOS DERMA ESSENZA -- HOY (30/07/2026)
+Para hoy tenemos 1 agendados
+2026-07-30 06:19:16,484 INFO Enviando WhatsApp...
+2026-07-30 06:19:17,561 INFO Imagen copiada al portapapeles
+2026-07-30 06:19:17,733 INFO Esperando 20s para que el chat cargue...
+2026-07-30 06:19:40,498 INFO Imagen pegada
+2026-07-30 06:19:48,396 INFO Enviado
+2026-07-30 06:19:51,407 INFO AGENDADOS -- MANANA (31/07/2026)
+2026-07-30 06:19:52,244 INFO Filas: 1
+2026-07-30 06:19:52,349 INFO Mensaje: CONFIRMADOS DERMA ESSENZA -- MANANA (31/07/2026)
+Para manana tenemos 1 agendados
+2026-07-30 06:19:52,349 INFO Enviando WhatsApp...
+2026-07-30 06:19:53,432 INFO Imagen copiada al portapapeles
+2026-07-30 06:19:53,642 INFO Esperando 20s para que el chat cargue...
+2026-07-30 06:20:16,090 INFO Imagen pegada
+2026-07-30 06:20:24,020 INFO Enviado
+2026-07-30 06:20:27,030 INFO Finalizado.
+2026-07-30 07:42:41,123 INFO Conectando a Google Sheets...
+2026-07-30 07:42:41,193 ERROR Error de conexion: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 8] nodename nor servname provided, or not known)"))

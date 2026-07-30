@@ -1,252 +1,93 @@
 #!/usr/bin/env python3
-"""Reporte diario de pacientes agendados enviado por WhatsApp via pywhatkit + pyautogui.
-
-pywhatkit abre Safari con WhatsApp Web (sesion existente).
-pyautogui presiona Enter para enviar automaticamente.
-"""
-import os
-import sys
-import time
-import warnings
-from datetime import date, datetime
+import os,sys,time,io,logging,warnings; from datetime import date,datetime
 from collections import defaultdict
+warnings.filterwarnings('ignore')
+import openpyxl; from google.oauth2.service_account import Credentials
+from googleapiclient.discovery import build; from googleapiclient.http import MediaIoBaseDownload
 
-warnings.filterwarnings('ignore', category=FutureWarning)
-warnings.filterwarnings('ignore', category=UserWarning)
+# CONFIG
+PHONE='+51968797977'; OUT=os.path.expanduser('~/TRABAJO/capturas'); os.makedirs(OUT,exist_ok=True)
+LOGS=os.path.expanduser('~/TRABAJO/logs'); os.makedirs(LOGS,exist_ok=True)
+JSON_KEY=os.path.expanduser('~/credenciales-sheets.json')
+FILE_ID='1eVeMN1_f-RL2caN_Y9pq3DNEez3TeVTZ'
+MES={'ENE':1,'FEB':2,'MAR':3,'ABR':4,'MAY':5,'JUN':6,'JUL':7,'AGO':8,'SET':9,'SEP':9,'OCT':10,'NOV':11,'DIC':12}
+EXCL={'RETOQUES','RETOQUE','EVALUACIONES','EVALUACION','SESION','SESIÓN','SESIONES'}
+COL=['#e94560','#0f3460','#533483','#a66cff','#ffa62e','#7ed321','#ff6b6b','#4ecdc4']
+
+hoy=datetime.strptime(sys.argv[1],'%d/%m/%Y').date()if len(sys.argv)>=2 else date.today()
+TD,TN,TY=hoy.day,hoy.month,hoy.year; JPG=os.path.join(OUT,'reporte_hoy.jpg')
+
+# LOGGING
+l=logging.getLogger('rpt');l.setLevel(logging.INFO)
+if not l.handlers:
+ h1=logging.FileHandler(os.path.join(LOGS,'rpt_out.log'))
+ h2=logging.FileHandler(os.path.join(LOGS,'rpt_err.log'));h2.setLevel(logging.WARNING)
+ s=logging.StreamHandler();f=logging.Formatter('%(asctime)s %(levelname)s %(message)s')
+ for x in(h1,h2,s):x.setFormatter(f);l.addHandler(x)
+
+def descargar():
+ for _ in range(3):
+  try:
+   c=Credentials.from_service_account_file(JSON_KEY,scopes=['https://www.googleapis.com/auth/drive.readonly'])
+   b=build('drive','v3',credentials=c);r=b.files().get_media(fileId=FILE_ID);h=io.BytesIO()
+   d=MediaIoBaseDownload(h,r,chunksize=1024*1024);ok=False
+   while not ok:_,ok=d.next_chunk(num_retries=3)
+   h.seek(0);return openpyxl.load_workbook(h,read_only=True)
+  except Exception as e:time.sleep(5)
+ raise e
+
+def datos():
+ l.info('Descargando...');wb=descargar();ws=wb['AGENDADOS'];d=defaultdict(int)
+ for r in ws.iter_rows(min_row=5,values_only=True):
+  if len(r)<16:continue
+  c=str(r[11]or'').strip()
+  if not c or c.lower()=='none':continue
+  n=str(r[5]or'').strip();t=str(r[8]or'').strip();p=str(r[15]or'').strip()
+  if not n or not t or not p:continue
+  if any(e in p.upper() for e in EXCL):continue
+  dv=int(r[2])if r[2]is not None else 0;av=int(r[4])if r[4]is not None else 0
+  mw=str(r[3]or'').strip().upper();mn=MES.get(mw[:3],0)
+  if dv==TD and mn==TN and av==TY:d[c]+=1
+ wb.close();return sorted(d.items(),key=lambda x:-x[1])
+
+def tabla(d,ruta):
+ import matplotlib;matplotlib.use('Agg')
+ import matplotlib.pyplot as plt;from matplotlib.patches import FancyBboxPatch
+ t=sum(v for _,v in d)
+ if not d:
+  f,a=plt.subplots(figsize=(5,2.5));a.set_facecolor('#1a1a2e')
+  f.patch.set_facecolor('#1a1a2e');a.text(.5,.5,f'Sin agendados hoy ({hoy})',ha='center',va='center',fontsize=16,color='white',fontweight='bold')
+  a.axis('off');f.savefig(ruta,dpi=200,bbox_inches='tight',facecolor='#1a1a2e');plt.close(f);return
+ n=len(d)+1;f,a=plt.subplots(figsize=(7,max(3,n*.7+2)))
+ a.set_facecolor('#1a1a2e');f.patch.set_facecolor('#1a1a2e');a.axis('off')
+ a.text(.5,.95,f'PACIENTES AGENDADOS - {hoy}',ha='center',va='top',fontsize=16,color='white',fontweight='bold',transform=a.transAxes)
+ ys=.85;rh=.7/max(n,1)
+ for i,(c,v)in enumerate(d):
+  y=ys-(i+1)*rh;cl=COL[i%len(COL)]
+  a.add_patch(FancyBboxPatch((.05,y-rh*.35),.9,rh*.7,boxstyle="round,pad=0.02",facecolor=cl,alpha=.85,transform=a.transAxes))
+  a.text(.12,y,c.upper(),ha='left',va='center',fontsize=14,color='white',fontweight='bold',transform=a.transAxes)
+  a.text(.88,y,str(v),ha='right',va='center',fontsize=18,color='white',fontweight='bold',transform=a.transAxes)
+ yt=ys-n*rh;a.add_patch(FancyBboxPatch((.05,yt-rh*.35),.9,rh*.7,boxstyle="round,pad=0.02",facecolor='#333',alpha=.9,transform=a.transAxes))
+ a.text(.12,yt,'TOTAL',ha='left',va='center',fontsize=14,color='#ffa62e',fontweight='bold',transform=a.transAxes)
+ a.text(.88,yt,str(t),ha='right',va='center',fontsize=18,color='#ffa62e',fontweight='bold',transform=a.transAxes)
+ plt.subplots_adjust(top=.92,bottom=.05,left=.03,right=.97);f.savefig(ruta,dpi=200,bbox_inches='tight',facecolor='#1a1a2e');plt.close(f)
+
+def enviar(r,c):
+ import pyautogui;pyautogui.FAILSAFE=False
+ import pywhatkit as kit
+ try:
+  from pywhatkit.core import log as _;_.log_image=_.log_message=lambda*a,**k:None
+ except:pass
+ l.info('Abriendo WhatsApp...')
+ kit.sendwhats_image(PHONE,os.path.abspath(r),c,wait_time=15,tab_close=False)
+ l.info('Esperando...');time.sleep(8);pyautogui.press('enter');time.sleep(2);l.info('Enviado!')
+
 try:
-    from urllib3.exceptions import NotOpenSSLWarning
-    warnings.filterwarnings('ignore', category=NotOpenSSLWarning)
-except Exception:
-    pass
-
-from config import PHONE_REPORTE, OUT_DIR, MESES_ESP, EXCLUIR_REPORTE
-from utils import configurar_logging, descargar_excel_drive, crear_bar_chart
-
-log = configurar_logging('reporte_safari')
-
-OUTPUT_JPG = os.path.join(OUT_DIR, 'reporte_hoy.jpg')
-
-if len(sys.argv) >= 2:
-    hoy = datetime.strptime(sys.argv[1], '%d/%m/%Y').date()
-else:
-    hoy = date.today()
-TARGET_DAY = hoy.day
-TARGET_MONTH = hoy.month
-TARGET_YEAR = hoy.year
-
-
-# ============================================================
-# DATOS
-# ============================================================
-def _parse_mes(valor):
-    if valor is None:
-        return 0
-    raw = str(valor).strip().upper()
-    limpio = raw.replace('.', '').replace('-', '')
-    if limpio.isdigit():
-        try:
-            return int(float(valor))
-        except (ValueError, TypeError):
-            pass
-    return MESES_ESP.get(raw[:3], 0)
-
-
-def _parse_int(valor):
-    try:
-        return int(valor) if valor is not None else 0
-    except (ValueError, TypeError):
-        return 0
-
-
-def obtener_agendados_hoy():
-    log.info('Descargando Excel desde Google Drive...')
-    wb = descargar_excel_drive()
-    if 'AGENDADOS' not in wb.sheetnames:
-        raise RuntimeError("La hoja 'AGENDADOS' no existe en el Excel")
-    ws = wb['AGENDADOS']
-
-    data = defaultdict(int)
-    for row in ws.iter_rows(min_row=5, values_only=True):
-        if len(row) < 16:
-            continue
-        crm = str(row[11]).strip() if row[11] else ''
-        if not crm or crm.lower() == 'none':
-            continue
-        nombre = str(row[5]).strip() if len(row) > 5 and row[5] else ''
-        telefono = str(row[8]).strip() if len(row) > 8 and row[8] else ''
-        campana = str(row[15]).strip() if row[15] else ''
-        if not nombre or not telefono or not campana:
-            continue
-        if any(e in campana.upper() for e in EXCLUIR_REPORTE):
-            continue
-
-        dia_val = _parse_int(row[2])
-        ano_val = _parse_int(row[4])
-        mes_num = _parse_mes(row[3])
-
-        if dia_val == TARGET_DAY and mes_num == TARGET_MONTH and ano_val == TARGET_YEAR:
-            data[crm] += 1
-
-    wb.close()
-    return sorted(data.items(), key=lambda x: -x[1])
-
-
-def construir_texto(crms_sorted):
-    total = sum(v for _, v in crms_sorted)
-    if not crms_sorted:
-        return f'No hay pacientes agendados hoy ({hoy})'
-    lineas = '\n'.join(f'{c}: {v}' for c, v in crms_sorted)
-    return f'*Reporte {hoy}*\n{lineas}\n\nTotal: {total}'
-
-
-def crear_tabla_agendados(crms_sorted, ruta):
-    import matplotlib
-    matplotlib.use('Agg')
-    import matplotlib.pyplot as plt
-    from matplotlib.patches import FancyBboxPatch
-
-    colores = ['#e94560', '#0f3460', '#533483', '#a66cff', '#ffa62e', '#7ed321', '#ff6b6b', '#4ecdc4']
-    total = sum(v for _, v in crms_sorted)
-
-    if not crms_sorted:
-        fig, ax = plt.subplots(figsize=(5, 2.5))
-        ax.set_facecolor('#1a1a2e')
-        fig.patch.set_facecolor('#1a1a2e')
-        ax.text(0.5, 0.5, f'Sin agendados hoy ({hoy})', ha='center', va='center',
-                fontsize=16, color='white', fontweight='bold')
-        ax.axis('off')
-        fig.savefig(ruta, dpi=200, bbox_inches='tight', facecolor='#1a1a2e')
-        plt.close(fig)
-        return
-
-    nrows = len(crms_sorted) + 1
-    fig_h = max(3, nrows * 0.7 + 2)
-    fig, ax = plt.subplots(figsize=(7, fig_h))
-    ax.set_facecolor('#1a1a2e')
-    fig.patch.set_facecolor('#1a1a2e')
-    ax.axis('off')
-
-    ax.text(0.5, 0.95, f'PACIENTES AGENDADOS - {hoy}', ha='center', va='top',
-            fontsize=16, color='white', fontweight='bold', transform=ax.transAxes)
-
-    y_start = 0.85
-    row_h = 0.7 / max(nrows, 1)
-
-    for i, (crm, cant) in enumerate(crms_sorted):
-        y = y_start - (i + 1) * row_h
-        color = colores[i % len(colores)]
-
-        rect = FancyBboxPatch((0.05, y - row_h * 0.35), 0.9, row_h * 0.7,
-                               boxstyle="round,pad=0.02", facecolor=color, alpha=0.85,
-                               transform=ax.transAxes)
-        ax.add_patch(rect)
-
-        ax.text(0.12, y, crm.upper(), ha='left', va='center', fontsize=14,
-                color='white', fontweight='bold', transform=ax.transAxes)
-        ax.text(0.88, y, str(cant), ha='right', va='center', fontsize=18,
-                color='white', fontweight='bold', transform=ax.transAxes)
-
-    y_total = y_start - (nrows) * row_h
-    rect_total = FancyBboxPatch((0.05, y_total - row_h * 0.35), 0.9, row_h * 0.7,
-                                 boxstyle="round,pad=0.02", facecolor='#333333', alpha=0.9,
-                                 transform=ax.transAxes)
-    ax.add_patch(rect_total)
-    ax.text(0.12, y_total, 'TOTAL', ha='left', va='center', fontsize=14,
-            color='#ffa62e', fontweight='bold', transform=ax.transAxes)
-    ax.text(0.88, y_total, str(total), ha='right', va='center', fontsize=18,
-            color='#ffa62e', fontweight='bold', transform=ax.transAxes)
-
-    plt.subplots_adjust(top=0.92, bottom=0.05, left=0.03, right=0.97)
-    fig.savefig(ruta, dpi=200, bbox_inches='tight', facecolor='#1a1a2e')
-    plt.close(fig)
-
-
-# ============================================================
-# WHATSAPP
-# ============================================================
-def enviar_whatsapp(ruta_imagen, caption):
-    import pywhatkit as kit
-    import pyautogui
-    pyautogui.FAILSAFE = False
-
-    try:
-        from pywhatkit.core import log as _pwk_log
-        _pwk_log.log_image = lambda *a, **k: None
-        _pwk_log.log_message = lambda *a, **k: None
-    except Exception:
-        pass
-
-    log.info('Abriendo WhatsApp Web en Safari...')
-    kit.sendwhats_image(
-        PHONE_REPORTE,
-        os.path.abspath(ruta_imagen),
-        caption,
-        wait_time=15,
-        tab_close=False,
-    )
-
-    log.info('Esperando que cargue el chat...')
-    time.sleep(8)
-
-    log.info('Enviando con Enter...')
-    pyautogui.press('enter')
-    time.sleep(2)
-    log.info('Imagen enviada!')
-
-
-def enviar_texto_whatsapp(texto):
-    import matplotlib
-    matplotlib.use('Agg')
-    import matplotlib.pyplot as plt
-
-    ruta_txt = os.path.join(OUT_DIR, 'reporte_texto.jpg')
-    fig, ax = plt.subplots(figsize=(6, 3))
-    ax.text(0.5, 0.5, texto, ha='center', va='center', fontsize=14,
-            fontfamily='monospace', wrap=True, transform=ax.transAxes)
-    ax.axis('off')
-    fig.savefig(ruta_txt, dpi=150, bbox_inches='tight', facecolor='white')
-    plt.close(fig)
-
-    enviar_whatsapp(ruta_txt, texto)
-
-
-# ============================================================
-# MAIN
-# ============================================================
-def main():
-    try:
-        crms_sorted = obtener_agendados_hoy()
-    except Exception as e:
-        log.error(f'Error obteniendo datos: {e}')
-        sys.exit(1)
-
-    total = sum(v for _, v in crms_sorted)
-    log.info(f'Agendados hoy: {total} en {len(crms_sorted)} CRMs')
-
-    hay_imagen = False
-    if crms_sorted:
-        log.info('Generando tabla...')
-        try:
-            crear_tabla_agendados(crms_sorted, OUTPUT_JPG)
-            hay_imagen = os.path.exists(OUTPUT_JPG)
-        except Exception as e:
-            log.error(f'Error generando imagen: {e}')
-
-    texto = construir_texto(crms_sorted)
-
-    try:
-        if hay_imagen:
-            caption = f'Reporte agendados {hoy}'
-            enviar_whatsapp(OUTPUT_JPG, caption)
-        else:
-            enviar_texto_whatsapp(texto)
-        log.info('Reporte enviado correctamente!')
-    except Exception as e:
-        log.error(f'Error al enviar: {e}')
-        sys.exit(2)
-
-    log.info('Listo!')
-
-
-if __name__ == '__main__':
-    main()
+ d=datos();t=sum(v for _,v in d);l.info(f'{t} en {len(d)} CRMs')
+ if d:
+  l.info('Generando tabla...');tabla(d,JPG)
+  if os.path.exists(JPG):enviar(JPG,f'🤖CRM Report_System: Agendados {hoy}')
+  else:l.error('No se genero imagen')
+ else:l.info('Sin datos')
+except Exception as e:l.error(f'Error: {e}');sys.exit(1)
+l.info('Listo!')

@@ -24,13 +24,14 @@ export default function ProductDetailPage() {
 
   if (loading) return <div className="text-center py-20 text-gray-500">Cargando...</div>;
   if (!product) return null;
+  const p = product;
 
   function handleAdd() {
     addItem({
-      product_id: product.id,
-      product_name: product.name,
-      product_image: product.images?.[0] || "",
-      selling_price: product.selling_price,
+      product_id: p.id,
+      product_name: p.name,
+      product_image: p.images?.[0] || "",
+      selling_price: p.selling_price,
       quantity: qty,
     });
     setAdded(true);
